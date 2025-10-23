@@ -24,7 +24,7 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 1% 4%;
-
+  border-top: 0.2% solid #00fff7;
   box-sizing: border-box;
 }
 
@@ -43,27 +43,30 @@ nav ul {
 }
 
 nav ul li {
-  margin-left: 4%;
+  margin-left: 26%;
 }
 
 header nav ul li a {
   text-decoration: none;
-  color: #3cfbdd;
+  color: white;
   font-family: 'Monbloc-Inst-Heavy';
-  font-size: 0.9em;
   font-weight: bold;
-  transition: color 0.3s;
+  margin-left: 10%;
+  font-size: 120%;
 }
 
 nav ul li a:hover {
-  color: white;
+  color: #3CFBDD;
+
 }
 
 nav ul li img {
-  width: 2em;
-  height: 2em;
- 
+  margin-top: 2%;
+  width: auto;
+  height: 7vh;
+
 }
+
 
 body {
   margin: 10px;
@@ -72,8 +75,75 @@ body {
 
 
 footer {
-  margin-top: 10px;
-  padding: 10px;
-  background-color: #f8f9fa;
-  border-top: 1px solid #e9ecef;
+  background-color: #000;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 2% 5%;
+  font-family: Arial, sans-serif;
+  
+  
+}
+
+footer  div {
+  width: 30%;
+}
+
+footer img {
+  height: 2.8em;
+  width: auto;
+}
+
+footer p {
+  font-size: 85%;
+  color: #ccc;
+  line-height: 1.5;
+}
+
+footer h3 {
+  color: #3CFBDD;
+  font-weight: 500;
+  margin-bottom: 6%;
+  font-size: 110%;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+footer ul li {
+  margin-bottom: 6%;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: #3CFBDD;
+}
+
+footer ul li a:hover {
+  color: white;
+}
+
+footer div div img {
+  height: 1.8em;
+  margin-right: 8%;
+}
+
+footer a {
+  display: block;
+  margin-top: 6%;
+  color: #3CFBDD;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: white;
+}
+
+footer div p:last-child {
+  font-size: 75%;
+  margin-top: 4%;
 }

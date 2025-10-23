@@ -19334,6 +19334,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\48860730\\PROYECTO-SPORTLINK\\Views\\Home\\RegistrarScout.cshtml",
+      "TargetPath": "Views\\Home\\RegistrarScout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\48860730\\PROYECTO-SPORTLINK\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
@@ -19341,16 +19346,6 @@
     {
       "FilePath": "c:\\Users\\48860730\\PROYECTO-SPORTLINK\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\48860730\\PROYECTO-SPORTLINK\\PROYECTO-SPORTLINK\\Views\\_ViewStart.cshtml",
-      "TargetPath": "PROYECTO-SPORTLINK\\Views\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\48860730\\PROYECTO-SPORTLINK\\PROYECTO-SPORTLINK\\Views\\_ViewImports.cshtml",
-      "TargetPath": "PROYECTO-SPORTLINK\\Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -19364,23 +19359,8 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\48860730\\PROYECTO-SPORTLINK\\PROYECTO-SPORTLINK\\Views\\Home\\Index.cshtml",
-      "TargetPath": "PROYECTO-SPORTLINK\\Views\\Home\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\48860730\\PROYECTO-SPORTLINK\\PROYECTO-SPORTLINK\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "TargetPath": "PROYECTO-SPORTLINK\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "c:\\Users\\48860730\\PROYECTO-SPORTLINK\\Views\\Home\\InicioSesion.cshtml",
       "TargetPath": "Views\\Home\\InicioSesion.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\48860730\\PROYECTO-SPORTLINK\\PROYECTO-SPORTLINK\\Views\\Shared\\_Layout.cshtml",
-      "TargetPath": "PROYECTO-SPORTLINK\\Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     },
     {
