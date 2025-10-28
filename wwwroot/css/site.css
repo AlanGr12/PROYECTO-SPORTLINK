@@ -147,3 +147,12 @@ footer div p:last-child {
   font-size: 75%;
   margin-top: 4%;
 }
+
+
+.dropdown-menu select {
+  padding-left: 0%;
+  text-align: left;
+}
+.dropdown-menu option {
+  text-align: left;
+}
