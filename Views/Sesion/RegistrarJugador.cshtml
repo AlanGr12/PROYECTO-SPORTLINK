@@ -1,6 +1,8 @@
+
 <section>
-<h1>Registrarse</h1>
-<form action='@Url.Action("RegistrarseGuardar","Home")' method= "post"  enctype = "multipart/form-data">
+<img src="img/logo.png" alt="logo">
+<h1>Ingrese sus datos como jugador</h1>
+<form action='@Url.Action("GuardarRegistroJugador","session")' method= "post"  enctype = "multipart/form-data">
 <input type="text" name="Usuario" placeholder="Ingresar Username"/>
 <input type="password" name="Password" placeholder="Ingresar Contraseña"/>
 <input type="text" name="Nombre" placeholder="Ingresar Nombre"/>
@@ -11,12 +13,20 @@
 <input type="file" name="Foto" placeholder="Ingresar foto de perfil"/>
 <input type="text" name="Ubicacion" placeholder="Ingresar ubicacion"/>
 <input type="text" name="Genero" placeholder="Ingresar genero"/>
-<input type="submit" value="Iniciar Sesion"/>
+ <label>Deporte</label>
+    <select name="idDeporte">
+        <option value="1">Fútbol</option>
+        <option value="2">Básquet</option>
+        <option value="3">Vóley</option>
+        <option value="4">Tenis</option>
+        <option value="5">Hockey</option>
+        <option value="6">Natación</option>
+        <option value="7">Atletismo</option>
+        <option value="8">Rugby</option>
+        <option value="9">Handball</option>
+        <option value="10">Gimnasia</option>
+    </select>
 
-<select name="opciones">
-  <option value="Fútbol">Opción 1</option>
-  <option value="opcion2">Opción 2</option>
-  <option value="opcion3">Opción 3</option>
-</select>
+    <input type="submit" value="Registrarse"/>
 
 </section>

@@ -15,9 +15,25 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
-        return View("Index");
-    }
+        string tipo = HttpContext.Session.GetString("tipoUsuario");
 
+        if (tipo == "jugador")
+        {
+            int id = int.Parse(HttpContext.Session.GetString("idJugador"));
+            ViewBag.Usuario = BD.GetJugadorPorId(id);
+        }
+        else if (tipo == "scout")
+        {
+            int id = int.Parse(HttpContext.Session.GetString("idScout"));
+            ViewBag.Usuario = BD.GetScoutPorId(id);
+        }
+        else
+        {
+            ViewBag.Usuario = null;
+        }
+
+        return View();
+    }
     public IActionResult Pruebas()
 {
     

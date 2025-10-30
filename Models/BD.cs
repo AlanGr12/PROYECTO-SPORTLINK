@@ -3,7 +3,7 @@ using Dapper;
 
 static public class BD{
 
-private static string _connectionString = @"Server=localhost;Database=TP06 repaso;Integrated Security=True;TrustServerCertificate=True;";
+private static string _connectionString =  @"Server=localhost;Database=Sportlink;Integrated Security=True;TrustServerCertificate=True;";
 public static int LoginJugador(string contraseña, string usuario)
 {
 int num = -1;
@@ -24,31 +24,69 @@ return(num);
 public static int LoginScout (string contraseña,string usuario)
 {
 int num = -1;
-    string query = "SELECT ID FROM SCOUTS WHERE USUARIO = @pUsuario and PASSWORD = @pContraseña";  
+    string query = "SELECT idScout FROM SCOUTS WHERE USUARIO = @pUsuario and PASSWORD = @pContraseña";  
 using(SqlConnection connection = new SqlConnection(_connectionString))
 {
     num = connection.QueryFirstOrDefault<int>(query, new { pUsuario = usuario,  pContraseña = contraseña });
 }
 return(num);
 }
-public static string RegistrarseJugadores(string Username,string Password,string Nombre,string Apellido,string deporte,string Telefono, DateTime fechaNacimiento,string fotoPerfil,string Ubicacion,string Genero)
+ public static void RegistrarJugador(string nombre, string apellido, int telefono, int edad, string fotoPerfil,
+        int idDeporte, DateTime fechaNacimiento, string usuario, string contraseña, string ubicacion, string genero)
+    {
+        string query = @"INSERT INTO Jugadores 
+                        (Nombre, Apellido, Telefono, Edad, FotoPerfil, idDeporte, FechaNacimiento, Usuario, Contraseña, Ubicacion, Genero)
+                         VALUES (@pNombre, @pApellido, @pTelefono, @pEdad, @pFotoPerfil, @pIdDeporte, @pFechaNacimiento, @pUsuario, @pContraseña, @pUbicacion, @pGenero)";
+        using (SqlConnection db = new SqlConnection(_connectionString))
+        {
+            db.Execute(query, new
+            {
+                pNombre = nombre,
+                pApellido = apellido,
+                pTelefono = telefono,
+                pEdad = edad,
+                pFotoPerfil = fotoPerfil,
+                pIdDeporte = idDeporte,
+                pFechaNacimiento = fechaNacimiento,
+                pUsuario = usuario,
+                pContraseña = contraseña,
+                pUbicacion = ubicacion,
+                pGenero = genero
+            });
+        }
+    }
+
+    public static List<Club> GetClubes()
 {
-string hh = "Messi";
-
-string query = "INSERT INTO JUGADORES (Username,Password,Nombre,Apellido,Foto,FechaUltimoLogin) VALUES (@pUsername, @pPassword,@pNombre,@pApellido,@pFoto,@pFechaUltimoLogin)";
-using (SqlConnection connection = new SqlConnection (_connectionString))
-{
-string query2 = "SELECT Username FROM Usuario WHERE Username = @pUsuario";
-hh= connection.QueryFirstOrDefault<string>(query2, new{pUsuario = Username});
-if(hh == null || hh == "Messi")
-{
-connection.Execute(query,new {pUsername= Username, pPassword = Password,pNombre = Nombre,pApellido = Apellido, pFoto = Foto , pFechaUltimoLogin = FechaUltimoLogin});
-hh = "hola";
-}   
-}
-return hh;
+    using (SqlConnection db = new SqlConnection(_connectionString))
+    {
+        string sql = "SELECT * FROM Clubes";
+        return db.Query<Club>(sql).ToList();
+    }
 }
 
+    public static void RegistrarScout(string nombre, string apellido, int idClub, int telefono, string fotoPerfil,
+        string usuario, string contraseña, string email)
+    {
+        string query = @"INSERT INTO Scouts 
+                        (Nombre, Apellido, idClub, Telefono, FotoPerfil, Usuario, Contraseña, Email)
+                        VALUES (@pNombre, @pApellido, @pIdClub, @pTelefono, @pFotoPerfil, @pUsuario, @pContraseña, @pEmail)";
+        using (SqlConnection db = new SqlConnection(_connectionString))
+        {
+            db.Execute(query, new
+            {
+                pNombre = nombre,
+                pApellido = apellido,
+                pIdClub = idClub,
+                pTelefono = telefono,
+                pFotoPerfil = fotoPerfil,
+                pUsuario = usuario,
+                pContraseña = contraseña,
+                pEmail = email
+            });
+        }
+    }
 
-
+    
 }
+
