@@ -21,13 +21,13 @@ using(SqlConnection connection = new SqlConnection(_connectionString))
 return(num);
 }
 
-public static int LoginScout (string contraseña,string usuario)
+public static int LoginScout (string usuario,string contraseña)
 {
 int num = -1;
     string query = "SELECT idScout FROM SCOUTS WHERE USUARIO = @pUsuario and Contraseña = @pContraseña";  
 using(SqlConnection connection = new SqlConnection(_connectionString))
 {
-    num = connection.QueryFirstOrDefault<int>(query, new { pUsuario = usuario,  pContraseña = contraseña });
+    num = connection.QueryFirstOrDefault<int>(query, new { pUsuario = usuario,  pContraseña = contraseña});
 }
 return(num);
 }
