@@ -1,4 +1,17 @@
-<section>
+ <header>
+        <img src="img/logo.png" alt="Sportlink">
+        <nav>
+          <ul>
+            <li><a href="Pruebas.cshtml">Pruebas</a></li>
+            <li><a href="Videos.cshtml">Videos</a></li>
+            <li><a href="Mensajes.cshtml">Mensajes</a></li>
+            <li><a href='@Url.Action("irUser", "session")'><img src="img/inicio.png"></a></li>
+          </ul>
+        </nav>
+        
+      </header>
+
+      <section>
 <img src="img/logo.png" alt="logo">
 <h1>Ingrese sus datos como scouter</h1>
 <form action='@Url.Action("GuardarRegistroScout","session")' method= "post">
@@ -29,3 +42,36 @@
     </form>
     
 </section>
+
+  <footer>
+    <div>
+      <img src="img/logo.png" alt="Sportlink">
+      <p>
+        Conectando el talento joven con su futuro profesional.<br>
+        Damos visibilidad a tu talento y les abrimos las puertas<br>
+        a nuevas oportunidades
+      </p>
+    </div>
+  
+    <div>
+      <h3>Explorá</h3>
+      <ul>
+        <li><a href="Index.cshtml">Inicio</a></li>
+        <li><a href="Videos.cshtml">Videos</a></li>
+        <li><a href="Pruebas.cshtml">Pruebas</a></li>
+      </ul>
+    </div>
+  
+    <div>
+      <h3>Seguinos</h3>
+      <div class="redes">
+        <img src="img/ig.png" alt="Instagram">
+        <img src="img/tw.png" alt="X">
+      </div>
+      <h3>Contacto</h3>
+      <p>
+        email: sportlink@gmail.com<br>
+        teléfono: +54 0000 0000
+      </p>
+    </div>
+  </footer>
