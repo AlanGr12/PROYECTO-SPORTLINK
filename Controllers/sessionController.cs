@@ -15,6 +15,29 @@ public class SessionController : Controller
 
     public IActionResult Index()
     {
+        if (HttpContext.Session.GetString("id") !=null)
+        {
+            // traigo de session el tipo y busco con el id en la tabla segun el tipo
+            
+  
+        string tipo = HttpContext.Session.GetString("tipoUsuario");
+
+      
+        int id = int.Parse(HttpContext.Session.GetString("id"));
+
+    
+        if (tipo == "jugador")
+        {
+            Jugador j = BD.GetJugadorPorId(id);
+            ViewBag.Usuario = j;
+        }
+        else if (tipo == "scout")
+        {
+            Scouter s = BD.GetScoutPorId(id);
+            ViewBag.Usuario = s;
+        }
+
+        }
         return View("Index");
     }
 
@@ -45,26 +68,35 @@ public class SessionController : Controller
     }
 
      [HttpPost]
-    public IActionResult guardarInicio(string usuario, string contraseña)
+    public IActionResult guardarInicio(string usuario, string Contraseña)
     {
-        int idJugador = BD.LoginJugador(usuario, contraseña);
-        int idScout = BD.LoginScout(usuario, contraseña);
-
-        if (idJugador > 0)
+        int idJugador = BD.LoginJugador(usuario, Contraseña);
+        if (idJugador!=-1)
         {
-            HttpContext.Session.SetString("idJugador", idJugador.ToString());
+            HttpContext.Session.SetString("id", idJugador.ToString());
             HttpContext.Session.SetString("tipoUsuario", "jugador");
             return RedirectToAction("Index", "Home");
+
         }
-        else if (idScout > 0)
+        else
         {
-            HttpContext.Session.SetString("idScout", idScout.ToString());
-            HttpContext.Session.SetString("tipoUsuario", "scout");
-            return RedirectToAction("Index", "Home");
+            int idScout = BD.LoginScout(usuario, Contraseña);
+            if (idScout!=-1)
+            {
+                HttpContext.Session.SetString("id", idScout.ToString());
+                HttpContext.Session.SetString("tipoUsuario", "scout");
+                return RedirectToAction("Index", "Home");
+
+            }
+            else{
+                 ViewBag.Error = "Usuario o contraseña incorrectos.";
+                return View("ElegirUser");
+
+            }
+
         }
 
-            ViewBag.Error = "Usuario o contraseña incorrectos.";
-            return View("ElegirUser");
+
     }
 
 

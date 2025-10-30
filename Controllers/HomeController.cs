@@ -15,25 +15,31 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
-        string tipo = HttpContext.Session.GetString("tipoUsuario");
+    string idStr = HttpContext.Session.GetString("id");
+    string tipo = HttpContext.Session.GetString("tipoUsuario");
+
+    if (!string.IsNullOrEmpty(idStr) && !string.IsNullOrEmpty(tipo))
+    {
+        int id = int.Parse(idStr);
 
         if (tipo == "jugador")
         {
-           int id = int.Parse(HttpContext.Session.GetString("idJugador"));
-            ViewBag.Usuario = BD.GetJugadorPorId(id);
+            Jugador j = BD.GetJugadorPorId(id);
+            ViewBag.Usuario = j;
         }
         else if (tipo == "scout")
         {
-            int id = int.Parse(HttpContext.Session.GetString("idScout"));
-            ViewBag.Usuario = BD.GetScoutPorId(id);
+            Scouter s = BD.GetScoutPorId(id);
+            ViewBag.Usuario = s;
         }
-        else
-        {
-            ViewBag.Usuario = null;
-        }
-
-        return View();
     }
+    else
+    {
+        ViewBag.Usuario = null; // no hay nadie logueado
+    }
+
+    return View("Index");
+}
 
 
     public IActionResult irPruebas(){

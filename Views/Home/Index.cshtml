@@ -19,6 +19,15 @@
     <div>
     </div>
     </section>
+    @if (ViewBag.Usuario != null)
+{
+    <h2>Bienvenido, @ViewBag.Usuario.Nombre @ViewBag.Usuario.Apellido</h2>
+}
+else
+{
+    <h2>Bienvenido a Sportlink</h2>
+}
+
 <section class="Sect1">
 <div>
 <a href='@Url.Action("irPruebas", "Home")'> Pruebas</a>
