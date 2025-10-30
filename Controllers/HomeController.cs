@@ -34,17 +34,17 @@ public class HomeController : Controller
 
         return View();
     }
-    public IActionResult Pruebas()
-{
+    //public IActionResult Pruebas()
+//{
     
         // Llamamos al método que obtiene los datos desde la BD
-        List<Prueba> listaPruebas = BD.GetPruebas();
+  //      List<Prueba> listaPruebas = BD.GetPruebas();
 
         // Guardamos esa lista dentro del ViewBag
-        ViewBag.Pruebas = listaPruebas;
+    //    ViewBag.Pruebas = listaPruebas;
 
         // Enviamos la vista
-        return View();
+      //  return View();
     
 }
-}
+

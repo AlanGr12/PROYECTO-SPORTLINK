@@ -2,16 +2,24 @@
 <section>
 <img src="img/logo.png" alt="logo">
 <h1>Ingrese sus datos como jugador</h1>
-<form action='@Url.Action("GuardarRegistroJugador","session")' method= "post"  enctype = "multipart/form-data">
+<form action='@Url.Action("GuardarRegistroJugador","session")' method= "post">
+<h2>Usuario</h2>
 <input type="text" name="Usuario" placeholder="Ingresar Username"/>
+<h2>Contraseña</h2>
 <input type="password" name="Password" placeholder="Ingresar Contraseña"/>
+<h2>Nombre</h2>
 <input type="text" name="Nombre" placeholder="Ingresar Nombre"/>
+<h2>Apellido</h2>
 <input type="text" name="Apellido" placeholder="Ingresar Apellido"/>
-<input type="text" name="Deporte" placeholder="Ingresar Deporte"/>
+<h2>Telefono</h2>
 <input type="text" name="Telefono" placeholder="Ingresar numero de telefono"/>
+<h2>Fecha de Nacimiento</h2>
 <input type= "date" name="fechaNacimiento" placeholder="Ingresar  fecha de nacimiento"/>
+<h2>Foto de Perfil</h2>
 <input type="file" name="Foto" placeholder="Ingresar foto de perfil"/>
+<h2>Ubicacion</h2>
 <input type="text" name="Ubicacion" placeholder="Ingresar ubicacion"/>
+<h2>Genero</h2>
 <input type="text" name="Genero" placeholder="Ingresar genero"/>
  <label>Deporte</label>
     <select name="idDeporte">
@@ -28,5 +36,7 @@
     </select>
 
     <input type="submit" value="Registrarse"/>
+
+</form>
 
 </section>

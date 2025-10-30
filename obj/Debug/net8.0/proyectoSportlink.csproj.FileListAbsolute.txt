@@ -56,3 +56,4 @@ C:\Users\48860730\Documents\PROYECTO-SPORTLINK\obj\Debug\net8.0\refint\proyectoS
 C:\Users\48860730\Documents\PROYECTO-SPORTLINK\obj\Debug\net8.0\proyectoSportlink.pdb
 C:\Users\48860730\Documents\PROYECTO-SPORTLINK\obj\Debug\net8.0\proyectoSportlink.genruntimeconfig.cache
 C:\Users\48860730\Documents\PROYECTO-SPORTLINK\obj\Debug\net8.0\ref\proyectoSportlink.dll
+C:\Users\48860730\Documents\PROYECTO-SPORTLINK\obj\Debug\net8.0\proyectoSportlink.csproj.AssemblyReference.cache

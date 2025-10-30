@@ -8,7 +8,7 @@ public class sessionController : Controller
 {
     private readonly ILogger<HomeController> _logger;
 
-    public HomeController(ILogger<HomeController> logger)
+    public sessionController(ILogger<sessionController> logger)
     {
         _logger = logger;
     }
@@ -18,8 +18,31 @@ public class sessionController : Controller
         return View("Index");
     }
 
+
+    public IActionResult irLogInJugador(){
+        
+        return view("InicioSesionJugador");
+
+    }
+
+    public IActionResult irLogInScout(){
+
+        return view("InicioSesionScout");
+
+    }
+    public IActionResult irRegistrarJugador(){
+        return view("RegistrarJugador");
+
+    }
+
+    public IActionResult irRegistrarScout(){
+     return view("RegistrarScout");
+
+    }
+
+
      [HttpPost]
-    public IActionResult GuardarLogin(string usuario, string contraseña)
+    public IActionResult guardarInicio(string usuario, string contraseña)
     {
         int idJugador = BD.LoginJugador(usuario, contraseña);
         int idScout = BD.LoginScout(usuario, contraseña);
@@ -38,7 +61,7 @@ public class sessionController : Controller
         }
 
         ViewBag.Error = "Usuario o contraseña incorrectos.";
-        return View("Login");
+        return View("elegirUser");
     }
 
 
@@ -58,12 +81,13 @@ public class sessionController : Controller
         IFormFile fotoPerfil, int idDeporte, DateTime fechaNacimiento, string usuario, string contraseña,
         string ubicacion, string genero)
     {
-        string rutaRelativa = GuardarImagen(fotoPerfil);
+        //string rutaRelativa = GuardarImagen(fotoPerfil);
+        string rutaRelativa = "s";
         BD.RegistrarJugador(nombre, apellido, telefono, edad, rutaRelativa, idDeporte, fechaNacimiento, usuario, contraseña, ubicacion, genero);
         return RedirectToAction("Login");
     }
 
-    // 🔹 REGISTRO SCOUT
+
     public IActionResult RegistroScout()
     {
         ViewBag.Clubes = BD.GetClubes();
@@ -74,7 +98,8 @@ public class sessionController : Controller
     public IActionResult GuardarRegistroScout(string nombre, string apellido, int idClub, int telefono,
         IFormFile fotoPerfil, string usuario, string contraseña, string email)
     {
-        string rutaRelativa = GuardarImagen(fotoPerfil);
+        //string rutaRelativa = GuardarImagen(fotoPerfil);
+        string rutaRelativa =  "k";
         BD.RegistrarScout(nombre, apellido, idClub, telefono, rutaRelativa, usuario, contraseña, email);
         return RedirectToAction("Login");
     }

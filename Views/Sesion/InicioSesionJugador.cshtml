@@ -7,10 +7,13 @@
 <Section>
 <h1>Iniciar sesion</h1>
 <form action='@Url.Action("guardarInicio","Home")' method= "post">
+<h2>Usuario</h2>
 <input type="text" name="Nombre" placeholder="Ingresar username"/>
+<h2>Contraseña</h2>
 <input type="password" name="Password" placeholder="Ingresar Contraseña"/>
 <input type="submit" value = "Iniciar sesion" />
 </form>
-<h5>No tienes una cuenta, registrate aqui (preguntar a leo como hacer)</h5>
+<h5>No tienes una cuenta, registrate aqui</h5>
+<a href='@Url.Action("irRegistrarJugador", "Session")'> Jugador</a>
 
 </Section>

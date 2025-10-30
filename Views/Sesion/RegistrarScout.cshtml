@@ -1,14 +1,20 @@
 <section>
 <img src="img/logo.png" alt="logo">
 <h1>Ingrese sus datos como scouter</h1>
-<form action='@Url.Action("GuardarRegistroScout","Home")' method= "post"  enctype = "multipart/form-data">
+<form action='@Url.Action("GuardarRegistroScout","session")' method= "post">
+<h2>Usuario</h2>
 <input type="text" name="Usuario" placeholder="Ingresar Username"/>
+<h2>Contraseña</h2>
 <input type="password" name="Password" placeholder="Ingresar Contraseña"/>
+<h2>Nombre</h2>
 <input type="text" name="Nombre" placeholder="Ingresar Nombre"/>
+<h2>Apellido</h2>
 <input type="text" name="Apellido" placeholder="Ingresar Apellido"/>
-<input type="text" name="Club" placeholder="Ingresar nombre del club"/>
+<h2>Telefono</h2>
 <input type="text" name="Telefono" placeholder="Ingresar numero de telefono"/>  
+<h2>Foto de Perfil</h2>
 <input type="file" name="Foto" placeholder="Ingresar foto de perfil"/>
+<h2>Email</h2>
 <input type="email" name="Email" placeholder="Ingresar correo de mail"/>
 
 <label>Club</label>
@@ -19,4 +25,7 @@
     }
 </select>
     <input type="submit" value="Registrarse"/>
+
+    </form>
+    
 </section>
