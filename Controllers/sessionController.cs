@@ -4,11 +4,11 @@ using proyectoSportlink.Models;
 
 namespace proyectoSportlink.Controllers;
 
-public class sessionController : Controller
+public class SessionController : Controller
 {
-    private readonly ILogger<sessionController> _logger;
+    private readonly ILogger<SessionController> _logger;
 
-    public sessionController(ILogger<sessionController> logger)
+    public SessionController(ILogger<SessionController> logger)
     {
         _logger = logger;
     }
@@ -63,8 +63,8 @@ public class sessionController : Controller
             return RedirectToAction("Index", "Home");
         }
 
-        ViewBag.Error = "Usuario o contraseña incorrectos.";
-        return View("elegirUser");
+            ViewBag.Error = "Usuario o contraseña incorrectos.";
+            return View("ElegirUser");
     }
 
 

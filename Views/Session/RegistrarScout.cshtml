@@ -2,10 +2,10 @@
         <img src="img/logo.png" alt="Sportlink">
         <nav>
           <ul>
-            <li><a href="Pruebas.cshtml">Pruebas</a></li>
-            <li><a href="Videos.cshtml">Videos</a></li>
-            <li><a href="Mensajes.cshtml">Mensajes</a></li>
-            <li><a href='@Url.Action("irUser", "session")'><img src="img/inicio.png"></a></li>
+            <li><a href='@Url.Action("irPruebas", "Home")'>Pruebas</a></li>
+            <li><a href='@Url.Action("irVideos", "Home")'>Videos</a></li>
+            <li><a href='@Url.Action("irMensajes", "Home")'>>Mensajes</a></li>
+            <li><a href='@Url.Action("irUser", "Session")'><img src="img/inicio.png"></a></li>
           </ul>
         </nav>
         
@@ -14,11 +14,11 @@
       <section>
 <img src="img/logo.png" alt="logo">
 <h1>Ingrese sus datos como scouter</h1>
-<form action='@Url.Action("GuardarRegistroScout","session")' method= "post">
+<form action='@Url.Action("GuardarRegistroScout","Session")' method= "post">
 <h2>Usuario</h2>
 <input type="text" name="Usuario" placeholder="Ingresar Username"/>
 <h2>Contraseña</h2>
-<input type="password" name="Password" placeholder="Ingresar Contraseña"/>
+<input type="password" name="Contraseña" placeholder="Ingresar Contraseña"/>
 <h2>Nombre</h2>
 <input type="text" name="Nombre" placeholder="Ingresar Nombre"/>
 <h2>Apellido</h2>
@@ -56,9 +56,9 @@
     <div>
       <h3>Explorá</h3>
       <ul>
-        <li><a href="Index.cshtml">Inicio</a></li>
-        <li><a href="Videos.cshtml">Videos</a></li>
-        <li><a href="Pruebas.cshtml">Pruebas</a></li>
+        <li><a href='@Url.Action("Index", "Home")'>Inicio</a></li>
+        <li><a href='@Url.Action("irVideos", "Home")'>Videos</a></li>
+        <li><a href='@Url.Action("irPruebas", "Home")'>Pruebas</a></li>
       </ul>
     </div>
   

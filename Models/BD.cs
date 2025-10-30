@@ -4,11 +4,11 @@ using Dapper;
 static public class BD{
 
 private static string _connectionString =  @"Server=localhost;Database=Sportlink;Integrated Security=True;TrustServerCertificate=True;";
-public static int LoginJugador(string contraseña, string usuario)
+public static int LoginJugador(string usuario, string contraseña)
 {
 int num = -1;
 
-    string query = "SELECT idJugador FROM JUGADORES WHERE USUARIO = @pUsuario and PASSWORD = @pContraseña";
+    string query = "SELECT idJugador FROM JUGADORES WHERE USUARIO = @pUsuario and Contraseña = @pContraseña";
     
     
 using(SqlConnection connection = new SqlConnection(_connectionString))
@@ -24,7 +24,7 @@ return(num);
 public static int LoginScout (string contraseña,string usuario)
 {
 int num = -1;
-    string query = "SELECT idScout FROM SCOUTS WHERE USUARIO = @pUsuario and PASSWORD = @pContraseña";  
+    string query = "SELECT idScout FROM SCOUTS WHERE USUARIO = @pUsuario and Contraseña = @pContraseña";  
 using(SqlConnection connection = new SqlConnection(_connectionString))
 {
     num = connection.QueryFirstOrDefault<int>(query, new { pUsuario = usuario,  pContraseña = contraseña });

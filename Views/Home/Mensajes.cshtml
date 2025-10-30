@@ -1,10 +1,10 @@
-<header>
+ <header>
         <img src="img/logo.png" alt="Sportlink">
         <nav>
           <ul>
-            <li><a href="Pruebas.cshtml">Pruebas</a></li>
-            <li><a href="Videos.cshtml">Videos</a></li>
-            <li><a href="Mensajes.cshtml">Mensajes</a></li>
+            <li><a href='@Url.Action("irPruebas", "Home")'>Pruebas</a></li>
+            <li><a href='@Url.Action("irVideos", "Home")'>Videos</a></li>
+            <li><a href='@Url.Action("irMensajes", "Home")'>>Mensajes</a></li>
             <li><a href='@Url.Action("irUser", "session")'><img src="img/inicio.png"></a></li>
           </ul>
         </nav>
@@ -14,7 +14,7 @@
 
 
 
-       <footer>
+    <footer>
     <div>
       <img src="img/logo.png" alt="Sportlink">
       <p>
@@ -27,9 +27,9 @@
     <div>
       <h3>Explorá</h3>
       <ul>
-        <li><a href="Index.cshtml">Inicio</a></li>
-        <li><a href="Videos.cshtml">Videos</a></li>
-        <li><a href="Pruebas.cshtml">Pruebas</a></li>
+        <li><a href='@Url.Action("Index", "Home")'>Inicio</a></li>
+        <li><a href='@Url.Action("irVideos", "Home")'>Videos</a></li>
+        <li><a href='@Url.Action("irPruebas", "Home")'>Pruebas</a></li>
       </ul>
     </div>
   
