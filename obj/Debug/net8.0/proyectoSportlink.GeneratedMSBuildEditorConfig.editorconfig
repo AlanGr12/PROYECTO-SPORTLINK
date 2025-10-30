@@ -34,24 +34,24 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxWaWRlb3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/48860730/Documents/PROYECTO-SPORTLINK/Views/Sesion/elegirUser.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VzaW9uXGVsZWdpclVzZXIuY3NodG1s
+[C:/Users/48860730/Documents/PROYECTO-SPORTLINK/Views/Session/ElegirUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2Vzc2lvblxFbGVnaXJVc2VyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/48860730/Documents/PROYECTO-SPORTLINK/Views/Sesion/InicioSesionJugador.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VzaW9uXEluaWNpb1Nlc2lvbkp1Z2Fkb3IuY3NodG1s
+[C:/Users/48860730/Documents/PROYECTO-SPORTLINK/Views/Session/InicioSesionJugador.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2Vzc2lvblxJbmljaW9TZXNpb25KdWdhZG9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/48860730/Documents/PROYECTO-SPORTLINK/Views/Sesion/InicioSesionScout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VzaW9uXEluaWNpb1Nlc2lvblNjb3V0LmNzaHRtbA==
+[C:/Users/48860730/Documents/PROYECTO-SPORTLINK/Views/Session/InicioSesionScout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2Vzc2lvblxJbmljaW9TZXNpb25TY291dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/48860730/Documents/PROYECTO-SPORTLINK/Views/Sesion/RegistrarJugador.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VzaW9uXFJlZ2lzdHJhckp1Z2Fkb3IuY3NodG1s
+[C:/Users/48860730/Documents/PROYECTO-SPORTLINK/Views/Session/RegistrarJugador.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2Vzc2lvblxSZWdpc3RyYXJKdWdhZG9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/48860730/Documents/PROYECTO-SPORTLINK/Views/Sesion/RegistrarScout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VzaW9uXFJlZ2lzdHJhclNjb3V0LmNzaHRtbA==
+[C:/Users/48860730/Documents/PROYECTO-SPORTLINK/Views/Session/RegistrarScout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2Vzc2lvblxSZWdpc3RyYXJTY291dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/48860730/Documents/PROYECTO-SPORTLINK/Views/Shared/_Layout.cshtml]

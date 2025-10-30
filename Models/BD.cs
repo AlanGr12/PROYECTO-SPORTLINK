@@ -87,6 +87,26 @@ return(num);
         }
     }
 
+    public static Jugador GetJugadorPorId(int id){
+        string query = @"Select * FROM Jugadores WHERE idJugador = @jid";
+        using (SqlConnection db = new SqlConnection(_connectionString))
+        {   
+             return db.QueryFirstOrDefault<Jugador>(query, new { jid = id,});
+        }
+
+        
+
+    }
+
+    public static Scouter GetScoutPorId(int id){
+        string query = @"Select * FROM Scouts WHERE idScout = @sid";
+        using (SqlConnection db = new SqlConnection(_connectionString))
+        {   
+             return db.QueryFirstOrDefault<Scouter>(query, new { sid = id,});
+        }
+
+    }
+
     
 }
 

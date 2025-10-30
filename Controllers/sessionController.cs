@@ -40,6 +40,9 @@ public class sessionController : Controller
 
     }
 
+    public IActionResult irUser(){
+        return View("ElegirUser");
+    }
 
      [HttpPost]
     public IActionResult guardarInicio(string usuario, string contraseña)
@@ -78,12 +81,14 @@ public class sessionController : Controller
 
     [HttpPost]
     public IActionResult GuardarRegistroJugador(string nombre, string apellido, int telefono, int edad,
-        IFormFile fotoPerfil, int idDeporte, DateTime fechaNacimiento, string usuario, string contraseña,
+        IFormFile fotoPerfil, int idDeporte, DateTime fechaNacimiento, string usuario, string password,
         string ubicacion, string genero)
     {
         //string rutaRelativa = GuardarImagen(fotoPerfil);
         string rutaRelativa = "s";
-        BD.RegistrarJugador(nombre, apellido, telefono, edad, rutaRelativa, idDeporte, fechaNacimiento, usuario, contraseña, ubicacion, genero);
+        Console.WriteLine(usuario);
+        Console.WriteLine(password);
+        BD.RegistrarJugador(nombre, apellido, telefono, edad, rutaRelativa, idDeporte, fechaNacimiento, usuario, password, ubicacion, genero);
         return RedirectToAction("Login");
     }
 
