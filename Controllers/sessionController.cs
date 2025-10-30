@@ -6,7 +6,7 @@ namespace proyectoSportlink.Controllers;
 
 public class sessionController : Controller
 {
-    private readonly ILogger<HomeController> _logger;
+    private readonly ILogger<sessionController> _logger;
 
     public sessionController(ILogger<sessionController> logger)
     {
@@ -21,22 +21,22 @@ public class sessionController : Controller
 
     public IActionResult irLogInJugador(){
         
-        return view("InicioSesionJugador");
+        return View("InicioSesionJugador");
 
     }
 
     public IActionResult irLogInScout(){
 
-        return view("InicioSesionScout");
+        return View("InicioSesionScout");
 
     }
     public IActionResult irRegistrarJugador(){
-        return view("RegistrarJugador");
+        return View("RegistrarJugador");
 
     }
 
     public IActionResult irRegistrarScout(){
-     return view("RegistrarScout");
+     return View("RegistrarScout");
 
     }
 

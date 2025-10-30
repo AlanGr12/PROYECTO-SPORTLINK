@@ -13,26 +13,42 @@ public class HomeController : Controller
         _logger = logger;
     }
 
-    public IActionResult Index()
-    {
-        string tipo = HttpContext.Session.GetString("tipoUsuario");
+    // public IActionResult Index()
+    // {
+    //     //string tipo = HttpContext.Session.GetString("tipoUsuario");
 
-        if (tipo == "jugador")
-        {
-            int id = int.Parse(HttpContext.Session.GetString("idJugador"));
-            ViewBag.Usuario = BD.GetJugadorPorId(id);
-        }
-        else if (tipo == "scout")
-        {
-            int id = int.Parse(HttpContext.Session.GetString("idScout"));
-            ViewBag.Usuario = BD.GetScoutPorId(id);
-        }
-        else
-        {
-            ViewBag.Usuario = null;
-        }
+    //     //if (tipo == "jugador")
+    //     //{
+    //       //  int id = int.Parse(HttpContext.Session.GetString("idJugador"));
+    //         //ViewBag.Usuario = BD.GetJugadorPorId(id);
+    //     }
+    //     else if (tipo == "scout")
+    //     {
+    //         int id = int.Parse(HttpContext.Session.GetString("idScout"));
+    //         ViewBag.Usuario = BD.GetScoutPorId(id);
+    //     }
+    //     else
+    //     {
+    //         ViewBag.Usuario = null;
+    //     }
 
-        return View();
+    //     return View();
+    // }
+
+    public IActionResult Index(){
+        return View("Index");
+    }
+
+    public IActionResult irPruebas(){
+        return View("Pruebas");
+    }
+
+    public IActionResult irVideos(){
+        return View("Videos");
+    }
+
+    public IActionResult irMensajes(){
+        return View("Mensajes");
     }
     //public IActionResult Pruebas()
 //{
