@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("proyectoSportlink")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d3d3edef6143970dece386cf0e34954635ae2243")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+77aa817fa14b55d1683351d57ef23450bf31af9d")]
 [assembly: System.Reflection.AssemblyProductAttribute("proyectoSportlink")]
 [assembly: System.Reflection.AssemblyTitleAttribute("proyectoSportlink")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

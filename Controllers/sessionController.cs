@@ -58,6 +58,12 @@ public class SessionController : Controller
 
     }
 
+
+    public IActionResult ElegirUser()
+{
+    return View("ElegirUser");
+}
+
     public IActionResult irRegistrarScout(){
      return View("RegistrarScout");
 
@@ -68,20 +74,20 @@ public class SessionController : Controller
     }
 
      [HttpPost]
-    public IActionResult guardarInicio(string usuario, string Contraseña)
+    public IActionResult guardarInicio(string Usuario, string Contraseña)
     {
-        int idJugador = BD.LoginJugador(usuario, Contraseña);
-        if (idJugador!=-1)
+        int idJugador = BD.LoginJugador(Usuario, Contraseña);
+        if (idJugador>0)
         {
             HttpContext.Session.SetString("id", idJugador.ToString());
             HttpContext.Session.SetString("tipoUsuario", "jugador");
-            return RedirectToAction("Index", "Home");
+            return RedirectToAction("Index", "Home");   
 
         }
         else
         {
-            int idScout = BD.LoginScout(usuario, Contraseña);
-            if (idScout!=-1)
+            int idScout = BD.LoginScout(Usuario, Contraseña);
+            if (idScout >0)
             {
                 HttpContext.Session.SetString("id", idScout.ToString());
                 HttpContext.Session.SetString("tipoUsuario", "scout");
@@ -90,7 +96,7 @@ public class SessionController : Controller
             }
             else{
                  ViewBag.Error = "Usuario o contraseña incorrectos.";
-                return View("ElegirUser");
+                return RedirectToAction("ElegirUser", "Session");
 
             }
 
