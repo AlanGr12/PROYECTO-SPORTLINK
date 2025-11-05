@@ -11,6 +11,10 @@
         
       </header>
 <section>
+ @if(ViewBag.Error != null)
+    {
+        <p style="color:red;">@ViewBag.Error</p>
+    }
 <h2>Registrame como:</h2>
         <a href='@Url.Action("irLogInJugador", "Session")'> Jugador</a>
         <a href='@Url.Action("irLogInScout", "Session")'> Scout</a>

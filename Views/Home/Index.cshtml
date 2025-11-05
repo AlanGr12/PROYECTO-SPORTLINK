@@ -10,7 +10,14 @@
             <li><a href='@Url.Action("irVideos", "Home")'>Videos</a></li>
             <li><a href='@Url.Action("irMensajes", "Home")'>>Mensajes</a></li>
             //hacer un if si el usuario no existe que muestre la imagen de inicio sesion y si existe que muestre 
-            <li><a href='@Url.Action("irUser", "Session")'><img src="img/inicio.png"></a></li>
+          @if (ViewBag.Usuario != null && ViewBag.Usuario.FotoPerfil != null)
+  {
+    <img src="@ViewBag.Usuario.FotoPerfil" alt="Foto de perfil" style="width:50px; height:50px; border-radius:50%;">
+  }
+      else  
+{
+    <a href='@Url.Action("irUser", "Session")'><img src="img/inicio.png"></a>
+}
           </ul>
         </nav>
         

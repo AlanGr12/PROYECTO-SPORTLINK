@@ -9,6 +9,10 @@ public Club(string nombre)
 {
 this.Nombre = nombre;
 }
+public Club()
+{
+    
+}
 
 
 

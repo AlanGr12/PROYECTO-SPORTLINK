@@ -7,11 +7,14 @@ namespace proyectoSportlink.Controllers;
 public class SessionController : Controller
 {
     private readonly ILogger<SessionController> _logger;
+    private readonly IWebHostEnvironment _env;
 
-    public SessionController(ILogger<SessionController> logger)
-    {
-        _logger = logger;
-    }
+  public SessionController(ILogger<SessionController> logger, IWebHostEnvironment env)
+{
+    _logger = logger;
+    _env = env;
+}
+
 
     public IActionResult Index()
     {
@@ -65,6 +68,7 @@ public class SessionController : Controller
 }
 
     public IActionResult irRegistrarScout(){
+       ViewBag.Clubes = BD.GetClubes(); 
      return View("RegistrarScout");
 
     }
@@ -96,7 +100,7 @@ public class SessionController : Controller
             }
             else{
                  ViewBag.Error = "Usuario o contraseña incorrectos.";
-                return RedirectToAction("ElegirUser", "Session");
+                  return View("ElegirUser");
 
             }
 
@@ -119,31 +123,47 @@ public class SessionController : Controller
 
     [HttpPost]
     public IActionResult GuardarRegistroJugador(string nombre, string apellido, int telefono, int edad,
-        IFormFile fotoPerfil, int idDeporte, DateTime fechaNacimiento, string usuario, string password,
+        IFormFile FotoPerfil, int idDeporte, DateTime fechaNacimiento, string usuario, string contraseña,
         string ubicacion, string genero)
     {
-        //string rutaRelativa = GuardarImagen(fotoPerfil);
-        string rutaRelativa = "s";
-        Console.WriteLine(usuario);
-        Console.WriteLine(password);
-        BD.RegistrarJugador(nombre, apellido, telefono, edad, rutaRelativa, idDeporte, fechaNacimiento, usuario, password, ubicacion, genero);
-        return RedirectToAction("Login");
-    }
+ string nombreArchivo = Path.GetFileName(FotoPerfil.FileName);
+        string rutaCarpeta = Path.Combine(_env.WebRootPath, "Imagenes");
 
+        if (!Directory.Exists(rutaCarpeta))
+            Directory.CreateDirectory(rutaCarpeta);
 
-    public IActionResult RegistroScout()
-    {
-        ViewBag.Clubes = BD.GetClubes();
-        return View();
+        string rutaCompleta = Path.Combine(rutaCarpeta, nombreArchivo);
+
+        using (var stream = new FileStream(rutaCompleta, FileMode.Create))
+        {
+            FotoPerfil.CopyTo(stream);
+        }
+
+        string rutaRelativa = Path.Combine("Imagenes", nombreArchivo).Replace("\\", "/");
+
+        BD.RegistrarJugador(nombre, apellido, telefono, edad, rutaRelativa, idDeporte, fechaNacimiento, usuario, contraseña, ubicacion, genero);
+        return RedirectToAction("irLogInJugador","session");
     }
 
     [HttpPost]
     public IActionResult GuardarRegistroScout(string nombre, string apellido, int idClub, int telefono,
-        IFormFile fotoPerfil, string usuario, string contraseña, string email)
+        IFormFile FotoPerfil, string usuario, string contraseña, string email)
     {
-        //string rutaRelativa = GuardarImagen(fotoPerfil);
-        string rutaRelativa =  "k";
+        string nombreArchivo = Path.GetFileName(FotoPerfil.FileName);
+        string rutaCarpeta = Path.Combine(_env.WebRootPath, "Imagenes");
+
+        if (!Directory.Exists(rutaCarpeta))
+            Directory.CreateDirectory(rutaCarpeta);
+
+        string rutaCompleta = Path.Combine(rutaCarpeta, nombreArchivo);
+
+        using (var stream = new FileStream(rutaCompleta, FileMode.Create))
+        {
+            FotoPerfil.CopyTo(stream);
+        }
+
+        string rutaRelativa = Path.Combine("Imagenes", nombreArchivo).Replace("\\", "/");
         BD.RegistrarScout(nombre, apellido, idClub, telefono, rutaRelativa, usuario, contraseña, email);
-        return RedirectToAction("Login");
+        return RedirectToAction("irLogInScout","session");
     }
 }

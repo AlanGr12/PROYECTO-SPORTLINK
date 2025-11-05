@@ -4,7 +4,7 @@ public string Nombre{get;private set;}
 public string Apellido{get;private set;}
 public string Telefono{get;private set;}
 public DateTime fechaNacimiento{get;private set;}
-public string fotoPerfil{get;private set;}
+public string FotoPerfil{get;private set;}
 public string Usuario{get;private set;}
 public string Contraseña{get;private set;}
 public string Ubicacion{get;private set;}
@@ -20,7 +20,7 @@ this.Nombre = nombre;
 this.Apellido = apellido;
 this.Telefono = telefono;
 this.fechaNacimiento = fechanacimiento;
-this.fotoPerfil = fotoperfil;
+this.FotoPerfil = fotoperfil;
 this.Usuario = usuario;
 this.Contraseña = contraseña;
 this.Ubicacion = ubicacion;

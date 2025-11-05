@@ -6,7 +6,7 @@
             <li><a href='@Url.Action("irPruebas", "Home")'>Pruebas</a></li>
             <li><a href='@Url.Action("irVideos", "Home")'>Videos</a></li>
             <li><a href='@Url.Action("irMensajes", "Home")'>>Mensajes</a></li>
-            <li><a href='@Url.Action("irUser", "Session")'><img src="img/inicio.png"></a></li>
+            <li><a href='@Url.Action("irUser", "session")'><img src="img/inicio.png"></a></li>
           </ul>
         </nav>
         
@@ -14,7 +14,7 @@
 <section>
 <img src="img/logo.png" alt="logo">
 <h1>Ingrese sus datos como jugador</h1>
-<form action='@Url.Action("GuardarRegistroJugador","Session")' method= "post">
+<form action='@Url.Action("GuardarRegistroJugador","session")' method= "post" enctype="multipart/form-data" >
 <h2>Usuario</h2>
 <input type="text" name="Usuario" placeholder="Ingresar Username"/>
 <h2>Contraseña</h2>
@@ -28,7 +28,7 @@
 <h2>Fecha de Nacimiento</h2>
 <input type= "date" name="fechaNacimiento" placeholder="Ingresar  fecha de nacimiento"/>
 <h2>Foto de Perfil</h2>
-<input type="file" name="Foto" placeholder="Ingresar foto de perfil"/>
+<input type="file" name="FotoPerfil" placeholder="Ingresar foto de perfil"/>
 <h2>Ubicacion</h2>
 <input type="text" name="Ubicacion" placeholder="Ingresar ubicacion"/>
 <h2>Genero</h2>
