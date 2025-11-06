@@ -12,7 +12,7 @@ html {
 
 @font-face {
   font-family: 'Monbloc-Inst-Heavy';
-  src: url('font/Monbloc-Inst-Heavy.ttf') format('truetype');
+  src: url('/font/Monbloc-Inst-Heavy.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -281,4 +281,67 @@ footer div p:last-child {
 }
 .dropdown-menu option {
   text-align: left;
+}
+
+.opcionUser a{
+  color: #000000;
+}
+
+.opcionUser h2{
+  padding-top: 2%;
+  text-align: center;
+  font-family: 'Monbloc-Inst-Heavy';
+  
+  
+
+}
+.opcionUser a:hover{
+           
+  color: black;
+}
+
+.opcionUser img{
+  
+  padding-top: 3%;
+  width: 24%;
+  margin-left: 38%;
+}
+
+.opcionUser div{
+  margin-left: 28%;
+}
+
+.opcionUser div a{
+  margin: 4%;
+}
+
+.opcionUser a{
+
+  
+    display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Arial', sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 2.2% 10%;  
+  border-radius: 10px; /* un poco más redondeado, mejora la percepción */
+  border: 2px solid black;
+  box-sizing: border-box; /* evita que el borde cambie el tamaño */
+  color: black;
+  background-color: white;
+ 
+}
+
+
+
+
+
+
+
+
+/* Opcional: efecto hover simple sin transición */
+.btn:hover {
+  opacity: 0.8;
 }
