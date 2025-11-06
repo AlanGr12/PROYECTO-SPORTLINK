@@ -63,8 +63,17 @@ return(num);
         string sql = "SELECT * FROM Clubes";
         return db.Query<Club>(sql).ToList();
     }
-}
 
+}
+    public static List<Pruebas> GetPruebas()
+{
+    using (SqlConnection db = new SqlConnection(_connectionString))
+    {
+        string sql = "SELECT Pruebas.idPrueba, Pruebas.Descripcion,Pruebas.Imagen,Pruebas.Categoria,Pruebas.Zona,Pruebas.fechaPrueba,Pruebas.Genero,Deportes.deporte,Clubes.Nombre FROM Pruebas INNER JOIN Deportes ON Pruebas.idDeporte = Deportes.idDeporte INNER JOIN Clubes ON Pruebas.idClub = Clubes.idClub;";
+        return db.Query<Pruebas>(sql).ToList();
+    }
+
+}
     public static void RegistrarScout(string nombre, string apellido, int idClub, int telefono, string fotoPerfil,
         string usuario, string contraseña, string email)
     {

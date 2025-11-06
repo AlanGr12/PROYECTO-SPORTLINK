@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "UZ8nyB218KnGe82RQRxroXiHF7WDZf0kXCzu3Z76NfU=",
+  "Hash": "6BcqKX1Q7aoflXSjYJ+/KpgA+3oodrR3WJsrCCgGPFE=",
   "Source": "proyectoSportlink",
   "BasePath": "_content/proyectoSportlink",
   "Mode": "Default",
@@ -186,6 +186,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\imagenes\\logo.png"
+    },
+    {
+      "Identity": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\logonegro.png",
+      "SourceId": "proyectoSportlink",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\",
+      "BasePath": "_content/proyectoSportlink",
+      "RelativePath": "imagenes/logonegro.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagenes\\logonegro.png"
     },
     {
       "Identity": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\tw.png",

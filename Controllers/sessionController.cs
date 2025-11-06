@@ -72,6 +72,8 @@ public class SessionController : Controller
      return View("RegistrarScout");
 
     }
+    
+
 
     public IActionResult irUser(){
         return View("ElegirUser");

@@ -43,6 +43,7 @@ public class HomeController : Controller
 
 
     public IActionResult irPruebas(){
+           ViewBag.Pruebas = BD.GetPruebas(); 
         return View("Pruebas");
     }
 
@@ -53,6 +54,7 @@ public class HomeController : Controller
     public IActionResult irMensajes(){
         return View("Mensajes");
     }
+   
     //public IActionResult Pruebas()
 //{
     

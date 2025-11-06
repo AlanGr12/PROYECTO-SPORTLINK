@@ -15,7 +15,15 @@
             <li><a href='@Url.Action("irPruebas", "Home")'>Pruebas</a></li>
             <li><a href='@Url.Action("irVideos", "Home")'>Videos</a></li>
             <li><a href='@Url.Action("irMensajes", "Home")'>>Mensajes</a></li>
-            <li><a href='@Url.Action("irUser", "session")'><img src="img/inicio.png"></a></li>
+          
+          @if (ViewBag.Usuario != null && ViewBag.Usuario.FotoPerfil != null)
+  {
+    <img src="@ViewBag.Usuario.FotoPerfil" alt="Foto de perfil" style="width:50px; height:50px; border-radius:50%;">
+  }
+      else  
+{
+    <a href='@Url.Action("irUser", "session")'><img src="img/inicio.png"></a>
+}
           </ul>
         </nav>
         
@@ -64,17 +72,19 @@
         </button>
       </div>
     </nav>
-     <div class="contenedor-cards">
-    @foreach (var p in pruebas)
-    {
-      <div class="card-prueba">
-        <img src="~/img/@p.Imagen" alt="@p.Descripcion" class="img-prueba" />
-        <h2>@p.NombreClub.ToUpper()</h2>
-        <p class="deporte">@p.NombreDeporte.ToUpper()</p>
-      </div>
+    <section> 
+    
+    @foreach (Pruebas Prueba in ViewBag.Pruebas){
+      
+      
+       <p><strong>Deporte:</strong> @Prueba.Deporte</p>
     }
-  </div>
+    
+    </section>
+    
 </main>
+
+
          <footer>
     <div>
       <img src="img/logo.png" alt="Sportlink">
