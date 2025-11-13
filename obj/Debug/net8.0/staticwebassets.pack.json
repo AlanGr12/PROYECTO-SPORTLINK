@@ -17,8 +17,28 @@
       "PackagePath": "staticwebassets\\imagenes\\Afiche.jpg"
     },
     {
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\Boca.png",
+      "PackagePath": "staticwebassets\\imagenes\\Boca.png"
+    },
+    {
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\Chicago.png",
+      "PackagePath": "staticwebassets\\imagenes\\Chicago.png"
+    },
+    {
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\Comunicaciones.png",
+      "PackagePath": "staticwebassets\\imagenes\\Comunicaciones.png"
+    },
+    {
       "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\Diapositiva2.JPG",
       "PackagePath": "staticwebassets\\imagenes\\Diapositiva2.JPG"
+    },
+    {
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\Ferro.png",
+      "PackagePath": "staticwebassets\\imagenes\\Ferro.png"
+    },
+    {
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\Hacoaj.png",
+      "PackagePath": "staticwebassets\\imagenes\\Hacoaj.png"
     },
     {
       "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\banner.jpg",
@@ -39,6 +59,10 @@
     {
       "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\logonegro.png",
       "PackagePath": "staticwebassets\\imagenes\\logonegro.png"
+    },
+    {
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\sanDiego.png",
+      "PackagePath": "staticwebassets\\imagenes\\sanDiego.png"
     },
     {
       "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\tw.png",

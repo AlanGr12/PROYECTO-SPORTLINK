@@ -14,7 +14,7 @@
           <ul>
             <li><a href='@Url.Action("irPruebas", "Home")'>Pruebas</a></li>
             <li><a href='@Url.Action("irVideos", "Home")'>Videos</a></li>
-            <li><a href='@Url.Action("irMensajes", "Home")'>>Mensajes</a></li>
+            <li><a href='@Url.Action("irMensajes", "Home")'>Mensajes</a></li>
           
           @if (ViewBag.Usuario != null && ViewBag.Usuario.FotoPerfil != null)
   {
@@ -60,6 +60,7 @@
                 <option>Sur</option> 
               </select></li>  
           </ul>
+      
         </div>
    
         <!-- Campo de búsqueda -->
@@ -71,7 +72,9 @@
           <i class="bi bi-search fs-5"></i>
         </button>
       </div>
+      <button class= "subirPrueba"><a href='@Url.Action("irSubirPrueba", "Home")'>SUBIR</a></button>
     </nav>
+  
     <section> 
     
  <!--   @foreach (Pruebas Prueba in ViewBag.Pruebas){
@@ -83,14 +86,17 @@
        <p><strong>Club:</strong> @Prueba.Nombre</p>
     }
     -->
-    @for (int i = 0; i < 9; i++)
+    @for (int i = 0; i < 6; i++)
 {
     var prueba = ViewBag.Pruebas[i];
-
+    <img src= "/@prueba.Imagen" alt="Foto Prueba">
     <p><strong>Deporte:</strong> @prueba.Deporte</p>
     <p><strong>Categoria:</strong> @prueba.Categoria</p>
     <p><strong>Fecha de la prueba:</strong> @prueba.fechaPrueba</p>
     <p><strong>Club:</strong> @prueba.Nombre</p>
+    
+    
+    
 }
 
     

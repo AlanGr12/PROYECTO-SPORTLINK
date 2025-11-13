@@ -1,6 +1,6 @@
 
  <header>
-        <img src="img/logo.png" alt="Sportlink">
+        <img src="/imagenes/logo.png" alt="Sportlink">
         <nav>
           <ul>
             <li><a href='@Url.Action("irPruebas", "Home")'>Pruebas</a></li>
@@ -12,26 +12,19 @@
         
       </header>
 <section>
-<img src="img/logo.png" alt="logo">
-<h1>Ingrese sus datos como jugador</h1>
-<form action='@Url.Action("GuardarRegistroJugador","session")' method= "post" enctype="multipart/form-data" >
-<h2>Usuario</h2>
-<input type="text" name="Usuario" placeholder="Ingresar Username"/>
-<h2>Contraseña</h2>
-<input type="password" name="Contraseña" placeholder="Ingresar Contraseña"/>
-<h2>Nombre</h2>
-<input type="text" name="Nombre" placeholder="Ingresar Nombre"/>
-<h2>Apellido</h2>
-<input type="text" name="Apellido" placeholder="Ingresar Apellido"/>
-<h2>Telefono</h2>
-<input type="text" name="Telefono" placeholder="Ingresar numero de telefono"/>
 
-<h2>Fecha de Nacimiento</h2>
-<input type= "date" name="fechaNacimiento" placeholder="Ingresar  fecha de nacimiento"/>
-<h2>Foto de Perfil</h2>
-<input type="file" name="FotoPerfil" placeholder="Ingresar foto de perfil"/>
-<h2>Ubicacion</h2>
-<input type="text" name="Ubicacion" placeholder="Ingresar ubicacion"/>
+<h1>Ingrese datos de la nueva prueba</h1>
+<form action='@Url.Action("GuardarRegistroPruebas","Home")' method= "post" enctype="multipart/form-data" >
+<h2>Descripcion</h2>
+<input type="text" name="Descripcion" placeholder="Ingresar descripcion"/>
+<h2>Foto de la prueba</h2>
+<input type="file" name="Imagen" placeholder="Ingresar foto"/>
+<h2>Categoria</h2>
+<input type="text" name="Categoria" placeholder="Ingresar Categoria"/>
+<h2>Zona</h2>
+<input type="text" name="Zona" placeholder="Ingresar zona"/>
+<h2>Fecha prueba</h2>
+<input type= "date" name="fechaPrueba" placeholder="Ingresar  fecha "/>
 <h2>Genero</h2>
 <input type="text" name="Genero" placeholder="Ingresar genero"/>
  <label>Deporte</label>
@@ -48,8 +41,26 @@
         <option value="10">Gimnasia</option>
         <option value="11">Padel</option>
     </select>
+     <label>Club</label>
+    <select name="idClub">
+        <option value="1">Club Atlético River Plate</option>
+        <option value="2">Boca Juniors</option>
+        <option value="3">Racing Club</option>
+        <option value="4">San Lorenzo de Almagro</option>
+        <option value="5">Club Atlético Independiente</option>
+        <option value="6">Club Atlético Rosario Central</option>
+        <option value="7">Club Atlético Newell´s Old Boys</option>
+        <option value="8">Club Atlético Vélez Sarfield</option>
+        <option value="9">Club Atlético Estudiantes de La Plata</option>
+        <option value="10">Club Atlético Huracán</option>
+        <option value="11">Hacoaj</option>
+        <option value="12">San Diego</option>
+        <option value="13">Ferro</option>
+        <option value="14">Nueva Chicago</option>
+        <option value="15">Comunicaciones</option>
+    </select>
 
-    <input type="submit" value="Registrarse"/>
+    <input type="submit" value="Subir Prueba"/>
 
 </form>
 

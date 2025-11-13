@@ -116,6 +116,26 @@ return(num);
 
     }
 
-    
+
+ public static void RegistrarPrueba(string Descripcion,string Imagen,string Categoria,string Zona,DateTime fechaPrueba,string Genero,int idDeporte,int idClub)
+    {
+        string query = @"INSERT INTO Pruebas 
+                        (Descripcion,Imagen,Categoria,Zona,fechaPrueba,idClub,idDeporte,Genero)
+                        VALUES (@pDescripcion, @pImagen, @pCategoria, @pZona, @pfechaPrueba, @pidClub, @pidDeporte, @pGenero)";
+        using (SqlConnection db = new SqlConnection(_connectionString))
+        {
+            db.Execute(query, new
+            {
+                pDescripcion = Descripcion,
+                pImagen = Imagen,
+                pCategoria = Categoria,
+                pZona = Zona,
+                pfechaPrueba = fechaPrueba,
+                pidClub = idClub,
+                pidDeporte = idDeporte,
+                pGenero = Genero
+            });
+        }
+    }   
 }
 

@@ -128,6 +128,15 @@ public class SessionController : Controller
         IFormFile FotoPerfil, int idDeporte, DateTime fechaNacimiento, string usuario, string contraseña,
         string ubicacion, string genero)
     {
+        DateTime hoy = DateTime.Now;
+    edad = hoy.Year - fechaNacimiento.Year;
+
+    // Si todavía no cumplió años este año, restamos uno
+    if (hoy.Month < fechaNacimiento.Month || 
+        (hoy.Month == fechaNacimiento.Month && hoy.Day < fechaNacimiento.Day))
+    {
+        edad--;
+    }
  string nombreArchivo = Path.GetFileName(FotoPerfil.FileName);
         string rutaCarpeta = Path.Combine(_env.WebRootPath, "Imagenes");
 

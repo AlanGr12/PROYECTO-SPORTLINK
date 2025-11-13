@@ -6,13 +6,15 @@ namespace proyectoSportlink.Controllers;
 
 public class HomeController : Controller
 {
+ 
     private readonly ILogger<HomeController> _logger;
+    private readonly IWebHostEnvironment _env;
 
-    public HomeController(ILogger<HomeController> logger)
-    {
-        _logger = logger;
-    }
-
+  public HomeController(ILogger<HomeController> logger, IWebHostEnvironment env)
+{
+    _logger = logger;
+    _env = env;
+}
     public IActionResult Index()
     {
     string idStr = HttpContext.Session.GetString("id");
@@ -47,14 +49,37 @@ public class HomeController : Controller
         return View("Pruebas");
     }
 
+
     public IActionResult irVideos(){
         return View("Videos");
+    }
+     public IActionResult irSubirPrueba(){
+        return View("subirPrueba");
     }
 
     public IActionResult irMensajes(){
         return View("Mensajes");
     }
-   
+   public IActionResult GuardarRegistroPruebas(string Descripcion,IFormFile Imagen,string Categoria,string Zona,DateTime fechaPrueba,string Genero,int idDeporte,int idClub)
+   {
+string nombreArchivo = Path.GetFileName(Imagen.FileName);
+        string rutaCarpeta = Path.Combine(_env.WebRootPath, "Imagenes");
+
+        if (!Directory.Exists(rutaCarpeta))
+            Directory.CreateDirectory(rutaCarpeta);
+
+        string rutaCompleta = Path.Combine(rutaCarpeta, nombreArchivo);
+
+        using (var stream = new FileStream(rutaCompleta, FileMode.Create))
+        {
+            Imagen.CopyTo(stream);
+        }
+
+        string rutaRelativa = Path.Combine("Imagenes", nombreArchivo).Replace("\\", "/");
+        BD.RegistrarPrueba(Descripcion,rutaRelativa, Categoria, Zona, fechaPrueba, Genero, idDeporte, idClub);
+
+ return RedirectToAction("irPruebas","Home");
+   }
     //public IActionResult Pruebas()
 //{
     

@@ -114,7 +114,8 @@ nav ul li a:hover {
 }
 
 section button {
-  background-color: #000;
+ 
+  background: none;
   border: none;
   border-radius: 8px;
   padding: 1% 2%;
@@ -283,47 +284,90 @@ footer div p:last-child {
   text-align: left;
 }
 
-.inicioJugador h1{
-  text-align: center; 
-  padding-top: 2%;
-  font-family: 'Monbloc-Inst-Heavy';
-
-}
-
-.inicioJugador img{
+.inicioUser img{
   padding-top: 3%;
   width: 24%;
   margin-left: 38%;
   padding-bottom: 2%;
 }
 
-.inicioJugador input, h2{
+.inicioUser h1{
+  text-align: center; 
+  padding-top: 2%;
+  font-family: 'Monbloc-Inst-Heavy';
+
+}
+
+.inicioUser img{
+  padding-top: 3%;
+  width: 24%;
+  margin-left: 38%;
+  padding-bottom: 2%;
+}
+
+.inicioUser input, h2{
   margin-left: 36%;
 }
 
-.inicioJugador h2{
+.inicioUser h2{
   font-family: 'Monbloc-Inst-Heavy';
 }
 
-.inicioJugador div input{
-  width: 27%;
+.inicioUser div input{
+  width: 27% ;
   padding: 0.4%;
+  border-radius: 7px;
 }
-
-.inicioJugador input[type="submit"] {
+ 
+.inicioUser input[type="submit"] {
   background-color: black;
   color: white;
   border: none;
-  border-radius: 10px;
-  padding: 1.2% 6%;
+  margin-left: 45%;
+  border-radius: 50px;
+  padding: 0.9% 2%;
   font-weight: bold;
   cursor: pointer;
+  margin-top: 3%;
+}
+
+
+.inicioUser input[type="submit"]:hover{
+  color: #3CFBDD;
+}
+
+
+
+.inicioUser h5{
+  margin-right: 1%;
+}
+
+
+.inicioUser h5 {
   margin-top: 2%;
+  font-family: Arial, sans-serif;
+  font-weight: normal;
+  text-align: center;
+}
+
+.inicioUser button {
+  border: none;
+
+  margin-top: 0.1%;
+  margin-left: 42%;
+}
+
+.inicioUser button a {
+  text-decoration: none;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  color: #50e2ff !important;
+  
 }
 
 .opcionUser h2{
   padding-top: 2%;
-  text-align: center;
+  margin-left: 46.2%;
   font-family: 'Monbloc-Inst-Heavy';
   
   
@@ -350,6 +394,16 @@ footer div p:last-child {
 .opcionUser div a{
   margin: 4%;
 }
+
+.subirPrueba a{
+  background-color: black !important;
+  color: white !important;
+  font-family: 'Monbloc-Inst-Heavy' !important;
+  text-decoration: none !important;
+
+}
+
+
 
 .opcionUser a{
 
