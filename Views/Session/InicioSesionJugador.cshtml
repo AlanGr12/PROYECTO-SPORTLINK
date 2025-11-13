@@ -16,19 +16,44 @@
         
       </header>
       
-<Section>
-<h1>Iniciar sesion</h1>
-<form action='@Url.Action("guardarInicio","Session")' method= "post">
+<!--<Section class = "inicioJugador">
+<div>
+<img src="~/imagenes/logonegro.png" alt="Sportlink">
+<form action='@Url.Action("guardarInicio","session")' method= "post">
+</div>
+<div>
 <h2>Usuario</h2>
 <input type="text" name="Usuario" placeholder="Ingresar username"/>
 <h2>Contraseña</h2>
 <input type="password" name="Contraseña" placeholder="Ingresar Contraseña"/>
-<input type="submit" value = "Iniciar sesion" />
+</div>
+<input type="submit" value="INICIAR SESIÓN">
 </form>
 <h5>No tienes una cuenta, registrate aqui</h5>
-<a href='@Url.Action("irRegistrarJugador", "Session")'> Jugador</a>
+<button> <a href='@Url.Action("irRegistrarJugador", "Session")'> Jugador</a></button>
 
 </Section>
+
+-->
+
+<section class="inicioJugador">
+  <div>
+    <img src="~/imagenes/logonegro.png" alt="Sportlink">
+  </div>
+
+  <form action='@Url.Action("guardarInicio","Session")' method="post">
+    <div>
+      <h2>Usuario</h2>
+      <input type="text" name="Usuario" placeholder="Ingresar username"/>
+      <h2>Contraseña</h2>
+      <input type="password" name="Contraseña" placeholder="Ingresar Contraseña"/>
+    </div>
+    <input type="submit" value="INICIAR SESIÓN">
+  </form>
+
+  <h5>¿No tienes una cuenta? Regístrate aquí:</h5>
+  <button><a href='@Url.Action("irRegistrarJugador", "Session")'>Jugador</a></button>
+</section>
 
  <footer>
     <div>

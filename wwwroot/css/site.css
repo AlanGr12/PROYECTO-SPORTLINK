@@ -283,8 +283,42 @@ footer div p:last-child {
   text-align: left;
 }
 
-.opcionUser a{
-  color: #000000;
+.inicioJugador h1{
+  text-align: center; 
+  padding-top: 2%;
+  font-family: 'Monbloc-Inst-Heavy';
+
+}
+
+.inicioJugador img{
+  padding-top: 3%;
+  width: 24%;
+  margin-left: 38%;
+  padding-bottom: 2%;
+}
+
+.inicioJugador input, h2{
+  margin-left: 36%;
+}
+
+.inicioJugador h2{
+  font-family: 'Monbloc-Inst-Heavy';
+}
+
+.inicioJugador div input{
+  width: 27%;
+  padding: 0.4%;
+}
+
+.inicioJugador input[type="submit"] {
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 1.2% 6%;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 2%;
 }
 
 .opcionUser h2{
@@ -295,9 +329,11 @@ footer div p:last-child {
   
 
 }
-.opcionUser a:hover{
-           
-  color: black;
+
+.opcionUser a:hover {
+  color: rgb(255, 255, 255) !important;
+  background-color: #000000 !important;
+
 }
 
 .opcionUser img{
@@ -334,14 +370,8 @@ footer div p:last-child {
  
 }
 
-
-
-
-
-
-
-
 /* Opcional: efecto hover simple sin transición */
 .btn:hover {
   opacity: 0.8;
 }
+

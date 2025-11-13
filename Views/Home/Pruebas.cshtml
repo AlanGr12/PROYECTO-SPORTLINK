@@ -74,11 +74,25 @@
     </nav>
     <section> 
     
-    @foreach (Pruebas Prueba in ViewBag.Pruebas){
+ <!--   @foreach (Pruebas Prueba in ViewBag.Pruebas){
       
       
-       <p><strong>Deporte:</strong> @Prueba.Deporte</p>
+       <p><strong>Deporte: @Prueba.Deporte</p>
+       <p><strong>Categoria:</strong> @Prueba.Categoria</p>
+       <p><strong>Fecha de la prueba:</strong> @Prueba.fechaPrueba</p>
+       <p><strong>Club:</strong> @Prueba.Nombre</p>
     }
+    -->
+    @for (int i = 0; i < 9; i++)
+{
+    var prueba = ViewBag.Pruebas[i];
+
+    <p><strong>Deporte:</strong> @prueba.Deporte</p>
+    <p><strong>Categoria:</strong> @prueba.Categoria</p>
+    <p><strong>Fecha de la prueba:</strong> @prueba.fechaPrueba</p>
+    <p><strong>Club:</strong> @prueba.Nombre</p>
+}
+
     
     </section>
     
