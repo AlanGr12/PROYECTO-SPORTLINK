@@ -2461,11 +2461,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\proyectoSportlink.csproj",
+      "projectUniqueName": "C:\\Users\\48860730\\PROYECTO-SPORTLINK\\proyectoSportlink.csproj",
       "projectName": "proyectoSportlink",
-      "projectPath": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\proyectoSportlink.csproj",
+      "projectPath": "C:\\Users\\48860730\\PROYECTO-SPORTLINK\\proyectoSportlink.csproj",
       "packagesPath": "C:\\Users\\48860730\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\obj\\",
+      "outputPath": "C:\\Users\\48860730\\PROYECTO-SPORTLINK\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

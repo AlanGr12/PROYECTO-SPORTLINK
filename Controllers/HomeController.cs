@@ -46,11 +46,13 @@ public class HomeController : Controller
 
     public IActionResult irPruebas(){
            ViewBag.Pruebas = BD.GetPruebas(); 
+           ViewBag.TipoUsuario = HttpContext.Session.GetString("tipoUsuario");
         return View("Pruebas");
     }
 
 
     public IActionResult irVideos(){
+        ViewBag.TipoUsuario = HttpContext.Session.GetString("tipoUsuario");
         return View("Videos");
     }
      public IActionResult irSubirPrueba(){
@@ -59,6 +61,10 @@ public class HomeController : Controller
 
     public IActionResult irMensajes(){
         return View("Mensajes");
+    }
+
+    public IActionResult irSubirVideo(){
+        return View("subirVideo");
     }
    public IActionResult GuardarRegistroPruebas(string Descripcion,IFormFile Imagen,string Categoria,string Zona,DateTime fechaPrueba,string Genero,int idDeporte,int idClub)
    {

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "4fQnKYbDNohQiiozvBSQCXmXip2ogahDmrlDrgz+YZc=",
+  "Hash": "Va0p6YtdO5w4w/k0uLZYiTIbk50vGutnj4W8KqsfX1Q=",
   "Source": "proyectoSportlink",
   "BasePath": "_content/proyectoSportlink",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "proyectoSportlink\\wwwroot",
       "Source": "proyectoSportlink",
-      "ContentRoot": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\48860730\\PROYECTO-SPORTLINK\\wwwroot\\",
       "BasePath": "_content/proyectoSportlink",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\48860730\\PROYECTO-SPORTLINK\\wwwroot\\css\\site.css",
       "SourceId": "proyectoSportlink",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\48860730\\PROYECTO-SPORTLINK\\wwwroot\\",
       "BasePath": "_content/proyectoSportlink",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -36,10 +36,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\48860730\\PROYECTO-SPORTLINK\\wwwroot\\favicon.ico",
       "SourceId": "proyectoSportlink",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\48860730\\PROYECTO-SPORTLINK\\wwwroot\\",
       "BasePath": "_content/proyectoSportlink",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -55,10 +55,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\font\\Monbloc-Inst-Heavy.ttf",
+      "Identity": "C:\\Users\\48860730\\PROYECTO-SPORTLINK\\wwwroot\\font\\Monbloc-Inst-Heavy.ttf",
       "SourceId": "proyectoSportlink",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\48860730\\PROYECTO-SPORTLINK\\wwwroot\\",
       "BasePath": "_content/proyectoSportlink",
       "RelativePath": "font/Monbloc-Inst-Heavy.ttf",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\font\\Monbloc-Inst-Heavy.ttf"
     },
     {
-      "Identity": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\Afiche.jpg",
+      "Identity": "C:\\Users\\48860730\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\Afiche.jpg",
       "SourceId": "proyectoSportlink",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\48860730\\PROYECTO-SPORTLINK\\wwwroot\\",
       "BasePath": "_content/proyectoSportlink",
       "RelativePath": "imagenes/Afiche.jpg",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\Afiche.jpg"
     },
     {
-      "Identity": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\banner.jpg",
+      "Identity": "C:\\Users\\48860730\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\banner.jpg",
       "SourceId": "proyectoSportlink",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\48860730\\PROYECTO-SPORTLINK\\wwwroot\\",
       "BasePath": "_content/proyectoSportlink",
       "RelativePath": "imagenes/banner.jpg",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\banner.jpg"
     },
     {
-      "Identity": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\Boca.png",
+      "Identity": "C:\\Users\\48860730\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\Boca.png",
       "SourceId": "proyectoSportlink",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\48860730\\PROYECTO-SPORTLINK\\wwwroot\\",
       "BasePath": "_content/proyectoSportlink",
       "RelativePath": "imagenes/Boca.png",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\Boca.png"
     },
     {
-      "Identity": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\Chicago.png",
+      "Identity": "C:\\Users\\48860730\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\Chicago.png",
       "SourceId": "proyectoSportlink",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\48860730\\PROYECTO-SPORTLINK\\wwwroot\\",
       "BasePath": "_content/proyectoSportlink",
       "RelativePath": "imagenes/Chicago.png",
       "AssetKind": "All",
@@ -150,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\Chicago.png"
     },
     {
-      "Identity": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\Comunicaciones.png",
+      "Identity": "C:\\Users\\48860730\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\Comunicaciones.png",
       "SourceId": "proyectoSportlink",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\48860730\\PROYECTO-SPORTLINK\\wwwroot\\",
       "BasePath": "_content/proyectoSportlink",
       "RelativePath": "imagenes/Comunicaciones.png",
       "AssetKind": "All",
@@ -169,10 +169,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\Comunicaciones.png"
     },
     {
-      "Identity": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\Diapositiva2.JPG",
+      "Identity": "C:\\Users\\48860730\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\Diapositiva2.JPG",
       "SourceId": "proyectoSportlink",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\48860730\\PROYECTO-SPORTLINK\\wwwroot\\",
       "BasePath": "_content/proyectoSportlink",
       "RelativePath": "imagenes/Diapositiva2.JPG",
       "AssetKind": "All",
@@ -188,10 +188,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\Diapositiva2.JPG"
     },
     {
-      "Identity": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\Ferro.png",
+      "Identity": "C:\\Users\\48860730\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\Ferro.png",
       "SourceId": "proyectoSportlink",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\48860730\\PROYECTO-SPORTLINK\\wwwroot\\",
       "BasePath": "_content/proyectoSportlink",
       "RelativePath": "imagenes/Ferro.png",
       "AssetKind": "All",
@@ -207,10 +207,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\Ferro.png"
     },
     {
-      "Identity": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\Hacoaj.png",
+      "Identity": "C:\\Users\\48860730\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\Hacoaj.png",
       "SourceId": "proyectoSportlink",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\48860730\\PROYECTO-SPORTLINK\\wwwroot\\",
       "BasePath": "_content/proyectoSportlink",
       "RelativePath": "imagenes/Hacoaj.png",
       "AssetKind": "All",
@@ -226,10 +226,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\Hacoaj.png"
     },
     {
-      "Identity": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\ig.png",
+      "Identity": "C:\\Users\\48860730\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\ig.png",
       "SourceId": "proyectoSportlink",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\48860730\\PROYECTO-SPORTLINK\\wwwroot\\",
       "BasePath": "_content/proyectoSportlink",
       "RelativePath": "imagenes/ig.png",
       "AssetKind": "All",
@@ -245,10 +245,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\ig.png"
     },
     {
-      "Identity": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\inicio.png",
+      "Identity": "C:\\Users\\48860730\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\inicio.png",
       "SourceId": "proyectoSportlink",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\48860730\\PROYECTO-SPORTLINK\\wwwroot\\",
       "BasePath": "_content/proyectoSportlink",
       "RelativePath": "imagenes/inicio.png",
       "AssetKind": "All",
@@ -264,10 +264,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\inicio.png"
     },
     {
-      "Identity": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\logo.png",
+      "Identity": "C:\\Users\\48860730\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\logo.png",
       "SourceId": "proyectoSportlink",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\48860730\\PROYECTO-SPORTLINK\\wwwroot\\",
       "BasePath": "_content/proyectoSportlink",
       "RelativePath": "imagenes/logo.png",
       "AssetKind": "All",
@@ -283,10 +283,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\logo.png"
     },
     {
-      "Identity": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\logonegro.png",
+      "Identity": "C:\\Users\\48860730\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\logonegro.png",
       "SourceId": "proyectoSportlink",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\48860730\\PROYECTO-SPORTLINK\\wwwroot\\",
       "BasePath": "_content/proyectoSportlink",
       "RelativePath": "imagenes/logonegro.png",
       "AssetKind": "All",
@@ -302,10 +302,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\logonegro.png"
     },
     {
-      "Identity": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\sanDiego.png",
+      "Identity": "C:\\Users\\48860730\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\sanDiego.png",
       "SourceId": "proyectoSportlink",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\48860730\\PROYECTO-SPORTLINK\\wwwroot\\",
       "BasePath": "_content/proyectoSportlink",
       "RelativePath": "imagenes/sanDiego.png",
       "AssetKind": "All",
@@ -321,10 +321,48 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\sanDiego.png"
     },
     {
-      "Identity": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\tw.png",
+      "Identity": "C:\\Users\\48860730\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\tarjeta personal sportlink.png",
       "SourceId": "proyectoSportlink",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\48860730\\PROYECTO-SPORTLINK\\wwwroot\\",
+      "BasePath": "_content/proyectoSportlink",
+      "RelativePath": "imagenes/tarjeta personal sportlink.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagenes\\tarjeta personal sportlink.png"
+    },
+    {
+      "Identity": "C:\\Users\\48860730\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\tp bd 2 .png",
+      "SourceId": "proyectoSportlink",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\48860730\\PROYECTO-SPORTLINK\\wwwroot\\",
+      "BasePath": "_content/proyectoSportlink",
+      "RelativePath": "imagenes/tp bd 2 .png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagenes\\tp bd 2 .png"
+    },
+    {
+      "Identity": "C:\\Users\\48860730\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\tw.png",
+      "SourceId": "proyectoSportlink",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\48860730\\PROYECTO-SPORTLINK\\wwwroot\\",
       "BasePath": "_content/proyectoSportlink",
       "RelativePath": "imagenes/tw.png",
       "AssetKind": "All",
@@ -340,10 +378,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\tw.png"
     },
     {
-      "Identity": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\48860730\\PROYECTO-SPORTLINK\\wwwroot\\js\\site.js",
       "SourceId": "proyectoSportlink",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\48860730\\PROYECTO-SPORTLINK\\wwwroot\\",
       "BasePath": "_content/proyectoSportlink",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -359,10 +397,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\48860730\\PROYECTO-SPORTLINK\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "proyectoSportlink",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\48860730\\PROYECTO-SPORTLINK\\wwwroot\\",
       "BasePath": "_content/proyectoSportlink",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -378,10 +416,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\48860730\\PROYECTO-SPORTLINK\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "proyectoSportlink",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\48860730\\PROYECTO-SPORTLINK\\wwwroot\\",
       "BasePath": "_content/proyectoSportlink",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -397,10 +435,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\48860730\\PROYECTO-SPORTLINK\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "proyectoSportlink",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\48860730\\PROYECTO-SPORTLINK\\wwwroot\\",
       "BasePath": "_content/proyectoSportlink",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -416,10 +454,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\48860730\\PROYECTO-SPORTLINK\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "proyectoSportlink",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\48860730\\PROYECTO-SPORTLINK\\wwwroot\\",
       "BasePath": "_content/proyectoSportlink",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -435,10 +473,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\48860730\\PROYECTO-SPORTLINK\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "proyectoSportlink",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\48860730\\PROYECTO-SPORTLINK\\wwwroot\\",
       "BasePath": "_content/proyectoSportlink",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -454,10 +492,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\48860730\\PROYECTO-SPORTLINK\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "proyectoSportlink",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\48860730\\PROYECTO-SPORTLINK\\wwwroot\\",
       "BasePath": "_content/proyectoSportlink",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -473,10 +511,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\48860730\\PROYECTO-SPORTLINK\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "proyectoSportlink",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\48860730\\PROYECTO-SPORTLINK\\wwwroot\\",
       "BasePath": "_content/proyectoSportlink",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -492,10 +530,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\48860730\\PROYECTO-SPORTLINK\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "proyectoSportlink",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\48860730\\PROYECTO-SPORTLINK\\wwwroot\\",
       "BasePath": "_content/proyectoSportlink",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -511,10 +549,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\48860730\\PROYECTO-SPORTLINK\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "proyectoSportlink",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\48860730\\PROYECTO-SPORTLINK\\wwwroot\\",
       "BasePath": "_content/proyectoSportlink",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -530,10 +568,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\48860730\\PROYECTO-SPORTLINK\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "proyectoSportlink",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\48860730\\PROYECTO-SPORTLINK\\wwwroot\\",
       "BasePath": "_content/proyectoSportlink",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -549,10 +587,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\48860730\\PROYECTO-SPORTLINK\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "proyectoSportlink",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\48860730\\PROYECTO-SPORTLINK\\wwwroot\\",
       "BasePath": "_content/proyectoSportlink",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -568,10 +606,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\48860730\\PROYECTO-SPORTLINK\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "proyectoSportlink",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\48860730\\PROYECTO-SPORTLINK\\wwwroot\\",
       "BasePath": "_content/proyectoSportlink",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -585,6 +623,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\48860730\\PROYECTO-SPORTLINK\\wwwroot\\videos\\Video1.mp4",
+      "SourceId": "proyectoSportlink",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\48860730\\PROYECTO-SPORTLINK\\wwwroot\\",
+      "BasePath": "_content/proyectoSportlink",
+      "RelativePath": "videos/Video1.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\videos\\Video1.mp4"
     }
   ]
 }
