@@ -417,6 +417,83 @@ video{
 
 
 
+.registroJugador {
+  width: 90%;
+  margin: auto;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.registroJugador img {
+  width: 15%;
+  margin-top: 2%;
+}
+
+.registroJugador h1 {
+  margin-bottom: 2%;
+  font-size: 130%;
+}
+
+.registroJugador form {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.ladoIzq, .ladoDer {
+  width: 45%;
+  text-align: left;
+}
+
+.registroJugador h2 {
+  font-size: 80%;
+  margin: 3% 0 1% 0;
+  font-family: 'Monbloc-Inst-Heavy';
+}
+
+input, textarea {
+  width: 100%;
+  padding: 2%;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.registroJugador textarea {
+  height: 26px;
+  
+}
+
+.registroJugador select{
+  width: 104%;
+  height: 40px;
+  color: black;
+}
+
+.registroJugador button {
+  margin-top: 3%;
+  width: 25%;
+  background-color: black;
+  padding: 1.5%;
+  border-radius: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-left: 38%;
+  margin-bottom: 2%;
+}
+
+.registroJugador img{
+  width: 31%;
+  margin-bottom: 1%;
+}
+
+.registroJugador a{
+text-decoration: none;
+color: #3CFBDD;
+}
+
+
+
 .opcionUser a{
 
   

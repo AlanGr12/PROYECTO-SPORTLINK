@@ -92,7 +92,7 @@
        <p><strong>Club:</strong> @Prueba.Nombre</p>
     }
     -->
-    @for (int i = 0; i < 6; i++)
+    @for (int i = 0; i < ViewBag.Pruebas.Count; i++)
 {
     var prueba = ViewBag.Pruebas[i];
     <img src= "/@prueba.Imagen" alt="Foto Prueba">

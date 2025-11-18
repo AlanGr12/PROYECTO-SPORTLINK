@@ -9,71 +9,71 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = proyectoSportlink
 build_property.RootNamespace = proyectoSportlink
-build_property.ProjectDir = C:\Users\48860730\PROYECTO-SPORTLINK\
+build_property.ProjectDir = C:\Users\48860730\Documents\PROYECTO-SPORTLINK\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\48860730\PROYECTO-SPORTLINK
+build_property.MSBuildProjectDirectory = C:\Users\48860730\Documents\PROYECTO-SPORTLINK
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/48860730/PROYECTO-SPORTLINK/Views/Home/Index.cshtml]
+[C:/Users/48860730/Documents/PROYECTO-SPORTLINK/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/48860730/PROYECTO-SPORTLINK/Views/Home/Mensajes.cshtml]
+[C:/Users/48860730/Documents/PROYECTO-SPORTLINK/Views/Home/Mensajes.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxNZW5zYWplcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/48860730/PROYECTO-SPORTLINK/Views/Home/Pruebas.cshtml]
+[C:/Users/48860730/Documents/PROYECTO-SPORTLINK/Views/Home/Pruebas.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcnVlYmFzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/48860730/PROYECTO-SPORTLINK/Views/Home/subirPrueba.cshtml]
+[C:/Users/48860730/Documents/PROYECTO-SPORTLINK/Views/Home/subirPrueba.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxzdWJpclBydWViYS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/48860730/PROYECTO-SPORTLINK/Views/Home/subirVideo.cshtml]
+[C:/Users/48860730/Documents/PROYECTO-SPORTLINK/Views/Home/subirVideo.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxzdWJpclZpZGVvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/48860730/PROYECTO-SPORTLINK/Views/Home/Videos.cshtml]
+[C:/Users/48860730/Documents/PROYECTO-SPORTLINK/Views/Home/Videos.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxWaWRlb3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/48860730/PROYECTO-SPORTLINK/Views/Session/ElegirUser.cshtml]
+[C:/Users/48860730/Documents/PROYECTO-SPORTLINK/Views/Session/ElegirUser.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2Vzc2lvblxFbGVnaXJVc2VyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/48860730/PROYECTO-SPORTLINK/Views/Session/InicioSesionJugador.cshtml]
+[C:/Users/48860730/Documents/PROYECTO-SPORTLINK/Views/Session/InicioSesionJugador.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2Vzc2lvblxJbmljaW9TZXNpb25KdWdhZG9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/48860730/PROYECTO-SPORTLINK/Views/Session/InicioSesionScout.cshtml]
+[C:/Users/48860730/Documents/PROYECTO-SPORTLINK/Views/Session/InicioSesionScout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2Vzc2lvblxJbmljaW9TZXNpb25TY291dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/48860730/PROYECTO-SPORTLINK/Views/Session/RegistrarJugador.cshtml]
+[C:/Users/48860730/Documents/PROYECTO-SPORTLINK/Views/Session/RegistrarJugador.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2Vzc2lvblxSZWdpc3RyYXJKdWdhZG9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/48860730/PROYECTO-SPORTLINK/Views/Session/RegistrarScout.cshtml]
+[C:/Users/48860730/Documents/PROYECTO-SPORTLINK/Views/Session/RegistrarScout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2Vzc2lvblxSZWdpc3RyYXJTY291dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/48860730/PROYECTO-SPORTLINK/Views/Shared/_Layout.cshtml]
+[C:/Users/48860730/Documents/PROYECTO-SPORTLINK/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/48860730/PROYECTO-SPORTLINK/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/48860730/Documents/PROYECTO-SPORTLINK/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/48860730/PROYECTO-SPORTLINK/Views/_ViewImports.cshtml]
+[C:/Users/48860730/Documents/PROYECTO-SPORTLINK/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/48860730/PROYECTO-SPORTLINK/Views/_ViewStart.cshtml]
+[C:/Users/48860730/Documents/PROYECTO-SPORTLINK/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

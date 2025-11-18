@@ -19,49 +19,75 @@
         </nav>
         
       </header>
-<section>
-<img src="img/logo.png" alt="logo">
-<h1>Ingrese sus datos como jugador</h1>
-<form action='@Url.Action("GuardarRegistroJugador","session")' method= "post" enctype="multipart/form-data" >
-<h2>Usuario</h2>
-<input type="text" name="Usuario" placeholder="Ingresar Username"/>
-<h2>Contraseña</h2>
-<input type="password" name="Contraseña" placeholder="Ingresar Contraseña"/>
-<h2>Nombre</h2>
-<input type="text" name="Nombre" placeholder="Ingresar Nombre"/>
-<h2>Apellido</h2>
-<input type="text" name="Apellido" placeholder="Ingresar Apellido"/>
-<h2>Telefono</h2>
-<input type="text" name="Telefono" placeholder="Ingresar numero de telefono"/>
+<body>
+    <section class="registroJugador">
+        <img src="/Imagenes/logonegro.png" alt="Sportlink">
+        <h1>Ingrese sus datos como jugador</h1>
+      
+        <form action='@Url.Action("GuardarRegistroJugador","Session")' method="post" enctype="multipart/form-data">
+          
+          <div class="ladoIzq">
+            <h2>Nombre</h2>
+            <input type="text" name="Nombre" placeholder="Lionel">
+      
+            <h2>Apellido</h2>
+            <input type="text" name="Apellido" placeholder="Perez">
+      
+            <h2>Número telefónico</h2>
+            <input type="tel" name="Telefono" placeholder="+54 11-9524-4512">
+      
+            <h2>Fecha de nacimiento</h2>
+            <input type="date" name="FechaNacimiento">
 
-<h2>Fecha de Nacimiento</h2>
-<input type= "date" name="fechaNacimiento" placeholder="Ingresar  fecha de nacimiento"/>
-<h2>Foto de Perfil</h2>
-<input type="file" name="FotoPerfil" placeholder="Ingresar foto de perfil"/>
-<h2>Ubicacion</h2>
-<input type="text" name="Ubicacion" placeholder="Ingresar ubicacion"/>
-<h2>Genero</h2>
-<input type="text" name="Genero" placeholder="Ingresar genero"/>
- <label>Deporte</label>
-    <select name="idDeporte">
-        <option value="1">Fútbol</option>
-        <option value="2">Básquet</option>
-        <option value="3">Vóley</option>
-        <option value="4">Tenis</option>
-        <option value="5">Hockey</option>
-        <option value="6">Natación</option>
-        <option value="7">Atletismo</option>
-        <option value="8">Rugby</option>
-        <option value="9">Handball</option>
-        <option value="10">Gimnasia</option>
-        <option value="11">Padel</option>
-    </select>
+            <h2>Género</h2>
+            <select name="Genero" >
+                <option value="Masculino">Masculino</option>
+                <option value="Femenino">Femenino</option>
+            </select>
 
-    <input type="submit" value="Registrarse"/>
+         
 
-</form>
+    
+          </div>
+      
+          <div class="ladoDer">
+            <h2>Email</h2>
+            <input type="email" name="Email" placeholder="example@email.com">
+      
+            <h2>Contraseña</h2>
+            <input type="password" name="Contraseña" placeholder="••••••••">
+      
+      
+            <h2>Foto de perfil</h2>
+            <input type="file" name="FotoPerfil">
+      
+            <h2>Descripción</h2>
+            <textarea name="Descripcion" maxlength="250" placeholder="Hasta 250 caracteres"></textarea>
 
-</section>
+              <h2>Deporte</h2>
+              <select name="idDeporte" required>
+              <option value="1">Fútbol</option>
+              <option value="2">Básquet</option>
+              <option value="3">Vóley</option>
+              <option value="4">Tenis</option>
+              <option value="5">Hockey</option>
+              <option value="6">Natación</option>
+              <option value="7">Atletismo</option>
+              <option value="8">Rugby</option>
+              <option value="9">Handball</option>
+              <option value="10">Mma</option>
+              <option value="11">Padel</option>
+              <option value="12">Kabbadi</option>
+              <option value="13">Beisbol</option>
+              <option value="14">Cricket</option>
+          </select>
+      
+           
+          </div>
+      
+          <button><a href='@Url.Action("irLogInScout", "Session")'>Registrarme</a></button>
+        </form>
+      </section>
 
 
   <footer>

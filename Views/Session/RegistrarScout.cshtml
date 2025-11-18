@@ -23,19 +23,19 @@
 <h1>Ingrese sus datos como scouter</h1>
 <form action='@Url.Action("GuardarRegistroScout","session" )' method= "post" enctype="multipart/form-data">
 <h2>Usuario</h2>
-<input type="text" name="Usuario" placeholder="Ingresar Username"/>
+<input type="text" name="Usuario" placeholder="Ingresar Username" required/>
 <h2>Contraseña</h2>
-<input type="password" name="Contraseña" placeholder="Ingresar Contraseña"/>
+<input type="password" name="Contraseña" placeholder="Ingresar Contraseña" required/>
 <h2>Nombre</h2>
-<input type="text" name="Nombre" placeholder="Ingresar Nombre"/>
+<input type="text" name="Nombre" placeholder="Ingresar Nombre" required/>
 <h2>Apellido</h2>
-<input type="text" name="Apellido" placeholder="Ingresar Apellido"/>
+<input type="text" name="Apellido" placeholder="Ingresar Apellido" required/>
 <h2>Telefono</h2>
-<input type="text" name="Telefono" placeholder="Ingresar numero de telefono"/>  
+<input type="text" name="Telefono" placeholder="Ingresar numero de telefono" required/>  
 <h2>Foto de Perfil</h2>
-<input type="file" name="FotoPerfil" placeholder="Ingresar foto de perfil"/>
+<input type="file" name="FotoPerfil" placeholder="Ingresar foto de perfil" required/>
 <h2>Email</h2>
-<input type="email" name="Email" placeholder="Ingresar correo de mail"/>
+<input type="email" name="Email" placeholder="Ingresar correo de mail" required/>
 
 <label>Club</label>
 <select name="idClub" required>
