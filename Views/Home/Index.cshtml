@@ -22,106 +22,175 @@
         </nav>
         
       </header>
-      <main>
+      <main class= "landingpage">
+<body>
     <section class="banner">
-    <div>
-    </div>
-    </section>
-    @if (ViewBag.Usuario != null)
-{
-  
-    <h2>Bienvenido, @ViewBag.Usuario.Nombre @ViewBag.Usuario.Apellido</h2>
-}
-else
-{
-    <h2>Bienvenido a Sportlink</h2>
-}
 
-<section class="Sect1">
-<div>
-<a href='@Url.Action("irPruebas", "Home")'> Pruebas</a>
-<article>
-<p>¿Queres demostrar tu nivel?</p>
-<p>Encontrá convocatorias y pruebas deportivas cerca tuyo, y mostrale tu talento a los clubes y entrenadores.</p>
-</article>
-</div>
-</section>
-<section class="pruebasIndex">
-<div>
-<img src="" alt="">
-<article>
-<p>COMUNICACIONES</p>
-<p>HOCKEY</p>
-</article>
-</div>
-<div>
-<img src="" alt="">
-<article>
-<p>HACOAJ</p>
-<p>TENIS</p>
-</article>
-</div>
-<div>
-<img src="" alt="">
-<article>
-<p>BOCA JUNIORS</p>
-<p>FUTBOL</p>
-</article>
-</div>
-</section>
-<section class="Sect2">
-<div>
-z
-<article>
-<p>¿Querés inspirarte con otros deportistas?</p>
-<p>Mirá los mejores clips y jugadas de jóvenes atletas como vos.</p>
-</article>
-<a href='@Url.Action("irVideos", "Home")'> Videos</a>
-</div>
-</section>
-<section class="VideosIndex">
-<img src="" alt="">
-<img src="" alt="">
-<img src="" alt="">
-</section>
-<section class="Sect1">
-<div>
-<a href='@Url.Action("irMensajes", "Home")'> Mensajes</a>
-<article>
-<p>¿Querés conectar con otros deportistas o reclutadores?</p>
-<p>Chateá, hacé contactos y recibi noticias de las proximas pruebas de los equipos.</p>
-</article>
-</div>
-</section>
-  <footer>
-    <div>
-      <img src="img/logo.png" alt="Sportlink">
-      <p>
-        Conectando el talento joven con su futuro profesional.<br>
-        Damos visibilidad a tu talento y les abrimos las puertas<br>
-        a nuevas oportunidades
-      </p>
+      <div class="banner-texto">
+        <h1>Convertí tu talento en<span> oportunidades</span></h1>
+        <p>Conectate con clubes, participá en pruebas deportivas, compartí tus mejores jugadas y construí tu carrera profesional.</p>
+        
+        <a href='@Url.Action("irUser", "Session")'><button>Comenzá gratis</button></a>
+    
+        <section class="estadisticas">
+          <div><h2>+500</h2> <h3>Clubes</h3></div>
+          <div><h2>+10k</h2> <h3>Jugadores</h3></div>
+          <div><h2>+200</h1> <h3>Pruebas</h3></div>
+          <div><h2>+15k</h2> <h3>Scouts</h3></div>
+        </section>
+      </div>  
+    
+      <img src="/Imagenes/tenis.png" alt="Jugador de tenis">
+    
+    </section>
+
+  <section class = "landing">
+    <h2>Todo lo que necesitás para crecer</h2>
+    <p>Una plataforma diseñada para potenciar tu carrera deportiva desde el primer día.</p>
+
+    <div class="servicios">
+      <article>
+        <img src="/Imagenes/objetivo.png" alt="">
+        <h3>Pruebas Deportivas</h3>
+        <p>Accedé a convocatorias de clubes de todo el país. Encontrá la oportunidad perfecta para demostrar tu talento.</p>
+      </article>
+
+      <article>
+        <img src="/Imagenes/camara.png" alt="">
+        <h3>Videos Destacados</h3>
+        <p>Mirá las mejores jugadas, aprendé nuevas técnicas y compartí tus propios momentos destacados.</p>
+      </article>
+
+      <article>
+        <img src="/Imagenes/mensajes.png" alt="">
+        <h3>Mensajes Directos</h3>
+        <p>Conectate con reclutadores y otros deportistas. Recibí notificaciones de nuevas oportunidades.</p>
+      </article>
     </div>
-  
-    <div>
-      <h3>Explorá</h3>
-      <ul>
-        <li><a href='@Url.Action("Index", "Home")'>Inicio</a></li>
-        <li><a href='@Url.Action("irVideos", "Home")'>Videos</a></li>
-        <li><a href='@Url.Action("irPruebas", "Home")'>Pruebas</a></li>
-      </ul>
+  </section>
+  <section>
+    <h2>Visitá las pruebas más recientes</h2>
+    <p>Demostrá tu talento de manera presencial en las últimas pruebas presentadas por los clubes.</p>
+    <button>Visitar pruebas</button>
+  </section>
+
+ 
+  <section>
+    <h2>Videos que inspiran</h2>
+    <p>Mirá las mejores jugadas, aprendé nuevas técnicas y compartí tus propios momentos destacados.</p>
+
+    <div class="videos">
+      <article>
+        <img src="/Imagenes/futbol.png" alt="Video de fútbol destacado" />
+        <p>Visión, control y pura magia con el balón ✨ Cada toque cuenta, cada jugada demuestra el trabajo detrás del sueño 💪🔥 #Futbol</p>
+        <span class="etiqueta">Fútbol</span>
+      </article>
+
+      <article>
+        <img src="/Imagenes/atl.png" alt="Video de atletismo destacado" />
+        <p>Explosividad pura desde los bloques 🔥 Cuando el trabajo duro se convierte en velocidad 💨 #TrackLife #SprintMode #NoLimits</p>
+        <span class="etiqueta">Atletismo</span>
+      </article>
+
+      <article>
+        <img src="/Imagenes/VideoCard.png" alt="Video de atletismo destacado" />
+        <p>Velocidad, precisión y mentalidad ganadora 💥 Así se entrena para dominar la cancha 🎾🔥 #TennisLife #Entrenamiento #Tenis</p>
+        <span class="etiqueta">Tenis</span>
+      </article>
+
+      <article>
+        <img src="/Imagenes/basket.png" alt="Video de atletismo destacado" />
+        <p>Control total del juego 💪 Cada movimiento cuenta, cada pase importa 🏀✨ #BasketballDreams #GameTime #SkillShowcase</p>
+        <span class="etiqueta">Basketball</span>
+      </article>
     </div>
-  
-    <div>
-      <h3>Seguinos</h3>
-      <div class="redes">
-        <img src="img/ig.png" alt="Instagram">
-        <img src="img/tw.png" alt="X">
+  </section>
+
+<section class="comunidad">
+
+
+  <div class="contenido">
+    <div class="items">
+        <h4>Conectate con toda la comunidad</h4>
+  <h5>Chateá con reclutadores, entrenadores y otros deportistas. Recibí notificaciones de nuevas oportunidades y mantenete siempre informado.</h5>
+
+      <div>
+        <img src="/Imagenes/mensajes3.png" alt="">
+        <article>
+          <h3>Empieza tus conversaciones</h3>
+          <p>Conversaciones instantáneas con miembros de la plataforma.</p>
+        </article>
       </div>
-      <h3>Contacto</h3>
-      <p>
-        email: sportlink@gmail.com<br>
-        teléfono: +54 0000 0000
-      </p>
+
+      <div>
+        <img src="/Imagenes/personas3.png" alt="">
+        <article>
+          <h3>Interactuá con otras personas</h3>
+          <p>Formá relaciones con otros jugadores o scouts.</p>
+        </article>
+      </div>
+
+      <div>
+        <img src="/Imagenes/estrellas3.png" alt="">
+        <article>
+          <h3>Notificaciones inteligentes</h3>
+          <p>Recibí alertas de nuevas pruebas y oportunidades.</p>
+        </article>
+      </div>
     </div>
-  </footer>
+
+    <div class="imagen-lateral">
+      <img src="/Imagenes/scout.png" alt="Imagen de comunidad deportiva">
+    </div>
+  </div>
+</section>
+
+
+  <section class="conversa">
+    <div>
+      <img src="/Imagenes/mensajes2.png" alt="">
+    <h2>Conversá con los usuarios</h2>
+    <p>Empezá a escribirte con otros jugadores o scouts para formar tu carrera profesional.</p>
+    <button>Visitar mensajes</button>
+    </div>
+  </section>
+
+
+
+</main>
+<footer>
+  <div>
+    <img src="/Imagenes/logo (3).png" alt="Sportlink">
+    <p>
+      Conectando el talento joven con su futuro profesional.<br>
+      Damos visibilidad a tu talento y les abrimos las puertas<br>
+      a nuevas oportunidades
+    </p>
+  </div>
+
+  <div>
+    <h3>Explorá</h3>
+    <ul>
+      <li><a href="Index.cshtml">Inicio</a></li>
+      <li><a href="Videos.cshtml">Videos</a></li>
+      <li><a href="Pruebas.cshtml">Pruebas</a></li>
+    </ul>
+  </div>
+
+  <div>
+    <h3>Seguinos</h3>
+    <div class="redes">
+      <img src="/Imagenes/insta-removebg-preview 2.png" alt="Instagram">
+      <p>sportlink</p>
+      <img src="/Imagenes/tw.png" alt="X">
+    </div>
+    <h3>Contacto</h3>
+    <p>
+      email: sportlink@gmail.com<br>
+      teléfono: +54 0000 0000
+    </p>
+  </div>
+</footer>
+
+  </body>
+</html>

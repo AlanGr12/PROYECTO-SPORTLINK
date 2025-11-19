@@ -29,7 +29,7 @@ header {
 }
 
 header img {
-  height: 2.5em;
+  height: 25%;
   width: auto;
 }
 
@@ -73,6 +73,9 @@ nav ul li img {
   overflow: hidden;
 }
 
+.banner h2{
+  color: white;
+}
 .banner img {
   width: 100%;
   height: auto;
@@ -150,6 +153,50 @@ section article p:last-child {
   margin: 0 auto;
 }
 
+.list-group-item.active {
+  background-color: #26b9ab;
+  color: white;
+  border-color: #000000;
+}
+
+.list-group-item.active h6 {
+  color: white;
+}
+
+.list-group-item {
+  cursor: pointer;
+}
+
+.chat-item h5	{
+  font-size: 20px;
+  font-family: 'Monbloc-Inst-Heavy';
+}
+
+
+.chat-item .left-side h5 {
+font-size: 16px;
+font-family: 'Monbloc-Inst-Heavy';
+}
+
+
+.chat-item .left-side h4 {
+font-size: 18px;
+font-weight: 700;
+font-family: 'Monbloc-Inst-Heavy';
+color: #3CFBDD;
+}
+
+
+.chat-item h6 {
+font-size: 12px;
+color: #888;
+}
+
+
+.chat-item .left-side h4 {
+color: #3CFBDD;
+}
+
 .pruebasIndex {
   width: 100%;
   display: flex;
@@ -218,7 +265,7 @@ footer  div {
 }
 
 footer img {
-  height: 2.8em;
+  height: 25%;
   width: auto;
 }
 
@@ -255,7 +302,7 @@ footer ul li a:hover {
 }
 
 footer div div img {
-  height: 1.8em;
+  height: 12%;
   margin-right: 8%;
 }
 
@@ -505,16 +552,542 @@ color: #3CFBDD;
   font-weight: bold;
   font-size: 14px;
   padding: 2.2% 10%;  
-  border-radius: 10px; /* un poco más redondeado, mejora la percepción */
+  border-radius: 10px; 
   border: 2px solid black;
-  box-sizing: border-box; /* evita que el borde cambie el tamaño */
+  box-sizing: border-box; 
   color: black;
   background-color: white;
  
 }
 
-/* Opcional: efecto hover simple sin transición */
 .btn:hover {
   opacity: 0.8;
 }
 
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("/Imagenes/fondo2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+ 
+}
+header 
+ {
+   background-color: #000;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 1% 4%;
+   box-sizing: border-box;
+   position: sticky;
+   top: 0;
+   border-bottom: 2px solid white;
+ }
+
+header img {
+width: 10%;
+}
+
+nav{
+position: sticky;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin-left: 26%;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Monbloc-Inst-Heavy';
+  font-weight: bold;
+  margin-left: 10%;
+  font-size: 120%;
+}
+
+nav ul li a:hover {
+  color: #3CFBDD;
+}
+
+nav ul li img {
+  margin-top: 2%;
+  width: auto;
+  max-width: 60px;
+}
+header img{
+width: 18%;
+}
+
+
+nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 40px; 
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #00e6d4;
+  font-weight: bold;
+
+}
+
+nav ul li a:hover {
+  color: white;
+}
+  
+  body {
+  width: 100%;
+  color: #fff;
+ 
+  }
+  
+  /* ----- BANNER ----- */
+  .banner {
+    width: 80%;
+    background-color: #000; 
+    display: flex;                  
+    align-items: center;           
+    justify-content: space-between; 
+    flex-direction: row;            
+    padding: 6% 10%;
+    gap: 5%;                      
+    text-align: left;
+  }
+  
+  .banner-texto {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    width: 60%;
+  }
+  
+  .banner img {
+    width: 40%;
+    border-radius: 10px;
+  }
+  
+  .banner h1 {
+    font-size: 250%;
+    margin-bottom: 2%;
+  }
+  
+  .banner h1 span {
+    color: #3cfbdd;
+  }
+  
+  .banner p {
+    width: 100%; 
+    margin-bottom: 4%;
+    font-size: 120%;
+    line-height: 150%;
+  }
+  
+  
+  .banner .estadisticas {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 4%;          
+    margin-top: 3%;
+  }
+  .banner .estadisticas h3
+  {
+   margin-left: 36%;
+  }
+
+  .banner .estadisticas div {
+    font-size: 100%;
+  }
+  
+  .banner button {
+    background-color: #000000;
+    color: #3cfbdd;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 1.5% 4%;
+    font-weight: bold;
+    margin-top: 3%;
+    width: 28%;
+  }
+
+
+ 
+  /* ----- SECCIONES GENERALES ----- */
+  main section {
+  width: 80%;
+  margin: 6% auto;
+  text-align: center;
+  }
+  
+  main h2 {
+  font-size: 200%;
+  color: #000000;
+  margin-bottom: 2%;
+  margin-right: 34%;
+  font-size: 'Monbloc-Inst-Heavy';
+  }
+
+  .banner-texto h1, span{
+    font-family: 'Monbloc-Inst-Heavy';
+  }
+
+  .banner-texto p{
+    
+    color: white;
+  }
+  
+  .estadisticas h2{
+    font-family: 'Monbloc-Inst-Heavy';
+  
+  }
+  .estadisticas{
+    margin-left: 0%;
+  }
+
+  .estadisticas div {
+ margin-right: 12%;
+ margin-left: 0%;
+  }
+
+  .estadisticas h3{
+    font-family: 'Monbloc-Inst-Heavy';
+  }
+  .banner h2{
+    color: white;
+    font-family: 'Monbloc-Inst-Heavy';
+  }
+
+  .landing h2{
+
+    font-family: 'Monbloc-Inst-Heavy';
+    
+  }
+
+  .banner{
+    margin-top: 0%;
+  }
+
+  .banner-texto button{
+    margin-bottom: 10%;
+  }
+  main p {
+  font-size: 110%;
+  width: 100%;
+  line-height: 150%;
+  color: #000;
+  margin-bottom: 12%;
+  }
+  
+
+  /* ----- SERVICIOS ----- */
+  .servicios {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 4%;
+  }
+  
+  .servicios article {
+    text-align: left;
+  background-color: #ffffff;
+  border: 2.5px solid #bebebe;
+  width: 26%;
+  padding: 2%;
+  border-radius: 30px;
+  }
+  
+  .servicios h3 {
+  color: #000000;
+  margin-bottom: 3%;
+  margin-top: 3%;
+  }
+
+  .servicios p {
+    color: #000;
+    width: 100%;
+    margin-bottom: 0%;
+  }
+  .servicios img{
+  width: 17%;
+  }
+  /* ----- VIDEOS ----- */
+  .videos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 4%;
+  }
+  
+  .videos article {
+  width: 21%;
+  background-color: #ffffff;
+  border: 2px solid #bebebe;
+  border-radius: 10px;
+  text-align: left;
+  }
+  .videos p{
+  padding-left: 2%;
+  }
+  
+  .videos img {
+  width: 100%;
+  margin-bottom: 3%;
+  }
+  
+  .etiqueta {
+  display: inline-block;
+  border: 2px solid #C5FEF4;
+  background-color: #E7FFF9;
+  color: #000;
+  font-weight: bold;
+  padding: 1% 3%;
+  border-radius: 10px;
+  margin: 4%;
+  }
+  
+  /* ----- COMUNIDAD ----- */
+.comunidad {
+  margin-left: 8%;
+  margin-top: 1%;
+  text-align: left;
+}
+
+.comunidad h4 {
+  color: #000;
+  font-size: 250%;
+  width: 75%;
+}
+
+.comunidad h5 {
+  
+  color: #000;
+  font-size: 100%;
+  margin-top: 2%;
+  margin-bottom: 5%;  
+}
+.comunidad h3 {
+color: #000;
+}
+
+
+.contenido {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2%;
+  gap: 5%;
+}
+
+
+.items div {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1%;
+}
+
+.items img {
+  width: 9%;
+  height: 9%;
+  margin-right: 1%;
+  border-radius: 10px;
+}
+
+
+  .imagen-lateral img 
+  {
+    width: 130%;
+  }
+
+
+  .conversa div{
+   background-color: #000;
+   border-radius: 20px;
+  }
+.conversa h2{
+  color: white;
+  margin-right: 30%;
+  margin-left: 30%;
+  width: 40%;
+}
+.conversa p{
+  color: white;
+  margin-left: 30%;
+  width: 40%;
+  margin-bottom: 4%;
+}
+.conversa img{
+padding-top: 3%;
+}
+ .conversa button{
+  margin-bottom: 2%;
+ }
+
+  button {
+  background-color: #3cfbdd;
+  color: #000;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  padding: 1.5% 4%;
+  }
+
+  footer {
+    background-color: #000;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 2% 5%;
+    font-family: Arial, sans-serif;
+    
+    
+  }
+  
+  footer  div {
+    width: 30%;
+  }
+  
+  footer img {
+    height: 25%;
+    width: auto;
+  }
+  
+  footer p {
+    font-size: 85%;
+    color: #ccc;
+    line-height: 1.5;
+  }
+  
+  footer h3 {
+    color: #3CFBDD;
+    font-weight: 500;
+    margin-bottom: 6%;
+    font-size: 110%;
+  }
+  
+  footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  footer ul li {
+    margin-bottom: 6%;
+  }
+  
+  footer ul li a {
+    text-decoration: none;
+    color: #3CFBDD;
+  }
+  
+  footer ul li a:hover {
+    color: white;
+  }
+  
+  footer div div img {
+    width: 22%;
+    height: 22%;
+  }
+  
+  footer a {
+    display: block;
+    margin-top: 6%;
+    color: #3CFBDD;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    color: white;
+  }
+  
+  footer div p:last-child {
+    font-size: 75%;
+    margin-top: 4%;
+  }
+
+  .inicioJugador h1{
+    text-align: center; 
+    padding-top: 2%;
+    font-family: 'Monbloc-Inst-Heavy';
+  
+  }
+  
+  .inicioJugador img{
+    padding-top: 3%;
+    width: 24%;
+    margin-left: 38%;
+    padding-bottom: 2%;
+  }
+  
+  .inicioJugador input, h2{
+    margin-left: 36%;
+  }
+  
+  .inicioJugador h2{
+    font-family: 'Monbloc-Inst-Heavy';
+  }
+  
+  .inicioJugador div input{
+    width: 27%;
+    padding: 0.4%;
+  }
+  
+  .inicioJugador input[type="submit"] {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 1.2% 6%;
+    font-weight: bold;
+    margin-top: 2%;
+  }
+  
+  
+  .dropdown-menu select {
+    padding-left: 0%;
+    text-align: left;
+  }
+  .dropdown-menu option {
+    text-align: left;
+  }
+  .pruebasSubidas 
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 95%;
+  margin-left: 2.5%;
+}
+
+.pruebasSubidas div{
+width: 30%;
+background-color: #ffffff;
+border: 2px solid #bebebe;
+border-radius: 10px;
+text-align: left;
+margin-bottom: 15%;
+}
+
+.pruebasSubidas img{
+  width: 100%;
+  margin-bottom: 3%;
+}

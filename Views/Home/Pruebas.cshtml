@@ -81,26 +81,28 @@
 }
     </nav>
   <main>
-    <section> 
+    <section class= pruebasSubidas> 
     
  <!--   @foreach (Pruebas Prueba in ViewBag.Pruebas){
       
       
-       <p><strong>Deporte: @Prueba.Deporte</p>
-       <p><strong>Categoria:</strong> @Prueba.Categoria</p>
-       <p><strong>Fecha de la prueba:</strong> @Prueba.fechaPrueba</p>
-       <p><strong>Club:</strong> @Prueba.Nombre</p>
+       <p><h5>Deporte: @Prueba.Deporte</p>
+       <p><h5>Categoria:</h5> @Prueba.Categoria</p>
+       <p><h5>Fecha de la prueba:</h5> @Prueba.fechaPrueba</p>
+       <p><h5>Club:</h5> @Prueba.Nombre</p>
     }
     -->
     @for (int i = 0; i < ViewBag.Pruebas.Count; i++)
 {
+   
     var prueba = ViewBag.Pruebas[i];
+    <div>
     <img src= "/@prueba.Imagen" alt="Foto Prueba">
-    <p><strong>Deporte:</strong> @prueba.Deporte</p>
-    <p><strong>Categoria:</strong> @prueba.Categoria</p>
-    <p><strong>Fecha de la prueba:</strong> @prueba.fechaPrueba</p>
-    <p><strong>Club:</strong> @prueba.Nombre</p>
-    
+    <h5>Deporte:</h5> @prueba.Deporte
+    <h5>Categoria:</h5> @prueba.Categoria
+    <h5>Fecha de la prueba:</h5> @prueba.fechaPrueba
+    <h5>Club:</h5> @prueba.Nombre
+    </div>
     
     
 }
@@ -113,7 +115,7 @@
 
          <footer>
     <div>
-      <img src="img/logo.png" alt="Sportlink">
+      <img src="/Imagenes/logo.png" alt="Sportlink">
       <p>
         Conectando el talento joven con su futuro profesional.<br>
         Damos visibilidad a tu talento y les abrimos las puertas<br>
