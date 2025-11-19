@@ -3,11 +3,7 @@ html {
   min-height: 100%;
 }
 
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
-}
+
 
 
 @font-face {
@@ -28,10 +24,7 @@ header {
   box-sizing: border-box;
 }
 
-header img {
-  height: 25%;
-  width: auto;
-}
+
 
 nav ul {
   list-style: none;
@@ -197,6 +190,12 @@ color: #888;
 color: #3CFBDD;
 }
 
+.mensajesview{
+margin: 0%;
+padding: 0%;
+width: 100%;
+}
+
 .pruebasIndex {
   width: 100%;
   display: flex;
@@ -265,15 +264,10 @@ footer  div {
 }
 
 footer img {
-  height: 25%;
-  width: auto;
+  width: 50%;
 }
 
-footer p {
-  font-size: 85%;
-  color: #ccc;
-  line-height: 1.5;
-}
+
 
 footer h3 {
   color: #3CFBDD;
@@ -593,9 +587,7 @@ header
    border-bottom: 2px solid white;
  }
 
-header img {
-width: 10%;
-}
+
 
 nav{
 position: sticky;
@@ -627,11 +619,8 @@ nav ul li a:hover {
   color: #3CFBDD;
 }
 
-nav ul li img {
-  margin-top: 2%;
-  width: auto;
-  max-width: 60px;
-}
+
+
 header img{
 width: 18%;
 }
@@ -732,20 +721,22 @@ nav ul li a:hover {
 
 
  
+
+ 
   /* ----- SECCIONES GENERALES ----- */
   main section {
-  width: 80%;
-  margin: 6% auto;
-  text-align: center;
-  }
-  
-  main h2 {
-  font-size: 200%;
-  color: #000000;
-  margin-bottom: 2%;
-  margin-right: 34%;
-  font-size: 'Monbloc-Inst-Heavy';
-  }
+    width: 80%;
+    margin: 6% auto;
+    text-align: center;
+    }
+    
+    main h2 {
+    font-size: 200%;
+    color: #000000;
+    margin-bottom: 2%;
+    margin-right: 34%;
+    font-size: 'Monbloc-Inst-Heavy';
+    }
 
   .banner-texto h1, span{
     font-family: 'Monbloc-Inst-Heavy';
@@ -966,13 +957,10 @@ padding-top: 3%;
     width: 30%;
   }
   
-  footer img {
-    height: 25%;
-    width: auto;
-  }
+ 
   
   footer p {
-    font-size: 85%;
+    font-size: 9%;
     color: #ccc;
     line-height: 1.5;
   }
@@ -1069,6 +1057,7 @@ padding-top: 3%;
   .dropdown-menu option {
     text-align: left;
   }
+
   .pruebasSubidas 
 {
   display: flex;
@@ -1078,16 +1067,39 @@ padding-top: 3%;
   margin-left: 2.5%;
 }
 
-.pruebasSubidas div{
-width: 30%;
-background-color: #ffffff;
-border: 2px solid #bebebe;
-border-radius: 10px;
-text-align: left;
-margin-bottom: 15%;
-}
+
 
 .pruebasSubidas img{
   width: 100%;
   margin-bottom: 3%;
 }
+.pruebasSubidas div {
+  width: 30%;
+  background-color: #ffffff;
+  border: 2px solid #bebebe;
+  border-radius: 10px;
+  text-align: left;
+  margin-bottom: 15%;
+  display: flex;
+  flex-direction: column; 
+}
+
+.pruebasSubidas button {
+  background-color: #000000;
+  color: #3cfbdd;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 1.5% 4%;
+  font-weight: bold;
+  width: 90%;
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-bottom: 5%;
+}
+
+.tituloPruebas h1{
+font-family: 'Monbloc-Inst-Heavy';
+text-align: center;
+}
+
+
