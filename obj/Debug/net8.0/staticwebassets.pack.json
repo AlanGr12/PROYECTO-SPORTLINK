@@ -57,8 +57,56 @@
       "PackagePath": "staticwebassets\\imagenes\\MMA.png"
     },
     {
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\VideoCard.png",
+      "PackagePath": "staticwebassets\\imagenes\\VideoCard.png"
+    },
+    {
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\atl.png",
+      "PackagePath": "staticwebassets\\imagenes\\atl.png"
+    },
+    {
       "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\banner.jpg",
       "PackagePath": "staticwebassets\\imagenes\\banner.jpg"
+    },
+    {
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\basket.png",
+      "PackagePath": "staticwebassets\\imagenes\\basket.png"
+    },
+    {
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\camara.png",
+      "PackagePath": "staticwebassets\\imagenes\\camara.png"
+    },
+    {
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\camara2.png",
+      "PackagePath": "staticwebassets\\imagenes\\camara2.png"
+    },
+    {
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\camarav.png",
+      "PackagePath": "staticwebassets\\imagenes\\camarav.png"
+    },
+    {
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\circulo.png",
+      "PackagePath": "staticwebassets\\imagenes\\circulo.png"
+    },
+    {
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\comentario.png",
+      "PackagePath": "staticwebassets\\imagenes\\comentario.png"
+    },
+    {
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\estrella.png",
+      "PackagePath": "staticwebassets\\imagenes\\estrella.png"
+    },
+    {
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\estrellas3.png",
+      "PackagePath": "staticwebassets\\imagenes\\estrellas3.png"
+    },
+    {
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\fondo2.png",
+      "PackagePath": "staticwebassets\\imagenes\\fondo2.png"
+    },
+    {
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\futbol.png",
+      "PackagePath": "staticwebassets\\imagenes\\futbol.png"
     },
     {
       "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\ig.png",
@@ -69,6 +117,18 @@
       "PackagePath": "staticwebassets\\imagenes\\inicio.png"
     },
     {
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\inicioSesion.png",
+      "PackagePath": "staticwebassets\\imagenes\\inicioSesion.png"
+    },
+    {
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\insta-removebg-preview 2.png",
+      "PackagePath": "staticwebassets\\imagenes\\insta-removebg-preview 2.png"
+    },
+    {
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\logo (3).png",
+      "PackagePath": "staticwebassets\\imagenes\\logo (3).png"
+    },
+    {
       "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\logo.png",
       "PackagePath": "staticwebassets\\imagenes\\logo.png"
     },
@@ -77,12 +137,56 @@
       "PackagePath": "staticwebassets\\imagenes\\logonegro.png"
     },
     {
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\mensaje.png",
+      "PackagePath": "staticwebassets\\imagenes\\mensaje.png"
+    },
+    {
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\mensajes.png",
+      "PackagePath": "staticwebassets\\imagenes\\mensajes.png"
+    },
+    {
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\mensajes2.png",
+      "PackagePath": "staticwebassets\\imagenes\\mensajes2.png"
+    },
+    {
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\mensajes3.png",
+      "PackagePath": "staticwebassets\\imagenes\\mensajes3.png"
+    },
+    {
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\objetivo.png",
+      "PackagePath": "staticwebassets\\imagenes\\objetivo.png"
+    },
+    {
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\objetivo2.png",
+      "PackagePath": "staticwebassets\\imagenes\\objetivo2.png"
+    },
+    {
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\personas.png",
+      "PackagePath": "staticwebassets\\imagenes\\personas.png"
+    },
+    {
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\personas3.png",
+      "PackagePath": "staticwebassets\\imagenes\\personas3.png"
+    },
+    {
       "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\sanDiego.png",
       "PackagePath": "staticwebassets\\imagenes\\sanDiego.png"
     },
     {
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\scout.png",
+      "PackagePath": "staticwebassets\\imagenes\\scout.png"
+    },
+    {
       "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\tarjeta personal sportlink.png",
       "PackagePath": "staticwebassets\\imagenes\\tarjeta personal sportlink.png"
+    },
+    {
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\tenis.png",
+      "PackagePath": "staticwebassets\\imagenes\\tenis.png"
+    },
+    {
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\tenisb.png",
+      "PackagePath": "staticwebassets\\imagenes\\tenisb.png"
     },
     {
       "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\tp bd 2 .png",

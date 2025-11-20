@@ -1,75 +1,99 @@
- <header>
-        <img src="/Imagenes/logo.png" alt="Sportlink">
-        <nav>
-          <ul>
+<header>
+    <img src="/Imagenes/logo.png" alt="Sportlink">
+    <nav>
+        <ul>
             <li><a href='@Url.Action("irPruebas", "Home")'>Pruebas</a></li>
             <li><a href='@Url.Action("irVideos", "Home")'>Videos</a></li>
             <li><a href='@Url.Action("irMensajes", "Home")'>Mensajes</a></li>
-          @if (ViewBag.Usuario != null && ViewBag.Usuario.FotoPerfil != null)
-  {
-    <img class = "fotoUsuario" src="@ViewBag.Usuario.FotoPerfil" alt="Foto de perfil">
-  }
-      else  
-{
-    <a href='@Url.Action("irUser", "Session")'><img src="/Imagenes/inicio.png"></a>
+            @if (ViewBag.Usuario != null && ViewBag.Usuario.FotoPerfil != null)
+            {
+                <img class="fotoUsuario" src="@ViewBag.Usuario.FotoPerfil" alt="Foto de perfil">
+            }
+            else
+            {
+                <a href='@Url.Action("irUser", "Session")'><img src="/Imagenes/inicio.png"></a>
+            }
+        </ul>
+    </nav>
+</header>
 
-}
-          </ul>
-        </nav>
+<body class= "nscroll">
+    <div class="main-layout">
+        <div class="video-wrapper">
+            <video class="video-player" loop muted autoplay playsinline>
+                <source src="~/videos/video1.mp4" type="video/mp4" />
+            </video>
+
+            <div class="video-info-overlay">
+                <h3 class="username">@("@usuario_futbol")</h3>
+                <p class="description">Miren a los jovenes jugando! #sportlink #joventud</p>
+                <div class="music-ticker">♫ Sonido original</div>
+            </div>
+        </div>
+
+        <div class="action-bar-right">
+            
+            <div class="action-item profile-wrapper">
+                <img src="/Imagenes/inicio.png" class="avatar-img">
+                <span class="plus-badge">+</span>
+            </div>
+
+            <div class="action-item">
+                <div class="icon-circle">
+                    <img src="https://cdn-icons-png.flaticon.com/512/1077/1077035.png" alt="Like">
+                </div>
+                <span class="count">1.2K</span>
+            </div>
+
+            <div class="action-item">
+                <div class="icon-circle">
+                    <img src="https://cdn-icons-png.flaticon.com/512/1380/1380338.png" alt="Comment">
+                </div>
+                <span class="count">56</span>
+            </div>
+
+            <div class="action-item">
+                <div class="icon-circle">
+                    <img src="https://cdn-icons-png.flaticon.com/512/2550/2550209.png" alt="Share">
+                </div>
+                <span class="count">Share</span>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="page-navigation">
+        @if (ViewBag.TipoUsuario == "jugador")
+        {
+            <a href='@Url.Action("irSubirVideo", "Home")' class="btn-subir">SUBIR VIDEO</a>
+        }
         
-      </header>
-<body>
-
-<section>
-
-@if (ViewBag.TipoUsuario == "jugador")
-{
-    <button class="subirPrueba">
-        <a href='@Url.Action("irSubirVideo", "Home")'>SUBIR</a>
-    </button>
-}
-
-<video controls>
-    <source src="~/videos/video1.mp4" type="video/mp4" />
-</video>
-
-
-
-
-</section>
-
-
+        <div class="nav-arrows">
+            <button class="arrow-btn">&#9650;</button> <button class="arrow-btn">&#9660;</button> </div>
+    </div>
 
 </body>
- <footer>
+
+<footer>
     <div>
-      <img src="img/logo.png" alt="Sportlink">
-      <p>
-        Conectando el talento joven con su futuro profesional.<br>
-        Damos visibilidad a tu talento y les abrimos las puertas<br>
-        a nuevas oportunidades
-      </p>
+        <img src="img/logo.png" alt="Sportlink">
+        <p>Conectando el talento joven...</p>
     </div>
-  
     <div>
-      <h3>Explorá</h3>
-      <ul>
-        <li><a href='@Url.Action("Index", "Home")'>Inicio</a></li>
-        <li><a href='@Url.Action("irVideos", "Home")'>Videos</a></li>
-        <li><a href='@Url.Action("irPruebas", "Home")'>Pruebas</a></li>
-      </ul>
+        <h3>Explorá</h3>
+        <ul>
+            <li><a href='@Url.Action("Index", "Home")'>Inicio</a></li>
+            <li><a href='@Url.Action("irVideos", "Home")'>Videos</a></li>
+            <li><a href='@Url.Action("irPruebas", "Home")'>Pruebas</a></li>
+        </ul>
     </div>
-  
     <div>
-      <h3>Seguinos</h3>
-      <div class="redes">
-        <img src="img/ig.png" alt="Instagram">
-        <img src="img/tw.png" alt="X">
-      </div>
-      <h3>Contacto</h3>
-      <p>
-        email: sportlink@gmail.com<br>
-        teléfono: +54 0000 0000
-      </p>
+        <h3>Seguinos</h3>
+        <div class="redes">
+            <img src="img/ig.png" alt="Instagram">
+            <img src="img/tw.png" alt="X">
+        </div>
+        <h3>Contacto</h3>
+        <p>email: sportlink@gmail.com<br>teléfono: +54 0000 0000</p>
     </div>
-  </footer>
+</footer>

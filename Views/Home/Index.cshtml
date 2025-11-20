@@ -2,6 +2,7 @@
     ViewData["Title"] = "SPORTLINK";
 }
 
+
  <header>
         <img src="/Imagenes/logo.png" alt="Sportlink">
         <nav>
@@ -17,19 +18,23 @@
 {
     <a href='@Url.Action("irUser", "Session")'><img src="/Imagenes/inicio.png"></a>
 
+
 }
           </ul>
         </nav>
-        
+       
       </header>
+      <body>
       <main>
-<body>
+
+
     <section class="banner">
+
 
       <div class="banner-texto">
         <h1>Convertí tu talento en<span> oportunidades</span></h1>
         <p>Conectate con clubes, participá en pruebas deportivas, compartí tus mejores jugadas y construí tu carrera profesional.</p>
-        
+       
         <a href='@Url.Action("irUser", "Session")'><button>Comenzá gratis</button></a>
      
         <section class="estadisticas">
@@ -39,14 +44,15 @@
           <div><h2>+15k</h2> <h3>Scouts</h3></div>
         </section>
       </div>  
-    
+   
       <img src="/Imagenes/tenis.png" alt="Jugador de tenis">
-    
+   
     </section>
 <section class= LandingPage>
   <section class = "landing">
     <h2>Todo lo que necesitás para crecer</h2>
     <p>Una plataforma diseñada para potenciar tu carrera deportiva desde el primer día.</p>
+
 
     <div class="servicios">
       <article>
@@ -55,11 +61,13 @@
         <p>Accedé a convocatorias de clubes de todo el país. Encontrá la oportunidad perfecta para demostrar tu talento.</p>
       </article>
 
+
       <article>
         <img src="/Imagenes/camara.png" alt="">
         <h3>Videos Destacados</h3>
         <p>Mirá las mejores jugadas, aprendé nuevas técnicas y compartí tus propios momentos destacados.</p>
       </article>
+
 
       <article>
         <img src="/Imagenes/mensajes.png" alt="">
@@ -68,16 +76,20 @@
       </article>
     </div>
   </section>
-  <section>
+  <section class= "visitarPruebas">
+  <div class= "fontPrueba">
     <h2>Visitá las pruebas más recientes</h2>
     <p>Demostrá tu talento de manera presencial en las últimas pruebas presentadas por los clubes.</p>
-    <button>Visitar pruebas</button>
+    <a href='@Url.Action("irPruebas", "Home")'><button>Ver pruebas</button></a>
+    </div>
   </section>
 
+
  
-  <section>
+  <section class= "videoLanding">
     <h2>Videos que inspiran</h2>
     <p>Mirá las mejores jugadas, aprendé nuevas técnicas y compartí tus propios momentos destacados.</p>
+
 
     <div class="videos">
       <article>
@@ -86,17 +98,20 @@
         <span class="etiqueta">Fútbol</span>
       </article>
 
+
       <article>
         <img src="/Imagenes/atl.png" alt="Video de atletismo destacado" />
         <p>Explosividad pura desde los bloques 🔥 Cuando el trabajo duro se convierte en velocidad 💨 #TrackLife #SprintMode #NoLimits</p>
         <span class="etiqueta">Atletismo</span>
       </article>
 
+
       <article>
         <img src="/Imagenes/VideoCard.png" alt="Video de atletismo destacado" />
         <p>Velocidad, precisión y mentalidad ganadora 💥 Así se entrena para dominar la cancha 🎾🔥 #TennisLife #Entrenamiento #Tenis</p>
         <span class="etiqueta">Tenis</span>
       </article>
+
 
       <article>
         <img src="/Imagenes/basket.png" alt="Video de atletismo destacado" />
@@ -106,13 +121,17 @@
     </div>
   </section>
 
+
 <section class="comunidad">
+
+
 
 
   <div class="contenido">
     <div class="items">
         <h4>Conectate con toda la comunidad</h4>
   <h5>Chateá con reclutadores, entrenadores y otros deportistas. Recibí notificaciones de nuevas oportunidades y mantenete siempre informado.</h5>
+
 
       <div>
         <img src="/Imagenes/mensajes3.png" alt="">
@@ -122,6 +141,7 @@
         </article>
       </div>
 
+
       <div>
         <img src="/Imagenes/personas3.png" alt="">
         <article>
@@ -129,6 +149,7 @@
           <p>Formá relaciones con otros jugadores o scouts.</p>
         </article>
       </div>
+
 
       <div>
         <img src="/Imagenes/estrellas3.png" alt="">
@@ -139,6 +160,7 @@
       </div>
     </div>
 
+
     <div class="imagen-lateral">
       <img src="/Imagenes/scout.png" alt="Imagen de comunidad deportiva">
     </div>
@@ -146,15 +168,19 @@
 </section>
 
 
+
+
   <section class="conversa">
     <div>
       <img src="/Imagenes/mensajes2.png" alt="">
     <h2>Conversá con los usuarios</h2>
     <p>Empezá a escribirte con otros jugadores o scouts para formar tu carrera profesional.</p>
-    <button>Visitar mensajes</button>
+    <a href='@Url.Action("irMensajes", "Home")'><button>Visitar mensajes</button></a>
     </div>
   </section>
 </section>
+
+
 
 
 </main>
@@ -168,6 +194,7 @@
     </p>
   </div>
 
+
   <div>
     <h3>Explorá</h3>
     <ul>
@@ -177,11 +204,11 @@
     </ul>
   </div>
 
+
   <div>
     <h3>Seguinos</h3>
     <div class="redes">
       <img src="/Imagenes/insta-removebg-preview 2.png" alt="Instagram">
-      <p>sportlink</p>
       <img src="/Imagenes/tw.png" alt="X">
     </div>
     <h3>Contacto</h3>
@@ -192,5 +219,9 @@
   </div>
 </footer>
 
-  </body>
+
+</body>
 </html>
+
+
+
