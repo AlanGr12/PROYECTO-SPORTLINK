@@ -11,10 +11,6 @@
     font-style: normal;
   }
   
- 
-  
-  
-  
   nav ul {
     list-style: none;
     display: flex;
@@ -439,7 +435,7 @@
   .inicioUser button {
     border: none;
     margin-top: 0.1%;
-    margin-left: 42%;
+    margin: 0%;
   }
   
   .inicioUser button a {
@@ -450,35 +446,58 @@
     
   }
   
-  .opcionUser h2{
-    padding-top: 2%;
-    margin-left: 46.2%;
-    font-family: 'Monbloc-Inst-Heavy';
-    
-    
-  
+  .opcionUser {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 4% 0;
   }
   
-  .opcionUser a:hover {
-    color: rgb(255, 255, 255) !important;
-    background-color: #000000 !important;
-  
-  }
-  
-  .opcionUser img{
-    
-    padding-top: 3%;
+  .opcionUser img {
     width: 24%;
-    margin-left: 38%;
+    max-width: 400px;
+    margin-bottom: 2%;
   }
   
-  .opcionUser div{
-    margin-left: 28%;
+  .opcionUser h2 {
+    text-align: center;
+    font-family: "Monbloc-Inst-Heavy";
+    margin: 2% 0;
+    font-size: 2rem;
   }
   
-  .opcionUser div a{
-    margin: 4%;
+  /* Contenedor de botones centrado con flexbox */
+  .opcionUser div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+    margin-top: 3%;
+    width: 100%;
   }
+  
+  .opcionUser div a {
+    text-decoration: none;
+  }
+  
+
+  .opcionUser button {
+    background-color: white;
+    border: 0.8px solid black;
+    border-radius: 8px;
+    padding: 15%;
+    min-width: 200px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .opcionUser button:hover {
+    background-color: #000000;
+    color: white;
+  }
+  
   
   video{
     width: 20%;
@@ -579,24 +598,7 @@
   
   
   
-  .opcionUser a{
-  
-    
-      display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Arial', sans-serif;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 14px;
-    padding: 2.2% 10%;  
-    border-radius: 10px; 
-    border: 2px solid black;
-    box-sizing: border-box; 
-    color: black;
-    background-color: white;
-   
-  }
+ 
   
   .btn:hover {
     opacity: 0.8;
@@ -1233,24 +1235,27 @@
 
   
 @media (300px < width < 700px) {
+  header img{
+  width: 35%;
+  padding: 0.5%;
+  margin-bottom: 3%;
+  margin-left: 3%;
+  }
 
   body.nscroll {
     overflow-y: auto !important;
 }
 
-/* Ocultar lista de chats */
 .mensajesview .col-3 {
     display: none !important;
 }
 
-/* Chat ocupa el 100% */
 .mensajesview .col-9 {
     width: 100% !important;
     flex: 0 0 100% !important;
     max-width: 100% !important;
 }
 
-/* Contenedor ajustado al tamaño real del contenido */
 .mensajes-container {
     height: auto !important;
     overflow: visible !important;
@@ -1264,22 +1269,15 @@
     overflow-y: visible !important;
 }
 
-/* HEADER – más compacto para mobile */
 header {
     padding: 2% 4%;
     position: relative !important;
 }
 
-
-
-
-
-
 header nav ul {
     gap: 12px;
 }
 
-/* FOOTER – ocupa una sola columna */
 footer {
     flex-direction: column;
     text-align: center;
@@ -1575,36 +1573,24 @@ margin-left: 5%;
 
 
 header img{
-  width: 25%;
-  margin-left: 3%;
-  margin-bottom: 3%;
+  width: 20%;
+padding: 0.5%;
 }
 
-
-
-
-
-
-/* =========================================
-   ESTILOS GENERALES DEL CUERPO
-   ========================================= */
    body {
-    background-color: #000; /* Fondo negro total */
+    background-color: #000;
     color: white;
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    overflow-x: hidden; /* Evita scroll horizontal accidental */
+    overflow-x: hidden;
 }
 
-/* =========================================
-   LAYOUT PRINCIPAL (Centro de la pantalla)
-   ========================================= */
 .main-layout {
     display: flex;
-    justify-content: center; /* Centra el bloque completo horizontalmente */
-    align-items: center;     /* Centra verticalmente */
-    min-height: 85vh;        /* Altura suficiente para centrar */
-    gap: 20px;               /* Espacio entre la caja izq, el video y los iconos */
+    justify-content: center;
+    align-items: center;
+    min-height: 85vh;
+    gap: 20px;
     padding: 20px 0;
 }
 
@@ -1618,7 +1604,7 @@ header img{
 }
 
 /* 2. CONTENEDOR DEL VIDEO (CENTRO) */
-.video-wrapper {
+.video-cuadro {
     position: relative;
     width: 400px;       /* Ancho estándar de móvil */
     height: 700px;      /* Alto estándar */
@@ -1650,15 +1636,13 @@ header img{
 .username {
     margin: 0 0 8px 0;
     font-size: 1.1rem;
-    font-weight: bold;
-    text-shadow: 1px 1px 2px rgb(255, 255, 255);
+    font-weight: lighter;
 }
 
 .description {
     margin: 0 0 8px 0;
     font-size: 0.95rem;
     line-height: 1.3;
-    text-shadow: 1px 1px 2px rgb(255, 255, 255);
 }
 
 .music-ticker {
@@ -1816,7 +1800,7 @@ header img{
     padding: 20px 0;
 }
 
-.video-wrapper {
+.video-cuadro {
     position: relative;
     width: 400px;
     height: 700px;
@@ -1846,16 +1830,16 @@ header img{
 
 .username {
     margin: 0 0 8px 0;
+    color: #ffffff;
     font-size: 1.1rem;
-    font-weight: bold;
-    text-shadow: 1px 1px 2px white
+    font-weight: lighter;
 }
 
 .description {
+  color: #ffffff;
     margin: 0 0 8px 0;
     font-size: 0.95rem;
     line-height: 1.3;
-    text-shadow: 1px 1px 2px white
 }
 
 .music-ticker {
@@ -1896,11 +1880,11 @@ header img{
     background-color: #444;
 }
 
-/* El icono (imagen) dentro del círculo */
+
 .icon-circle img {
     width: 26px;
     height: 26px;
-    filter: invert(1); /* Invierte iconos negros a blancos */
+    filter: invert(1);
 }
 
 .count {
@@ -1909,8 +1893,8 @@ header img{
     color: #e1e1e1;
 }
 
-/* Foto de perfil especial con el signo + */
-.profile-wrapper {
+
+.profile-cuadro { 
     position: relative;
     margin-bottom: 10px;
 }
@@ -1954,7 +1938,6 @@ header img{
     z-index: 100;
 }
 
-/* Botón de subir video */
 .btn-subir {
     background-color: #222;
     color: white;
@@ -1996,6 +1979,22 @@ header img{
 
 .arrow-btn:hover {
     background-color: #444;
+}
+
+/* Estilos para el triángulo de pausa */
+.pause-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease;
+  z-index: 10;
+}
+
+.video-cuadro {
+  position: relative;
 }
 
 /* Responsive básico: Si la pantalla es chica, oculta la barra izq */
