@@ -1,10 +1,8 @@
- html {
+ 
+  html {
     font-size: 14px;
     min-height: 100%;
   }
-  
-  
-  
   
   @font-face {
     font-family: 'Monbloc-Inst-Heavy';
@@ -421,7 +419,7 @@
   }
    
   .inicioUser input[type="submit"] {
-     background-color: black;
+    background-color: black;
     color: white;
     border: none;
     margin-left: 42%;
@@ -442,6 +440,7 @@
   
   .inicioUser h5{
     margin-right: 1%;
+    color: black;
   }
   
   
@@ -454,7 +453,6 @@
   
   .inicioUser button {
     border: none;
-  
     margin-top: 0.1%;
     margin-left: 42%;
   }
@@ -1213,3 +1211,120 @@
   text-align: center;
   }
 
+  @media (max-width: 768px) {
+
+
+    body.nscroll {
+      overflow-y: auto !important;
+  }
+
+  /* Ocultar lista de chats */
+  .mensajesview .col-3 {
+      display: none !important;
+  }
+
+  /* Chat ocupa el 100% */
+  .mensajesview .col-9 {
+      width: 100% !important;
+      flex: 0 0 100% !important;
+      max-width: 100% !important;
+  }
+
+  /* Contenedor ajustado al tamaño real del contenido */
+  .mensajes-container {
+      height: auto !important;
+      overflow: visible !important;
+  }
+
+  .mensajes-container .row {
+      height: auto !important;
+  }
+
+  .mensajes-container .col-9 {
+      overflow-y: visible !important;
+  }
+
+  /* HEADER – más compacto para mobile */
+  header {
+      padding: 2% 4%;
+      position: relative !important;
+  }
+
+  header img {
+      width: 28% !important;
+  }
+
+  header nav ul {
+      gap: 12px;
+  }
+
+  /* FOOTER – ocupa una sola columna */
+  footer {
+      flex-direction: column;
+      text-align: center;
+      gap: 25px;
+  }
+
+  footer div {
+      width: 100% !important;
+  }
+
+  footer img {
+      width: 45% !important;
+      margin-bottom: 10px;
+  }
+
+  .inicioUser {
+    padding: 10% 0;
+}
+
+.inicioUser img {
+    width: 55%;
+    margin-bottom: 8%;
+}
+
+.inicioUser div input {
+    width: 70%;
+    padding: 3%;
+}
+
+.inicioUser h2 {
+    text-align: left;
+    width: 70%;
+    margin-left: 15%;
+    font-size: 110%;
+}
+
+.inicioUser input[type="submit"] {
+    width: 50%;
+    padding: 3% 0;
+    margin-left: 0;
+    margin-top: 6%;
+}
+
+.inicioUser h5 {
+    font-size: 90%;
+    margin-top: 10%;
+}
+
+.inicioUser button a {
+    font-size: 90%;
+}
+
+.inicioUser input, h2 {
+   margin-left: 14%; 
+}
+
+.inicioUser img{
+  margin-left: 24%;
+}
+
+.inicioUser input[type="submit"] {
+  margin-left: 26%;
+  } 
+
+  .inicioUser button{
+    margin-top: 2%;
+    margin-right: 50% !important;
+  }
+}
