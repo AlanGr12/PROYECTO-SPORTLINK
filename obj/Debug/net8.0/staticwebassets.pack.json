@@ -89,8 +89,16 @@
       "PackagePath": "staticwebassets\\imagenes\\circulo.png"
     },
     {
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\comentar.png",
+      "PackagePath": "staticwebassets\\imagenes\\comentar.png"
+    },
+    {
       "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\comentario.png",
       "PackagePath": "staticwebassets\\imagenes\\comentario.png"
+    },
+    {
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\compartir.png",
+      "PackagePath": "staticwebassets\\imagenes\\compartir.png"
     },
     {
       "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\estrella.png",
@@ -123,6 +131,10 @@
     {
       "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\insta-removebg-preview 2.png",
       "PackagePath": "staticwebassets\\imagenes\\insta-removebg-preview 2.png"
+    },
+    {
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\like.png",
+      "PackagePath": "staticwebassets\\imagenes\\like.png"
     },
     {
       "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\logo (3).png",
@@ -195,6 +207,10 @@
     {
       "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\tw.png",
       "PackagePath": "staticwebassets\\imagenes\\tw.png"
+    },
+    {
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\user.png",
+      "PackagePath": "staticwebassets\\imagenes\\user.png"
     },
     {
       "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\js\\site.js",

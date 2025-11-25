@@ -355,6 +355,343 @@
   width: 30px;
   }
   
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1% 3%;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  
+  header .logotipo {
+    display: flex;
+    align-items: baseline;
+  }
+  
+  header .logotipo h1:first-child {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    display: inline;
+  }
+  
+  header .logotipo h1:last-child {
+    color: #00e5cc;
+    font-size: 24px;
+    font-weight: bold;
+    display: inline;
+  }
+  
+  header nav {
+    display: flex;
+    gap: 5%;
+  }
+  
+  header nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 1px;
+  }
+  
+  header nav a:hover {
+    color: #00e5cc;
+  }
+  
+  header .usuario {
+    display: flex;
+    align-items: center;
+    gap: 10%;
+  }
+  
+  header .usuario .avatar {
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 50%;
+  }
+  
+  header .usuario p {
+    font-size: 11px;
+    color: #fff;
+  }
+  
+  /* Contenedor y layout */
+  .contenedor {
+    display: flex;
+    flex: 1;
+  }
+  
+  /* Barra lateral */
+  .barra-lateral {
+    width: 30%;
+    background-color: #fff;
+    border-right: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .barra-lateral h2 {
+    padding: 5%;
+    font-size: 24px;
+    font-weight: bold;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  .barra-lateral .busqueda {
+    padding: 3%;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .barra-lateral .busqueda input {
+    padding: 3%;
+    border: 1px solid #333;
+    border-radius: 20px;
+    font-size: 14px;
+    width: 120%;
+  }
+  
+  .contacto {
+    display: flex;
+    align-items: center;
+    padding: 3%;
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+  }
+  
+  .contacto:hover {
+    background-color: #f9f9f9;
+  }
+  
+  .contacto.activo {
+    background-color: #e0f7f5;
+  }
+  
+  .contacto .avatar {
+    width: 50px;
+    height: 50px;
+    background-color: #333;
+    border-radius: 30px;
+    flex-shrink: 0;
+  }
+  
+  .contacto .info {
+    font-size: 10px;
+    margin-left: 3%;
+    min-width: 0;
+  }
+  
+  .contacto .linea-encabezado {
+    display: flex;
+    align-items: center;
+    gap: 2%;
+    margin-bottom: 2%;
+  }
+  
+  
+  
+  .contacto h4 {
+    font-weight: bold;
+    font-size: 14px;
+    white-space: nowrap;
+  }
+  
+  .contacto h6.insignia {
+    background-color: #00e5cc;
+    color: #000;
+    padding: 2px 8px;
+    border-radius: 5px;
+    font-size: 11px;
+    font-weight: bold;
+  }
+  
+  .contacto h5.hora {
+    margin-left: 2%;
+    font-size: 12px;
+    color: #666;
+  }
+  
+  .contacto .info p {
+    font-size: 13px;
+    margin-top: 5%;
+    color: #000000;
+  
+  }
+  
+  
+  .chat {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+  }
+  
+  .chat .encabezado-chat {
+    display: flex;
+    align-items: center;
+    padding: 2%;
+    border-bottom: 1px solid #ddd;
+    background-color: #fff;
+  }
+  
+  .chat .encabezado-chat .avatar {
+    width: 50px;
+    height: 50px;
+    background-color: #333;
+    border-radius: 31px;
+    margin-right: 2%;
+  }
+  
+  .chat .encabezado-chat h3 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  /* Reduciendo tamaño de mensajes para que se vean como en la imagen */
+  /* Ajustando layout de mensajes para que se alineen izquierda/derecha como en la imagen */
+  .mensajes {
+    flex: 1;
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    gap: 2%;
+  }
+  
+  .mensaje {
+    display: flex;
+    width: 100%;
+  }
+  
+  
+  .mensaje.derecha {
+    justify-content: flex-end;
+  }
+  
+  .mensaje p {
+    max-width: 60%;
+    padding: 2%;
+    border-radius: 20px;
+    font-size: 14px;
+  }
+  
+  .mensaje.izquierda p {
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    color: #000;
+  }
+  
+  .mensaje.derecha p {
+    background-color: #fff;
+    border: 1px solid #333;
+    color: #000;
+  }
+  
+  
+  .mensaje .caja-imagen {
+   
+    max-width: 350px;
+    height: 210px;
+    position: relative;
+    border-radius: 15px;
+    background-color: #000;
+    
+  }
+  
+  .mensaje .caja-imagen img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 15px;
+  }
+  
+  .mensaje .superposicion {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: #fff;
+    padding: 5%;
+    text-align: center;
+    border-radius: 15px;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .mensaje .superposicion h4 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 1%;
+  }
+  
+  .mensaje .superposicion h5 {
+    font-size: 11px;
+    color: #00e5cc;
+    font-weight: normal;
+   
+  }
+  
+  .area-entrada {
+    display: flex;
+    padding: 2%;
+    border-top: 1px solid #ddd;
+    background-color: #fff;
+    gap: 2%;
+  }
+  
+  .area-entrada input {
+    padding: 1%;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    font-size: 14px;
+    width: 100%;
+  }
+  
+  .area-entrada button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 35px;
+    font-size: 24px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-top: 1%;
+    justify-content: center;
+  }
+  
+  .area-entrada button:hover {
+    background-color: #333;
+  }
   
   .dropdown-menu select {
     padding-left: 0%;
@@ -791,6 +1128,11 @@
   
     .banner-texto h1, span{
       font-family: 'Monbloc-Inst-Heavy';
+    }
+
+    .banner-texto h5{
+      font-size: 18px;
+      font-weight:lighter;
     }
   
     .banner-texto p{
@@ -1694,7 +2036,7 @@ padding: 0.5%;
 .count {
     font-size: 12px;
     font-weight: 600;
-    color: #e1e1e1;
+    color: #000000;
 }
 
 /* Foto de perfil especial con el signo + */
@@ -1890,7 +2232,7 @@ padding: 0.5%;
 .count {
     font-size: 12px;
     font-weight: 600;
-    color: #e1e1e1;
+    color: #000000;
 }
 
 

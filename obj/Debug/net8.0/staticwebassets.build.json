@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "EYTDKW78jKnolJpYxghxHr4rlhRriMWYAjb4WdpgzC4=",
+  "Hash": "r77/9chp2C4Gj+ZISq/qsh3vXmIQHIO4Di2/637oXFg=",
   "Source": "proyectoSportlink",
   "BasePath": "_content/proyectoSportlink",
   "Mode": "Default",
@@ -283,6 +283,25 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\circulo.png"
     },
     {
+      "Identity": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\comentar.png",
+      "SourceId": "proyectoSportlink",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\",
+      "BasePath": "_content/proyectoSportlink",
+      "RelativePath": "imagenes/comentar.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagenes\\comentar.png"
+    },
+    {
       "Identity": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\comentario.png",
       "SourceId": "proyectoSportlink",
       "SourceType": "Discovered",
@@ -300,6 +319,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\imagenes\\comentario.png"
+    },
+    {
+      "Identity": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\compartir.png",
+      "SourceId": "proyectoSportlink",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\",
+      "BasePath": "_content/proyectoSportlink",
+      "RelativePath": "imagenes/compartir.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagenes\\compartir.png"
     },
     {
       "Identity": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\Comunicaciones.png",
@@ -566,6 +604,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\imagenes\\Kabbadi.png"
+    },
+    {
+      "Identity": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\like.png",
+      "SourceId": "proyectoSportlink",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\",
+      "BasePath": "_content/proyectoSportlink",
+      "RelativePath": "imagenes/like.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagenes\\like.png"
     },
     {
       "Identity": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\logo (3).png",
@@ -927,6 +984,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\imagenes\\tw.png"
+    },
+    {
+      "Identity": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\user.png",
+      "SourceId": "proyectoSportlink",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\",
+      "BasePath": "_content/proyectoSportlink",
+      "RelativePath": "imagenes/user.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagenes\\user.png"
     },
     {
       "Identity": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\VideoCard.png",

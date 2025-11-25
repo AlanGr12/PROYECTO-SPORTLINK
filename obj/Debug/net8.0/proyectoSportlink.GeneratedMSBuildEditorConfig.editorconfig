@@ -18,6 +18,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\48860730\Documents\PROYECTO-SPORTLINK
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/48860730/Documents/PROYECTO-SPORTLINK/Views/Home/anotarsePrueba.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxhbm90YXJzZVBydWViYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/48860730/Documents/PROYECTO-SPORTLINK/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

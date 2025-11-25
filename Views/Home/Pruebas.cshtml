@@ -64,7 +64,11 @@
     <h5>Categoria:</h5> @prueba.Categoria
     <h5>Fecha de la prueba:</h5> @prueba.fechaPrueba
     <h5>Club:</h5> @prueba.Nombre
-    <button>Inscribirme</button>
+    <form action='@Url.Action("inscribirsePrueba","Home")' method="post">
+       <input type="hidden" name="idPrueba" value="@prueba.idPrueba" />
+      <input type="hidden" name="idUsuario" value="@ViewBag.Usuario.idUsuario" />
+    <button type ="submit" name = "idPrueba" value="@prueba.idPrueba">Inscribirme</button>
+    </form>
     </div>
     
     

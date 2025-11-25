@@ -64,7 +64,14 @@ public class HomeController : Controller
     }
 
     public IActionResult irSubirVideo(){
+        
         return View("subirVideo");
+    }
+
+    [HttpPost]
+        public IActionResult inscribirsePrueba(int idPrueba){
+
+        return View("anotarsePrueba");
     }
    public IActionResult GuardarRegistroPruebas(string Descripcion,IFormFile Imagen,string Categoria,string Zona,DateTime fechaPrueba,string Genero,int idDeporte,int idClub)
    {
