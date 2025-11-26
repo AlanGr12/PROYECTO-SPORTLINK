@@ -19,10 +19,11 @@
         </nav>
         
       </header>
-<section>
+<section class="subirPrueba">
 
 <h1>Ingrese datos de la nueva prueba</h1>
 <form action='@Url.Action("GuardarRegistroPruebas","Home")' method= "post" enctype="multipart/form-data" >
+
 <h2>Descripcion</h2>
 <input type="text" name="Descripcion" placeholder="Ingresar descripcion"/>
 <h2>Foto de la prueba</h2>
@@ -31,11 +32,14 @@
 <input type="text" name="Categoria" placeholder="Ingresar Categoria"/>
 <h2>Zona</h2>
 <input type="text" name="Zona" placeholder="Ingresar zona"/>
+
+
+
 <h2>Fecha prueba</h2>
 <input type= "date" name="fechaPrueba" placeholder="Ingresar  fecha "/>
 <h2>Genero</h2>
 <input type="text" name="Genero" placeholder="Ingresar genero"/>
- <label>Deporte</label>
+ <h2>Deporte</h2>
     <select name="idDeporte">
         <option value="1">Fútbol</option>
         <option value="2">Básquet</option>
@@ -52,7 +56,7 @@
         <option value="13">Besibol</option>
         <option value="14">Cricket</option>
     </select>
-     <label>Club</label>
+     <h2>Club</h2>
     <select name="idClub">
         <option value="1">Club Atlético River Plate</option>
         <option value="2">Boca Juniors</option>
@@ -71,8 +75,8 @@
         <option value="15">Comunicaciones</option>
     </select>
 
-    <input type="submit" value="Subir Prueba"/>
-
+   <button> <input type="submit" value="Subir Prueba"/></button>
+</div>
 </form>
 
 </section>

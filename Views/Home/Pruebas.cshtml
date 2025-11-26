@@ -4,8 +4,6 @@
 }
 
 <head>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
 </head>
 
  <header>
@@ -31,20 +29,20 @@
 
 <body>
 
-      @if (ViewBag.TipoUsuario == "scout")
+
+
+  <main>
+  <section class="Pruebastitulo">
+     <h1>Pruebas Subidas</h1>
+            @if (ViewBag.TipoUsuario == "scout")
 {
-    <button class="subirPrueba">
+    <button>
         <a href='@Url.Action("irSubirPrueba", "Home")'>SUBIR</a>
     </button>
 }
-    </nav>
-  <main>
-   <section class = "tituloPruebas">
-  <h1>Pruebas Subidas</h1>
   </section>
     <section class= "pruebasSubidas"> 
-    
-    
+
  <!--   @foreach (Pruebas Prueba in ViewBag.Pruebas){
       
       
@@ -53,6 +51,7 @@
        <p><h5>Fecha de la prueba:</h5> @Prueba.fechaPrueba</p>
        <p><h5>Club:</h5> @Prueba.Nombre</p>
     }
+       
     -->
     @for (int i = 0; i < ViewBag.Pruebas.Count; i++)
 {
@@ -60,13 +59,16 @@
     var prueba = ViewBag.Pruebas[i];
     <div>
     <img src= "/@prueba.Imagen" alt="Foto Prueba">
-    <h5>Deporte:</h5> @prueba.Deporte
-    <h5>Categoria:</h5> @prueba.Categoria
-    <h5>Fecha de la prueba:</h5> @prueba.fechaPrueba
-    <h5>Club:</h5> @prueba.Nombre
+    <h5>Deporte:</h5>
+    <h6> @prueba.Deporte</h6>
+    <h5>Categoria:</h5> 
+    <h6>@prueba.Categoria</h6>
+    <h5>Fecha de la prueba:</h5> 
+    <h6>@prueba.fechaPrueba</h6>
+    <h5>Club:</h5> 
+    <h6>@prueba.Nombre</h6>
     <form action='@Url.Action("inscribirsePrueba","Home")' method="post">
        <input type="hidden" name="idPrueba" value="@prueba.idPrueba" />
-      <input type="hidden" name="idUsuario" value="@ViewBag.Usuario.idUsuario" />
     <button type ="submit" name = "idPrueba" value="@prueba.idPrueba">Inscribirme</button>
     </form>
     </div>
