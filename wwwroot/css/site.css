@@ -2664,4 +2664,348 @@ padding: 0.5%;
     .left-sidebar-box {
         display: none;
     }
+} 
+
+/* Contenedor principal de mensajes */
+.contenedor-mensajes {
+  display: flex;
+  width: 100%;
+  height: 86.5vh; /* VER COMO SE VE EN LA PANTALLA, SI SE VE MAL MODIFCIARLO*/
+  background-color: #fff;
+}
+
+/* Ajustes línea superior del contacto */
+.contacto-item .linea-superior{
+  display: flex;
+  align-items: center;
+  gap: 3%;
+  width: 100%;
+  padding: 0 2%;
+}
+
+.contacto-item .linea-superior h4{
+  margin: 0;
+  font-size: 14px;
+  padding-right: 3%;
+  font-family: 'Monbloc-Inst-Heavy';
+  white-space: nowrap;
+}
+
+.contacto-item .linea-superior h6.scout{
+  margin: 0;
+  padding: 0.3% 2%;
+  font-size: 11px;
+  background-color: #00e5cc;
+  color: #000;
+  border-radius: 18%;
+  white-space: nowrap;
+}
+
+.contacto-item .linea-superior h5.hora{
+  margin: 0;
+  font-size: 12px;
+  color: #000000;
+  padding-left: 1%;
+}
+
+
+
+/* Barra lateral izquierda */
+.barra-lateral-mensajes {
+  width: 30%;
+  background-color: #fff;
+  border-right: 1px solid #ddd;
+  display: flex;
+  flex-direction: column;
+}
+
+.barra-lateral-mensajes h2 {
+  padding: 5%;
+  font-size: 24px;
+  font-weight: bold;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+  color: #000;
+  margin: 0;
+}
+
+.busqueda-mensajes {
+  padding: 3%;
+  border-bottom: 1px solid #ddd;
+}
+
+.busqueda-mensajes input {
+  width: 100%;
+  padding: 3%;
+  border: 1px solid #333;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+/* Items de contacto */
+.contacto-item {
+  display: flex;
+  align-items: center;
+  padding: 3%;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+  gap: 3%;
+}
+
+.contacto-item:hover {
+  background-color: #f9f9f9;
+}
+
+.contacto-item.activo {
+  background-color: #e0f7f5;
+}
+
+.avatar-contacto {
+  width: 50px;
+  height: 50px;
+  background-color: #333;
+  border-radius: 50%;
+}
+
+
+
+/* Usar selectores de descendientes en vez de clases individuales */
+.linea-superior h4 {
+  font-weight: bold;
+  font-size: 14px;
+  color: #000;
+  
+}
+
+.contacto-item p {
+  font-size: 13px;
+  color: #666;
+  margin: 0;
+}
+
+
+/* Área del chat */
+.area-chat {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+}
+
+.encabezado-conversacion {
+  display: flex;
+  align-items: center;
+  padding: 2%;
+  border-bottom: 1px solid #ddd;
+  background-color: #fff;
+  gap: 2%;
+}
+
+.encabezado-conversacion h3 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #000;
+  margin: 0;
+}
+
+/* Mensajes */
+.contenedor-mensajes-chat {
+  flex: 1;
+  padding: 3%;
+  display: flex;
+  flex-direction: column;
+  gap: 2%;
+}
+
+.mensaje {
+  display: flex;
+  width: 100%;
+}
+
+.mensaje.izquierda {
+  justify-content: flex-start;
+}
+
+.mensaje.izquierda {
+  text-align: left;
+}
+
+.mensaje.derecha {
+  justify-content: flex-end;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.mensaje.derecha {
+  text-align: left;
+}
+
+/* Usar selectores de descendientes para mensajes */
+.mensaje p {
+  max-width: 60%;
+  padding: 2%;
+  border-radius: 20px;
+  font-size: 14px;
+  margin: 0;
+}
+
+.mensaje.izquierda p {
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  color: #000;
+}
+
+.mensaje.derecha p {
+  background-color: #fff;
+  border: 1px solid #333;
+  color: #000;
+}
+
+/* Imagen de Talleres */
+.caja-imagen-mensaje {
+  width: 180px;
+  max-width: 180px;
+  height: 180px;
+  border-radius: 15px;
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.caja-imagen-mensaje img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 15px;
+  position: absolute;
+
+}
+
+.caja-imagen-mensaje h5,h4 {
+  text-align: center;
+}
+
+.texto-superpuesto {
+  background-color: rgba(0, 0, 0, 0.75);
+  color: #fff;
+  padding: 5%;
+  text-align: center;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  height: 30%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ 
+}
+
+/* Usar selectores de descendientes para texto superpuesto */
+.caja-imagen-mensaje h4 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  margin: 0;
+}
+
+.caja-imagen-mensaje h5 {
+  font-size: 11px;
+  color: #00e5cc;
+  font-weight: normal;
+  margin: 0;
+}
+
+/* Solo clase para estado especial */
+/* revertir span.leido a h6.leido */
+.mensaje h6.leido {
+  font-size: 12px;
+  color: #666;
+  margin-top: 1%;
+}
+
+/* Entrada de mensaje */
+.entrada-mensaje {
+  display: flex;
+  padding: 2%;
+  border-top: 1px solid #ddd;
+  background-color: #fff;
+  gap: 2%;
+}
+
+.entrada-mensaje input {
+  flex: 1;
+  padding: 2%;
+  border: 1px solid #ddd;
+  border-radius: 25px;
+  font-size: 14px;
+}
+
+.entrada-mensaje button {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 24px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.entrada-mensaje button:hover {
+  background-color: #333;
+}
+
+/* Media queries */
+@media (max-width: 768px) {
+  .contenedor-mensajes {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .barra-lateral-mensajes {
+    width: 100%;
+    height: auto;
+  }
+
+  .area-chat {
+    width: 100%;
+  }
+
+  .mensaje p {
+    max-width: 80%;
+    font-size: 12px;
+  }
+
+  .caja-imagen-mensaje {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media (max-width: 480px) {
+  .linea-superior h4 {
+    font-size: 12px;
+  }
+
+  .mensaje p {
+    font-size: 11px;
+  }
+
+  .encabezado-conversacion h3 {
+    font-size: 16px;
+  }
+
+  .mensaje.derecha {
+    margin-top: 5%;
+  }
+
+  .mensaje.izquierda {
+    margin-top: 5%;
+  }
 }
