@@ -105,6 +105,10 @@
       "PackagePath": "staticwebassets\\imagenes\\compartir.png"
     },
     {
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK-1\\wwwroot\\imagenes\\ej.png",
+      "PackagePath": "staticwebassets\\imagenes\\ej.png"
+    },
+    {
       "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK-1\\wwwroot\\imagenes\\estrella.png",
       "PackagePath": "staticwebassets\\imagenes\\estrella.png"
     },
@@ -213,6 +217,10 @@
       "PackagePath": "staticwebassets\\imagenes\\tenisb.png"
     },
     {
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK-1\\wwwroot\\imagenes\\tito.png",
+      "PackagePath": "staticwebassets\\imagenes\\tito.png"
+    },
+    {
       "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK-1\\wwwroot\\imagenes\\tp bd 2 .png",
       "PackagePath": "staticwebassets\\imagenes\\tp bd 2 .png"
     },
@@ -275,6 +283,10 @@
     {
       "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK-1\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK-1\\wwwroot\\videos\\2932301-uhd_4096_2160_24fps.mp4",
+      "PackagePath": "staticwebassets\\videos\\2932301-uhd_4096_2160_24fps.mp4"
     },
     {
       "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK-1\\wwwroot\\videos\\Video1.mp4",

@@ -67,10 +67,20 @@
     <h6>@prueba.fechaPrueba</h6>
     <h5>Club:</h5> 
     <h6>@prueba.Nombre</h6>
+     @if (ViewBag.TipoUsuario == "jugador" && ViewBag.Usuario.idJugador != null )
+     {
     <form action='@Url.Action("inscribirsePrueba","Home")' method="post">
        <input type="hidden" name="idPrueba" value="@prueba.idPrueba" />
-    <button type ="submit" name = "idPrueba" value="@prueba.idPrueba">Inscribirme</button>
+       <input type="hidden" name="idJugador" value="@ViewBag.Usuario.idJugador" />
+       @if(ViewBag.Pruebas[i].inscripcion)
+       {
+        <h1>Inscripto</h1>
+       }else{
+        <button type="submit">Inscribirse</button>
+       }
+   
     </form>
+     }
     </div>
     
     

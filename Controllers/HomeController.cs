@@ -45,31 +45,184 @@ public class HomeController : Controller
 
 
     public IActionResult irPruebas(){
-           ViewBag.Pruebas = BD.GetPruebas(); 
+         if (HttpContext.Session.GetString("id") !=null)
+        {
+            // traigo de session el tipo y busco con el id en la tabla segun el tipo
+            
+  
+        string tipo = HttpContext.Session.GetString("tipoUsuario");
+
+      
+        int id = int.Parse(HttpContext.Session.GetString("id"));
+
+    
+        if (tipo == "jugador")
+        {
+            Jugador j = BD.GetJugadorPorId(id);
+            ViewBag.Usuario = j;
+        }
+        else if (tipo == "scout")
+        {
+            Scouter s = BD.GetScoutPorId(id);
+            ViewBag.Usuario = s;
+        }
+             List<Pruebas> pruebas = BD.GetPruebas();
+           List<int> inscripciones = BD.GetInscrpcion(id);
+           foreach(Pruebas item in pruebas){
+            for(int i = 0; i < inscripciones.Count; i++){
+                if(item.idPrueba == inscripciones[i])
+                {
+                    item.inscripto = true;
+                }
+           }
+           ViewBag.Pruebas = pruebas;
+            
            ViewBag.TipoUsuario = HttpContext.Session.GetString("tipoUsuario");
+           
+        }
+          
+    
+    }
+
         return View("Pruebas");
+        
     }
 
 
     public IActionResult irVideos(){
+         if (HttpContext.Session.GetString("id") !=null)
+        {
+            // traigo de session el tipo y busco con el id en la tabla segun el tipo
+            
+  
+        string tipo = HttpContext.Session.GetString("tipoUsuario");
+
+      
+        int id = int.Parse(HttpContext.Session.GetString("id"));
+
+    
+        if (tipo == "jugador")
+        {
+            Jugador j = BD.GetJugadorPorId(id);
+            ViewBag.Usuario = j;
+        }
+        else if (tipo == "scout")
+        {
+            Scouter s = BD.GetScoutPorId(id);
+            ViewBag.Usuario = s;
+        }
+
+        }
         ViewBag.TipoUsuario = HttpContext.Session.GetString("tipoUsuario");
         return View("Videos");
     }
      public IActionResult irSubirPrueba(){
+         if (HttpContext.Session.GetString("id") !=null)
+        {
+            // traigo de session el tipo y busco con el id en la tabla segun el tipo
+            
+  
+        string tipo = HttpContext.Session.GetString("tipoUsuario");
+
+      
+        int id = int.Parse(HttpContext.Session.GetString("id"));
+
+    
+        if (tipo == "jugador")
+        {
+            Jugador j = BD.GetJugadorPorId(id);
+            ViewBag.Usuario = j;
+        }
+        else if (tipo == "scout")
+        {
+            Scouter s = BD.GetScoutPorId(id);
+            ViewBag.Usuario = s;
+        }
+
+        }
         return View("subirPrueba");
     }
 
     public IActionResult irMensajes(){
+         if (HttpContext.Session.GetString("id") !=null)
+        {
+            // traigo de session el tipo y busco con el id en la tabla segun el tipo
+            
+  
+        string tipo = HttpContext.Session.GetString("tipoUsuario");
+
+      
+        int id = int.Parse(HttpContext.Session.GetString("id"));
+
+    
+        if (tipo == "jugador")
+        {
+            Jugador j = BD.GetJugadorPorId(id);
+            ViewBag.Usuario = j;
+        }
+        else if (tipo == "scout")
+        {
+            Scouter s = BD.GetScoutPorId(id);
+            ViewBag.Usuario = s;
+        }
+
+        }
         return View("Mensajes");
     }
 
     public IActionResult irSubirVideo(){
+         if (HttpContext.Session.GetString("id") !=null)
+        {
+            // traigo de session el tipo y busco con el id en la tabla segun el tipo
+            
+  
+        string tipo = HttpContext.Session.GetString("tipoUsuario");
+
+      
+        int id = int.Parse(HttpContext.Session.GetString("id"));
+
+    
+        if (tipo == "jugador")
+        {
+            Jugador j = BD.GetJugadorPorId(id);
+            ViewBag.Usuario = j;
+        }
+        else if (tipo == "scout")
+        {
+            Scouter s = BD.GetScoutPorId(id);
+            ViewBag.Usuario = s;
+        }
+
+        }
         
         return View("subirVideo");
     }
 
   [HttpPost]
         public IActionResult inscribirsePrueba(int idPrueba,int idJugador){
+             if (HttpContext.Session.GetString("id") !=null)
+        {
+            // traigo de session el tipo y busco con el id en la tabla segun el tipo
+            
+  
+        string tipo = HttpContext.Session.GetString("tipoUsuario");
+
+      
+        int id = int.Parse(HttpContext.Session.GetString("id"));
+
+    
+        if (tipo == "jugador")
+        {
+            Jugador j = BD.GetJugadorPorId(id);
+            ViewBag.Usuario = j;
+        }
+        else if (tipo == "scout")
+        {
+            Scouter s = BD.GetScoutPorId(id);
+            ViewBag.Usuario = s;
+        }
+
+        }
         BD.inscripcionPrueba(idPrueba,idJugador);
         
         
@@ -117,7 +270,7 @@ string nombreArchivo = Path.GetFileName(Video.FileName);
 
  return RedirectToAction("irVideos","Home");
    }
-   
+
     //public IActionResult Pruebas()
 //{
     

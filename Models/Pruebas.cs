@@ -9,6 +9,7 @@ public class Pruebas{
     public string Deporte { get; private set; }   // ← desde tabla Deportes
     public string Nombre { get; private set; }    // ← desde tabla Clubes
 
+    public bool inscripto;
 public Pruebas()
 {
 
@@ -34,6 +35,7 @@ public Pruebas()
              this.Genero = genero;
         this.Deporte = deporte;
         this.Nombre = nombre;
+        this.inscripto = false;
 
    
     }

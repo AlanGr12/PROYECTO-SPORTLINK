@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "nJJdSjaq2tSFqozIaG7LxvPdfUH8cNs2AutSWFMd1+w=",
+  "Hash": "Vby2sz7bL2OMfNwzPtAB4LDaEa0eaWjIclrsxoE2N5U=",
   "Source": "proyectoSportlink",
   "BasePath": "_content/proyectoSportlink",
   "Mode": "Default",
@@ -414,6 +414,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\imagenes\\Diapositiva2.JPG"
+    },
+    {
+      "Identity": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK-1\\wwwroot\\imagenes\\ej.png",
+      "SourceId": "proyectoSportlink",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK-1\\wwwroot\\",
+      "BasePath": "_content/proyectoSportlink",
+      "RelativePath": "imagenes/ej.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagenes\\ej.png"
     },
     {
       "Identity": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK-1\\wwwroot\\imagenes\\estrella.png",
@@ -1005,6 +1024,25 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\tenisb.png"
     },
     {
+      "Identity": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK-1\\wwwroot\\imagenes\\tito.png",
+      "SourceId": "proyectoSportlink",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK-1\\wwwroot\\",
+      "BasePath": "_content/proyectoSportlink",
+      "RelativePath": "imagenes/tito.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagenes\\tito.png"
+    },
+    {
       "Identity": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK-1\\wwwroot\\imagenes\\tp bd 2 .png",
       "SourceId": "proyectoSportlink",
       "SourceType": "Discovered",
@@ -1326,6 +1364,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK-1\\wwwroot\\videos\\2932301-uhd_4096_2160_24fps.mp4",
+      "SourceId": "proyectoSportlink",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK-1\\wwwroot\\",
+      "BasePath": "_content/proyectoSportlink",
+      "RelativePath": "videos/2932301-uhd_4096_2160_24fps.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\videos\\2932301-uhd_4096_2160_24fps.mp4"
     },
     {
       "Identity": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK-1\\wwwroot\\videos\\Video1.mp4",

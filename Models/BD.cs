@@ -74,6 +74,16 @@ return(num);
     }
 
 }
+
+    public static List<int> GetInscrpcion(int idUsuario)
+{
+    using (SqlConnection db = new SqlConnection(_connectionString))
+    {
+        string sql = "SELECT idPrueba FROM JugadoresXPruebas WHERE idUsuario = @pidUsuario;";
+        return db.Query<int>(sql).ToList();
+    }
+
+}
     public static void RegistrarScout(string nombre, string apellido, int idClub, int telefono, string fotoPerfil,
         string usuario, string contraseña, string email)
     {
