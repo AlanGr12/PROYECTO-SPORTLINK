@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "lJAKi6WFkpD9dHB/7TMRt/kCQFnr3Z9m83aEyI7ZOag=",
+  "Hash": "1Ec5mt9oOpWQVGkdZlzPkxlU3yFSaFQKmcMrTGV7dMM=",
   "Source": "proyectoSportlink",
   "BasePath": "_content/proyectoSportlink",
   "Mode": "Default",
@@ -91,6 +91,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\imagenes\\Afiche.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\amazon foto.png",
+      "SourceId": "proyectoSportlink",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\",
+      "BasePath": "_content/proyectoSportlink",
+      "RelativePath": "imagenes/amazon foto.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagenes\\amazon foto.png"
     },
     {
       "Identity": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\atl.png",

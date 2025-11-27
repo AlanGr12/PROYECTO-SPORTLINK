@@ -92,12 +92,18 @@
     padding: 1% 2%;
     cursor: pointer;
   }
+
+
   
   section button a {
     text-decoration: none;
     color: #00e6d4;
     font-weight: bold;
   }
+
+   .banner-texto button{
+    font-family: 'Monbloc-Inst-Heavy';
+   }
   
   .Sect1 article {
     text-align: left;
@@ -1291,7 +1297,7 @@
   }
   
   
-  .items div {
+  .objetos div {
     display: flex;
     flex-direction: row;
     margin-bottom: 1%;
@@ -1299,19 +1305,24 @@
 
   
   
-  .items h4{
+  .objetos h4{
     font-family: 'Monbloc-Inst-Heavy';
   } 
 
 
 
-  .items p, h5 , h3{
+  .objetos p,h3{
+    font-family: 'Monbloc-Inst-Heavy';
+  }
+
+  .objetos h5{
+    color: black;
     font-family: 'Monbloc-Inst-Heavy';
   }
 
 
   
-  .items img {
+  .objetos img {
     width: 9%;
     height: 9%;
     margin-right: 1%;
@@ -1347,6 +1358,7 @@
   }
    .conversa button{
     margin-bottom: 2%;
+    font-family: 'Monbloc-Inst-Heavy';
    }
   
     button {
@@ -1831,12 +1843,12 @@ margin-left: 26%;
   }
 
 
-  .items img {
+  .objetos img {
     width: 20%;
   }
 
 
-  .items div {
+  .objetos div {
     flex-direction: row;
     align-items: center;
   }
@@ -1919,6 +1931,7 @@ margin-left: 5%;
     padding: 1.5% 4%;
     font-weight: bold;
     margin-bottom: 2%;
+    font-family: 'Monbloc-Inst-Heavy';
 }
 .visitarPruebas div{
    background-color: #000;
@@ -2655,9 +2668,17 @@ padding: 0.5%;
   z-index: 10;
 }
 
+.bodyFondo{
+  background-image: none !important;
+  background-color: #ffffff !important;  
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
 .video-cuadro {
   position: relative;
 }
+
 
 /* Responsive básico: Si la pantalla es chica, oculta la barra izq */
 @media (max-width: 1100px) {
@@ -2670,7 +2691,11 @@ padding: 0.5%;
 .contenedor-mensajes {
   display: flex;
   width: 100%;
-  height: 86.5vh; /* VER COMO SE VE EN LA PANTALLA, SI SE VE MAL MODIFCIARLO*/
+  height: calc(100vh - 80px);
+  margin-top: 0;
+  padding-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
   background-color: #fff;
 }
 
@@ -2682,6 +2707,7 @@ padding: 0.5%;
   width: 100%;
   padding: 0 2%;
 }
+
 
 .contacto-item .linea-superior h4{
   margin: 0;
@@ -2698,7 +2724,11 @@ padding: 0.5%;
   background-color: #00e5cc;
   color: #000;
   border-radius: 18%;
-  white-space: nowrap;
+  white-space: nowrap
+}
+
+.linea-superior h5{
+  color: black;
 }
 
 .contacto-item .linea-superior h5.hora{
@@ -2779,7 +2809,7 @@ padding: 0.5%;
 
 .contacto-item p {
   font-size: 13px;
-  color: #666;
+  color: #000000;
   margin: 0;
 }
 
@@ -2861,12 +2891,15 @@ padding: 0.5%;
   color: #000;
 }
 
+.caja-imagen-mensaje{
+  margin-top: 1%;
+}
+
 /* Imagen de Talleres */
 .caja-imagen-mensaje {
-  width: 180px;
-  max-width: 180px;
+  width: 20%;
   height: 180px;
-  border-radius: 15px;
+  border-radius: 20px;
   background-color: #000;
   display: flex;
   flex-direction: column;
@@ -2874,15 +2907,7 @@ padding: 0.5%;
   position: relative;
 }
 
-.caja-imagen-mensaje img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-  border-radius: 15px;
-  position: absolute;
 
-}
 
 .caja-imagen-mensaje h5,h4 {
   text-align: center;
