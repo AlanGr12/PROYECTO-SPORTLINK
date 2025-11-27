@@ -137,5 +137,44 @@ return(num);
             });
         }
     }   
+
+     public static void inscripcionPrueba(int idPrueba,int idJugador)
+    {
+
+string query = @"INSERT INTO JugadoresXPruebas (idJugador,idPrueba) VALUES (@pidJugador, @pidPrueba)";
+
+using (SqlConnection db = new SqlConnection(_connectionString))
+        {
+            db.Execute(query, new
+            {
+             pidJugador = idJugador,  
+             pidPrueba = idPrueba
+            });
+        }
+
+
+    } 
+    public static void RegistrarVideo(string Titulo,string Video,int idJugador,int idDeporte,string Comentario,int meGusta)
+    {
+
+string query = @"INSERT INTO Videos (Titulo,Video,idJugador,idDeporte,Comentario,meGusta) VALUES (@pTitulo,@pVideo,@pidJugador,@pidDeporte,@pComentario,@pMegusta)";
+using (SqlConnection db = new SqlConnection(_connectionString))
+        {
+            db.Execute(query, new
+            {
+             pTitulo = Titulo,  
+             pVideo = Video,
+             pidJugador = idJugador,
+             pidDeporte = idDeporte,
+             pComentario = Comentario,
+             pmeGusta = meGusta
+            
+            });
+
+        }
+
+
+
+    }
 }
 

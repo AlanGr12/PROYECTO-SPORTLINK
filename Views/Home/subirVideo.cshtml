@@ -1,3 +1,8 @@
+@{
+    ViewData["Title"] = "SPORTLINK";
+}
+
+
  <header>
         <img src="/Imagenes/logo.png" alt="Sportlink">
         <nav>
@@ -11,9 +16,51 @@
   }
       else  
 {
-    <a href='@Url.Action("irUser", "Session")'><img src="Imagenes/inicio.png"></a>
+    <a href='@Url.Action("irUser", "Session")'><img src="/Imagenes/inicio.png"></a>
+
 
 }
+          </ul>
+        </nav>
+       
+      </header>
+      <body>
+
+<form action='@Url.Action("GuardarRegistroVideos","Home" )' method= "post" enctype="multipart/form-data">
+
+
+<div>
+<h2>Titulo</h2>
+<input type="text" name="Titulo" placeholder="Ingresar Titulo del video" required/>
+<h2>Video</h2>
+<input type="file" name="Video" placeholder="Ingresa el video" accept="video/*" required/>
+ <input type="hidden" name="idJugador" value="@ViewBag.Usuario.idJugador" />
+<h2>Deporte</h2>
+              <select name="idDeporte" required>
+              <option value="1">Fútbol</option>
+              <option value="2">Básquet</option>
+              <option value="3">Vóley</option>
+              <option value="4">Tenis</option>
+              <option value="5">Hockey</option>
+              <option value="6">Natación</option>
+              <option value="7">Atletismo</option>
+              <option value="8">Rugby</option>
+              <option value="9">Handball</option>
+              <option value="10">Mma</option>
+              <option value="11">Padel</option>
+              <option value="12">Kabbadi</option>
+              <option value="13">Beisbol</option>
+              <option value="14">Cricket</option>
+          </select>
+<h2>Comentario</h2>
+<input type="text" name="Comentario" placeholder="Ingresar Comentario" required/>
+ <input type="hidden" name="meGusta" value= 0 />
+<button type="submit">Subir video</button>
+</div>
+    </form>
+
+
+
           </ul>
         </nav>
         
@@ -21,3 +68,40 @@
 
       <section>
       </section>
+
+   
+
+      <footer>
+    <div>
+        <img src="/Imagenes/logo (3).png" alt="Sportlink">
+        <p>
+            Conectando el talento joven con su futuro profesional.<br>
+            Damos visibilidad a tu talento y les abrimos las puertas<br>
+            a nuevas oportunidades
+        </p>
+    </div>
+
+    <div>
+        <h3>Explorá</h3>
+        <ul>
+            <li><a href="Index.cshtml">Inicio</a></li>
+            <li><a href="Videos.cshtml">Videos</a></li>
+            <li><a href="Pruebas.cshtml">Pruebas</a></li>
+        </ul>
+    </div>
+
+    <div>
+        <h3>Seguinos</h3>
+        <div class="redes">
+            <img src="/Imagenes/insta-removebg-preview 2.png" alt="Instagram">
+            <img src="/Imagenes/tw.png" alt="X">
+        </div>
+        <h3>Contacto</h3>
+        <p>
+            email: sportlink@gmail.com<br>
+            teléfono: +54 0000 0000
+        </p>
+    </div>
+</footer>
+</body>
+

@@ -68,8 +68,11 @@ public class HomeController : Controller
         return View("subirVideo");
     }
 
-    [HttpPost]
-        public IActionResult inscribirsePrueba(int idPrueba){
+  [HttpPost]
+        public IActionResult inscribirsePrueba(int idPrueba,int idJugador){
+        BD.inscripcionPrueba(idPrueba,idJugador);
+        
+        
 
         return View("anotarsePrueba");
     }
@@ -93,6 +96,28 @@ string nombreArchivo = Path.GetFileName(Imagen.FileName);
 
  return RedirectToAction("irPruebas","Home");
    }
+
+   public IActionResult GuardarRegistroVideos(string Titulo,IFormFile Video,int idJugador,int idDeporte,string Comentario,int meGusta)
+   {
+string nombreArchivo = Path.GetFileName(Video.FileName);
+        string rutaCarpeta = Path.Combine(_env.WebRootPath, "Videos");
+
+        if (!Directory.Exists(rutaCarpeta))
+            Directory.CreateDirectory(rutaCarpeta);
+
+        string rutaCompleta = Path.Combine(rutaCarpeta, nombreArchivo);
+
+        using (var stream = new FileStream(rutaCompleta, FileMode.Create))
+        {
+            Video.CopyTo(stream);
+        }
+
+        string rutaRelativa = Path.Combine("Videos", nombreArchivo).Replace("\\", "/");
+        BD.RegistrarVideo(Titulo, rutaRelativa,idJugador, idDeporte, Comentario, meGusta);
+
+ return RedirectToAction("irVideos","Home");
+   }
+   
     //public IActionResult Pruebas()
 //{
     
