@@ -1,99 +1,115 @@
 <header>
-    <img src="/Imagenes/logo.png" alt="Sportlink">
-    <nav>
-        <ul>
+        <img src="/Imagenes/logo.png" alt="Sportlink">
+        <nav>
+          <ul>
             <li><a href='@Url.Action("irPruebas", "Home")'>Pruebas</a></li>
             <li><a href='@Url.Action("irVideos", "Home")'>Videos</a></li>
             <li><a href='@Url.Action("irMensajes", "Home")'>Mensajes</a></li>
-            @if (ViewBag.Usuario != null && ViewBag.Usuario.FotoPerfil != null)
-            {
-                <img class="fotoUsuario" src="@ViewBag.Usuario.FotoPerfil" alt="Foto de perfil">
-            }
-            else
-            {
-                <a href='@Url.Action("irUser", "Session")'><img src="/Imagenes/inicio.png"></a>
-            }
-        </ul>
-    </nav>
-</header>
+          @if (ViewBag.Usuario != null && ViewBag.Usuario.FotoPerfil != null)
+  {
+    <img class = "fotoUsuario" src="@ViewBag.Usuario.FotoPerfil" alt="Foto de perfil">
+  }
+      else  
+{
+    <a href='@Url.Action("irUser", "Session")'><img src="/Imagenes/inicio.png"></a>
 
-<body class= "nscroll">
-    <div class="main-layout">
-        <div class="video-cuadro">
-            <video class="video-player" loop muted autoplay playsinline>
+
+}
+          </ul>
+        </nav>
+       
+      </header>
+
+<body class="fondo">
+    <div class="contenedor">
+        <div class="video-box">
+            <video class="video" loop muted autoplay playsinline> 
                 <source src="~/videos/video1.mp4" type="video/mp4" />
             </video>
 
-            <div class="video-info-overlay">
-                <h3 class="username">@("@leoperez")</h3>
-                <p class="description">Miren a los jovenes jugando! #sportlink #joventud</p>
-                <div class="music-ticker">🏆Futbol</div>
+            <div class="info-video">
+                <h3 class="usuario">@("@leoperez")</h3>
+                <p class="texto">Miren a los jovenes jugando! #sportlink #joventud</p>
+                <div class="tag">🏆Futbol</div>
             </div>
         </div>
 
-        <div class="action-bar-right">
+        <div class="iconos-derecha">
             
-            <div class="action-item profile-wrapper">
-                <img src="/Imagenes/user.png" class="avatar-img">
-                <span class="plus-badge">+</span>
+            <div class="item-icono perfil">
+                <img src="/Imagenes/user.png" class="foto-icono">
+                <span class="mas">+</span>
             </div>
 
-            <div class="action-item">
-                <div class="icon-circle">
+            <div class="item-icono">
+                <div class="circulo">
                     <img src="/Imagenes/like.png" alt="Like">
                 </div>
-                <span class="count">1.2K</span>
+                <span class="numero">1.2K</span>
             </div>
 
-            <div class="action-item">
-                <div class="icon-circle">
+            <div class="item-icono">
+                <div class="circulo">
                     <img src="/Imagenes/comentar.png" alt="Comentar">
                 </div>
-                <span class="count">56</span>
+                <span class="numero">56</span>
             </div>
 
-            <div class="action-item">
-                <div class="icon-circle">
+            <div class="item-icono">
+                <div class="circulo">
                     <img src="/Imagenes/compartir.png" alt="Compartir">
                 </div>
-                <span class="count">13</span>
+                <span class="numero">13</span>
             </div>
         </div>
 
     </div>
 
-    <div class="page-navigation">
+    <div class="nav-abajo">
         @if (ViewBag.TipoUsuario == "jugador")
         {
-            <a href='@Url.Action("irSubirVideo", "Home")' class="btn-subir">SUBIR VIDEO</a>
+            <a href='@Url.Action("irSubirVideo", "Home")' class="boton-subir">SUBIR VIDEO</a>
         }
         
-        <div class="nav-arrows">
-            <button class="arrow-btn">&#9650;</button> <button class="arrow-btn">&#9660;</button> </div>
+        <div class="flechas">
+            <button class="flecha">&#9650;</button> 
+            <button class="flecha">&#9660;</button> 
+        </div>
     </div>
 
 </body>
 
 <footer>
-    <div>
-        <img src="img/logo.png" alt="Sportlink">
-        <p>Conectando el talento joven...</p>
+  <div>
+    <img src="/Imagenes/logo (3).png" alt="Sportlink">
+    <p>
+      Conectando el talento joven con su futuro profesional.<br>
+      Damos visibilidad a tu talento y les abrimos las puertas<br>
+      a nuevas oportunidades
+    </p>
+  </div>
+
+
+  <div>
+    <h3>Explorá</h3>
+    <ul>
+      <li><a href="Index.cshtml">Inicio</a></li>
+      <li><a href="Videos.cshtml">Videos</a></li>
+      <li><a href="Pruebas.cshtml">Pruebas</a></li>
+    </ul>
+  </div>
+
+
+  <div>
+    <h3>Seguinos</h3>
+    <div class="redes">
+      <img src="/Imagenes/insta-removebg-preview 2.png" alt="Instagram">
+      <img src="/Imagenes/tw.png" alt="X">
     </div>
-    <div>
-        <h3>Explorá</h3>
-        <ul>
-            <li><a href='@Url.Action("Index", "Home")'>Inicio</a></li>
-            <li><a href='@Url.Action("irVideos", "Home")'>Videos</a></li>
-            <li><a href='@Url.Action("irPruebas", "Home")'>Pruebas</a></li>
-        </ul>
-    </div>
-    <div>
-        <h3>Seguinos</h3>
-        <div class="redes">
-            <img src="img/ig.png" alt="Instagram">
-            <img src="img/tw.png" alt="X">
-        </div>
-        <h3>Contacto</h3>
-        <p>email: sportlink@gmail.com<br>teléfono: +54 0000 0000</p>
-    </div>
+    <h3>Contacto</h3>
+    <p>
+      email: sportlink@gmail.com<br>
+      teléfono: +54 0000 0000
+    </p>
+  </div>
 </footer>

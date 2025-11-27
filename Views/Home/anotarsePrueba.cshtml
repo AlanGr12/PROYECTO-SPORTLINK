@@ -1,0 +1,62 @@
+ <header>
+        <img src="/Imagenes/logo.png" alt="Sportlink">
+        <nav>
+          <ul>
+            <li><a href='@Url.Action("irPruebas", "Home")'>Pruebas</a></li>
+            <li><a href='@Url.Action("irVideos", "Home")'>Videos</a></li>
+            <li><a href='@Url.Action("irMensajes", "Home")'>Mensajes</a></li>
+          @if (ViewBag.Usuario != null && ViewBag.Usuario.FotoPerfil != null)
+  {
+    <img class = "fotoUsuario" src="@ViewBag.Usuario.FotoPerfil" alt="Foto de perfil">
+  }
+      else  
+{
+    <a href='@Url.Action("irUser", "Session")'><img src="/Imagenes/inicio.png"></a>
+
+
+}
+          </ul>
+        </nav>
+       
+      </header>
+<main>
+<section class="Ins">
+<div>
+<h1>Te inscribiste correctamente.</h1>
+</div>
+</section>
+</main>
+
+      <footer>
+  <div>
+    <img src="/Imagenes/logo (3).png" alt="Sportlink">
+    <p>
+      Conectando el talento joven con su futuro profesional.<br>
+      Damos visibilidad a tu talento y les abrimos las puertas<br>
+      a nuevas oportunidades
+    </p>
+  </div>
+
+
+  <div>
+    <h3>Explorá</h3>
+    <ul>
+      <li><a href="Index.cshtml">Inicio</a></li>
+      <li><a href="Videos.cshtml">Videos</a></li>
+      <li><a href="Pruebas.cshtml">Pruebas</a></li>
+    </ul>
+  </div>
+
+  <div>
+    <h3>Seguinos</h3>
+    <div class="redes">
+      <img src="/Imagenes/insta-removebg-preview 2.png" alt="Instagram">
+      <img src="/Imagenes/tw.png" alt="X">
+    </div>
+    <h3>Contacto</h3>
+    <p>
+      email: sportlink@gmail.com<br>
+      teléfono: +54 0000 0000
+    </p>
+  </div>
+</footer>

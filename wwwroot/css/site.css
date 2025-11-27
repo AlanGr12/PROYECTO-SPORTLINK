@@ -844,14 +844,6 @@
     color: white;
   }
   
-  
-  video{
-    width: 20%;
-    height: 500px;
-     object-fit: cover;
-     margin-left: 38%;
-    
-  }
   .fotoUsuario{
     width:25px; 
     height:50px; 
@@ -1642,6 +1634,18 @@ margin-bottom: 4%;
     color: #000;
     
   }
+  .Ins h1{
+  padding: 3%;
+  color: #000;
+  font-family: 'Monbloc-Inst-Heavy';
+  }
+
+  .Ins div{
+  border: 1px solid #bebebe;
+  border-radius: 20px;
+  background-color: white;
+  padding: 10%;
+  }
 
 
 
@@ -1981,702 +1985,297 @@ padding: 0.5%;
     overflow-x: hidden;
 }
 
-/* ======================
-   VISTA DE VIDEOS
-   ====================== */
+/* videos */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+}
 
-/* Layout principal */
-.main-layout {
+.contenedor {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
-  gap: 2rem;
-  padding: 2rem 4%;
-  background-color: #000;
+  align-items: center;
   min-height: 85vh;
-  position: relative;
+  gap: 20px;
+  padding: 20px 0;
+  background-color: #000;
 }
 
-/* Contenedor del video */
-.video-container {
+.video-box {
   position: relative;
-  width: 70%;
-  max-width: 700px;
+  width: 400px;
+  height: 700px;
+  background-color: #000;
   border-radius: 12px;
   overflow: hidden;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.05);
 }
 
-/* Estilos del reproductor de video */
-.video-player {
+.video {
   width: 100%;
-  height: auto;
-  display: block;
-  background-color: #000;
-  aspect-ratio: 9/16;
+  height: 100%;
   object-fit: cover;
+  display: block;
 }
 
-/* Overlay de información del video */
-.video-info-overlay {
+.info-video {
   position: absolute;
   bottom: 0;
   left: 0;
-  right: 0;
-  padding: 1.5rem;
-  background: linear-gradient(transparent, rgba(0, 0, 0, 0.8));
-  color: white;
-  font-family: 'Arial', sans-serif;
+  width: 100%;
+  padding: 20px;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.9), transparent);
+  box-sizing: border-box;
+  pointer-events: none;
 }
 
-.video-info-overlay .username {
+.usuario {
+  margin: 0 0 8px 0;
+  color: #fff;
   font-size: 1.1rem;
-  font-weight: 600;
-  margin-bottom: 0.5rem;
-  color: #3CFBDD;
+  font-weight: normal;
 }
 
-.video-info-overlay .description {
+.texto {
+  margin: 0 0 8px 0;
+  color: #fff;
   font-size: 0.95rem;
-  line-height: 1.4;
-  margin-bottom: 0.8rem;
+  line-height: 1.3;
 }
 
-.video-info-overlay .music-ticker {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-  font-size: 0.9rem;
-  background: rgba(0, 0, 0, 0.5);
-  padding: 0.3rem 0.8rem;
-  border-radius: 20px;
-  backdrop-filter: blur(5px);
+.tag {
+  font-size: 0.85rem;
+  color: #fff;
+  opacity: 0.9;
 }
 
-/* Barra lateral de acciones */
-.action-bar-right {
+.iconos-derecha {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 700px;
+  padding-bottom: 100px;
+  gap: 25px;
+}
+
+.item-icono {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1.5rem;
-  position: relative;
-  padding: 1rem 0;
-}
-
-/* Avatar del perfil */
-.profile-wrapper {
-  position: relative;
   cursor: pointer;
-  margin-bottom: 1rem;
 }
 
-.avatar-img {
-  width: 50px;
-  height: 50px;
+.circulo {
+  width: 48px;
+  height: 48px;
+  background-color: #2f2f2f;
   border-radius: 50%;
-  border: 2px solid #3CFBDD;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px;
+  transition: background-color 0.2s;
+}
+
+.circulo:hover {
+  background-color: #444;
+}
+
+.circulo img {
+  width: 26px;
+  height: 26px;
+  filter: invert(1);
+}
+
+.numero {
+  font-size: 12px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.perfil {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.foto-icono {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
   object-fit: cover;
-  transition: transform 0.3s ease;
+  border: 1px solid #fff;
 }
 
-.avatar-img:hover {
-  transform: scale(1.05);
-}
-
-.plus-badge {
+.mas {
   position: absolute;
   bottom: -5px;
-  right: -5px;
-  background: #3CFBDD;
-  color: #000;
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: bold;
-  font-size: 0.8rem;
-  border: 2px solid #000;
-}
-
-/* Elementos de acción (like, comentar, compartir) */
-.action-item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 0.3rem;
-  cursor: pointer;
-  transition: all 0.2s ease;
-}
-
-.action-item:hover {
-  transform: scale(1.1);
-}
-
-.action-item img {
-  width: 24px;
-  height: 24px;
-  filter: brightness(0) invert(1);
-}
-
-.action-item .count {
-  color: white;
-  font-size: 0.8rem;
-  font-weight: 500;
-}
-
-/* Navegación inferior */
-.page-navigation {
-  position: fixed;
-  bottom: 2rem;
   left: 50%;
   transform: translateX(-50%);
+  background-color: #ea284e;
+  color: white;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-abajo {
+  position: fixed;
+  right: 40px;
+  top: 50%;
+  transform: translateY(-50%);
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1rem;
+  gap: 20px;
   z-index: 100;
 }
 
-.btn-subir {
-  background: #3CFBDD;
-  color: #000;
-  border: none;
-  padding: 0.8rem 2rem;
-  border-radius: 25px;
-  font-weight: 600;
-  cursor: pointer;
-  text-decoration: none;
-  text-align: center;
-  transition: all 0.3s ease;
-  box-shadow: 0 4px 15px rgba(60, 251, 221, 0.3);
-}
-
-.btn-subir:hover {
-  background: #2ad1b5;
-  transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(60, 251, 221, 0.4);
-}
-
-.nav-arrows {
-  display: flex;
-  gap: 1rem;
-}
-
-.arrow-btn {
-  background: rgba(255, 255, 255, 0.1);
-  border: 2px solid rgba(255, 255, 255, 0.2);
+.boton-subir {
+  background-color: #222;
   color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 0.9rem;
+  margin-bottom: 15px;
+  white-space: nowrap;
+  border: 1px solid #444;
+  transition: background-color 0.2s;
+}
+
+.boton-subir:hover {
+  background-color: #333;
+}
+
+.flechas {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.flecha {
+  width: 45px;
+  height: 45px;
+  background-color: #2f2f2f;
+  border: none;
+  border-radius: 50%;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.2s;
+}
+
+.flecha:hover {
+  background-color: #444;
+}
+
+
+
+.fotoPerfil {
   width: 40px;
   height: 40px;
   border-radius: 50%;
+  object-fit: cover;
+}
+
+
+.redes {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  gap: 15px;
+  margin: 15px 0;
+}
+
+.redes img {
+  width: 24px;
+  height: 24px;
   cursor: pointer;
-  font-size: 1.2rem;
-  transition: all 0.3s ease;
-  backdrop-filter: blur(5px);
+  transition: opacity 0.2s;
 }
 
-.arrow-btn:hover {
-  background: rgba(60, 251, 221, 0.2);
-  border-color: #3CFBDD;
-  transform: translateY(-2px);
+.redes img:hover {
+  opacity: 0.7;
 }
 
-/* Efectos de hover para los iconos de acción */
-.action-item:nth-child(2):hover img {
-  filter: invert(72%) sepia(100%) saturate(1000%) hue-rotate(90deg);
-}
-
-.action-item:nth-child(3):hover img {
-  filter: invert(66%) sepia(99%) saturate(1000%) hue-rotate(180deg);
-}
-
-.action-item:nth-child(4):hover img {
-  filter: invert(75%) sepia(100%) saturate(500%) hue-rotate(270deg);
-}
-
-/* Responsive */
 @media (max-width: 1024px) {
-  .main-layout {
-      flex-direction: column;
-      align-items: center;
-      padding: 1rem;
+  .contenedor {
+    flex-direction: column;
+    align-items: center;
   }
-  
-  .video-container {
-      width: 100%;
-      max-width: 500px;
+
+  .video-box {
+    width: 100%;
+    max-width: 500px;
   }
-  
-  .action-bar-right {
-      flex-direction: row;
-      margin-top: 1rem;
-      gap: 2rem;
+
+  .iconos-derecha {
+    flex-direction: row;
+    margin-top: 20px;
+    gap: 20px;
+    height: auto;
+    padding-bottom: 0;
   }
-  
-  .page-navigation {
-      position: relative;
-      bottom: auto;
-      left: auto;
-      transform: none;
-      margin-top: 1rem;
+
+  .nav-abajo {
+    position: relative;
+    right: auto;
+    top: auto;
+    transform: none;
+    margin-top: 20px;
   }
 }
 
 @media (max-width: 480px) {
-  .video-info-overlay {
-      padding: 1rem;
+  .video-box {
+    width: 90vw;
+    height: auto;
+    aspect-ratio: 9 / 16;
   }
-  
-  .video-info-overlay .username {
-      font-size: 1rem;
+
+  .info-video {
+    padding: 15px;
   }
-  
-  .video-info-overlay .description {
-      font-size: 0.85rem;
+
+  .usuario {
+    font-size: 1rem;
   }
-  
-  .action-bar-right {
-      gap: 1.2rem;
-  }
-  
-  .avatar-img {
-      width: 40px;
-      height: 40px;
-  }
-  
-  .action-item img {
-      width: 20px;
-      height: 20px;
-  }
-  
-  .btn-subir {
-      padding: 0.6rem 1.5rem;
-      font-size: 0.9rem;
-  }
-}
 
-.main-layout {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 85vh;
-    gap: 20px;
-    padding: 20px 0;
-}
-
-/* 1. CAJA NEGRA IZQUIERDA (RECTÁNGULO) */
-.left-sidebar-box {
-    width: 220px;       /* Ancho fijo */
-    height: 700px;      /* Misma altura que el video */
-    background-color: #111; /* Un negro sutilmente diferente para que se note el bloque */
-    border-radius: 10px;
-    /* Si quieres que sea invisible pero ocupe espacio, usa background-color: #000 */
-}
-
-/* 2. CONTENEDOR DEL VIDEO (CENTRO) */
-.video-cuadro {
-    position: relative;
-    width: 400px;       /* Ancho estándar de móvil */
-    height: 700px;      /* Alto estándar */
-    background-color: #000;
-    border-radius: 12px; /* Bordes redondeados del video */
-    overflow: hidden;
-    box-shadow: 0 0 20px rgba(255, 255, 255, 0.05); /* Sutil brillo alrededor */
-}
-
-.video-player {
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* IMPORTANTE: Llena todo el espacio sin deformar */
-    display: block;
-}
-
-/* Información de texto sobre el video (Abajo - Adentro) */
-.video-info-overlay {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    padding: 20px;
-    background: linear-gradient(to top, rgba(0,0,0,0.9), transparent); /* Degradado para leer bien */
-    box-sizing: border-box;
-    pointer-events: none; /* Permite clicks en el video si fuera necesario */
-}
-
-.username {
-    margin: 0 0 8px 0;
-    font-size: 1.1rem;
-    font-weight: lighter;
-}
-
-.description {
-    margin: 0 0 8px 0;
-    font-size: 0.95rem;
-    line-height: 1.3;
-}
-
-.music-ticker {
+  .texto {
     font-size: 0.85rem;
-    opacity: 0.9;
-}
+  }
 
-
-.action-bar-right {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    height: 700px;            
-    padding-bottom: 100px;   
-    gap: 25px;                 
-}
-
-.action-item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    cursor: pointer;
-}
-
-
-.icon-circle {
-    width: 48px;
-    height: 48px;
-    background-color: #2f2f2f; 
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 5px;
-    transition: background-color 0.2s;
-}
-
-.icon-circle:hover {
-    background-color: #444;
-}
-
-/* El icono (imagen) dentro del círculo */
-.icon-circle img {
-    width: 26px;
-    height: 26px;
-    filter: invert(1); /* Invierte iconos negros a blancos */
-}
-
-.count {
-    font-size: 12px;
-    font-weight: 600;
-    color: #000000;
-}
-
-/* Foto de perfil especial con el signo + */
-.profile-wrapper {
-    position: relative;
-    margin-bottom: 10px;
-}
-
-.avatar-img {
-    width: 48px;
-    height: 48px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 1px solid #fff;
-}
-
-.plus-badge {
-    position: absolute;
-    bottom: -5px;
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: #ea284e;
-    color: white;
-    width: 18px;
-    height: 18px;
-    border-radius: 50%;
-    font-size: 14px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-/* =========================================
-   NAVEGACIÓN FLOTANTE (EXTREMA DERECHA)
-   ========================================= */
-.page-navigation {
-    position: fixed;  /* Se queda fijo al hacer scroll */
-    right: 40px;      /* Distancia desde el borde derecho de la pantalla */
-    top: 50%;
-    transform: translateY(-50%); /* Centrado vertical exacto */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-    z-index: 100;
-}
-
-/* Botón de subir video */
-.btn-subir {
-    background-color: #222;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 4px;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 0.9rem;
-    margin-bottom: 15px;
-    white-space: nowrap;
-    border: 1px solid #444;
-    transition: background-color 0.2s;
-}
-
-.btn-subir:hover {
-    background-color: #333;
-}
-
-/* Flechas Arriba / Abajo */
-.nav-arrows {
-    display: flex;
-    flex-direction: column;
+  .iconos-derecha {
     gap: 15px;
-}
+  }
 
-.arrow-btn {
-    width: 45px;
-    height: 45px;
-    background-color: #2f2f2f;
-    border: none;
-    border-radius: 50%;
-    color: white;
-    font-size: 18px;
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: background-color 0.2s;
-}
+  .circulo {
+    width: 40px;
+    height: 40px;
+  }
 
-.arrow-btn:hover {
-    background-color: #444;
-}
+  .circulo img {
+    width: 20px;
+    height: 20px;
+  }
 
+  .foto-icono {
+    width: 40px;
+    height: 40px;
+  }
 
-
-
-
-.main-layout {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 85vh;
-    gap: 20px;
-    padding: 20px 0;
-}
-
-.video-cuadro {
-    position: relative;
-    width: 400px;
-    height: 700px;
-    background-color: #000;
-    border-radius: 12px;
-    overflow: hidden;
-    box-shadow: 0 0 20px rgba(255, 255, 255, 0.05);
-    padding: 0%;
-}
-
-.video-player {
-  margin: 0%;
-    width: 100%;
-    display: block;
-}
-
-.video-info-overlay {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    padding: 20px;
-    background: linear-gradient(to top, rgba(0,0,0,0.9), transparent); /* Degradado para leer bien */
-    box-sizing: border-box;
-    pointer-events: none; /* Permite clicks en el video si fuera necesario */
-}
-
-.username {
-    margin: 0 0 8px 0;
-    color: #ffffff;
-    font-size: 1.1rem;
-    font-weight: lighter;
-}
-
-.description {
-  color: #ffffff;
-    margin: 0 0 8px 0;
-    font-size: 0.95rem;
-    line-height: 1.3;
-}
-
-.music-ticker {
+  .boton-subir {
+    padding: 8px 15px;
     font-size: 0.85rem;
-    opacity: 0.9;
-}
+  }
 
-/* 3. BARRA DE ICONOS (DERECHA INMEDIATA DEL VIDEO - AFUERA) */
-.action-bar-right {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end; /* Alinea los iconos hacia la parte baja */
-    height: 700px;             /* Misma altura que el video para alinear abajo */
-    padding-bottom: 100px;     /* Los sube un poco del borde inferior */
-    gap: 25px;                 /* Espacio entre cada icono */
-}
-
-.action-item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    cursor: pointer;
-}
-
-.icon-circle {
-    width: 48px;
-    height: 48px;
-    background-color: #000000;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 5px;
-    transition: background-color 0.2s;
-}
-
-.icon-circle:hover {
-    background-color: #444;
-}
-
-
-.icon-circle img {
-    width: 26px;
-    height: 26px;
-    filter: invert(1);
-}
-
-.count {
-    font-size: 12px;
-    font-weight: 600;
-    color: #000000;
-}
-
-
-.profile-cuadro { 
-    position: relative;
-    margin-bottom: 10px;
-}
-
-.avatar-img {
-    width: 48px;
-    height: 48px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 1px solid #fff;
-}
-
-.plus-badge {
-    position: absolute;
-    bottom: -5px;
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: #ea284e;
-    color: white;
-    width: 18px;
-    height: 18px;
-    border-radius: 50%;
-    font-size: 14px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-/* =========================================
-   NAVEGACIÓN FLOTANTE (EXTREMA DERECHA)
-   ========================================= */
-.page-navigation {
-    position: fixed;  /* Se queda fijo al hacer scroll */
-    right: 40px;      /* Distancia desde el borde derecho de la pantalla */
-    top: 50%;
-    transform: translateY(-50%); /* Centrado vertical exacto */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-    z-index: 100;
-}
-
-.btn-subir {
-    background-color: #222;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 4px;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 0.9rem;
-    margin-bottom: 15px;
-    white-space: nowrap;
-    border: 1px solid #444;
-    transition: background-color 0.2s;
-}
-
-.btn-subir:hover {
-    background-color: #333;
-}
-
-.nav-arrows {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-}
-
-.arrow-btn {
-    width: 45px;
-    height: 45px;
-    background-color: #2f2f2f;
-    border: none;
-    border-radius: 50%;
-    color: white;
-    font-size: 18px;
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: background-color 0.2s;
-}
-
-.arrow-btn:hover {
-    background-color: #444;
-}
-
-/* Estilos para el triángulo de pausa */
-.pause-overlay {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  opacity: 0;
-  pointer-events: none;
-  transition: opacity 0.2s ease;
-  z-index: 10;
-}
-
-.bodyFondo{
-  background-image: none !important;
-  background-color: #ffffff !important;  
-  margin: 0 !important;
-  padding: 0 !important;
-}
-
-.video-cuadro {
-  position: relative;
 }
 
 
