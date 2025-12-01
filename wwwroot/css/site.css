@@ -2581,6 +2581,10 @@ body {
   justify-content: center;
 }
 
+.mVideo{
+  padding: 5%;
+  cursor: pointer;
+}
 .errorInscripcion{
   margin-top: 5%;
   margin-bottom: 8%;

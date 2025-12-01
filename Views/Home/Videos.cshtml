@@ -50,7 +50,9 @@
         {
           foreach(Videos item in ViewBag.VideosJugador)
           {
-          <button onclick = "mostrarVideo(@item.Video)">@item.Titulo</button>
+<button class="mVideo" onclick="mostrarVideo('@Url.Content(item.Video)')">
+    <h2>@item.Titulo</h2>
+</button>
             
           }
             <a href='@Url.Action("irSubirVideo", "Home")' class="boton-subir">SUBIR VIDEO</a>

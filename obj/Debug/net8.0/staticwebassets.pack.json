@@ -237,10 +237,6 @@
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\js\\videos.js",
-      "PackagePath": "staticwebassets\\js\\videos.js"
-    },
-    {
       "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
@@ -291,6 +287,18 @@
     {
       "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\videos\\2932301-uhd_4096_2160_24fps.mp4",
       "PackagePath": "staticwebassets\\videos\\2932301-uhd_4096_2160_24fps.mp4"
+    },
+    {
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\videos\\Fulbo.mp3",
+      "PackagePath": "staticwebassets\\videos\\Fulbo.mp3"
+    },
+    {
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\videos\\Messi cobró venganza por la humillada a su compañero #futbol #messi #shorts.mp3",
+      "PackagePath": "staticwebassets\\videos\\Messi cobró venganza por la humillada a su compañero #futbol #messi #shorts.mp3"
+    },
+    {
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\videos\\Sus compañeros ya celebraban el Gol #futbol #shorts [R5vr9ZMzOaI].mp3",
+      "PackagePath": "staticwebassets\\videos\\Sus compañeros ya celebraban el Gol #futbol #shorts [R5vr9ZMzOaI].mp3"
     },
     {
       "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\videos\\Video1.mp4",

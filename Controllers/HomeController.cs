@@ -267,7 +267,7 @@ string nombreArchivo = Path.GetFileName(Video.FileName);
             Video.CopyTo(stream);
         }
 
-        string rutaRelativa = Path.Combine("Videos", nombreArchivo).Replace("\\", "/");
+        string rutaRelativa = Path.Combine("videos", nombreArchivo).Replace("\\", "/");
         BD.RegistrarVideo(Titulo, rutaRelativa,idJugador, idDeporte, Comentario, meGusta);
 
  return RedirectToAction("irVideos","Home");
