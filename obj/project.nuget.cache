@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5AMhACOMeZiRSZgyyQQwGszWx5a7sk9pwa4ZrwlqTy4/dJfRE8dmCQmfTFqhfK0iDO84vVwCKaHHFTMKxWzSMg==",
+  "dgSpecHash": "FMgW3gTNUi+XS/aQy+QFgbfVHCYGK9pTiuBH8RDvs/pZwIAJ6ChKZzlk5CyLZ/qeWaR3XOKGnZhOCcJUWr2kIQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK-1\\proyectoSportlink.csproj",
+  "projectFilePath": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\proyectoSportlink.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\48860730\\.nuget\\packages\\azure.core\\1.47.1\\azure.core.1.47.1.nupkg.sha512",
     "C:\\Users\\48860730\\.nuget\\packages\\azure.identity\\1.14.2\\azure.identity.1.14.2.nupkg.sha512",

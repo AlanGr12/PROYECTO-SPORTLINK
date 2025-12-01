@@ -114,11 +114,12 @@ public class SessionController : Controller
     }
 
 
-    public IActionResult CerrarSesion()
+  public IActionResult CerrarSesion()
     {
         HttpContext.Session.Clear();  
-        return RedirectToAction("Login");
+        return RedirectToAction("Index","Home");
     }
+
 
     public IActionResult RegistroJugador()
     {

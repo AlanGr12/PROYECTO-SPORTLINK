@@ -6,26 +6,7 @@
 <head>
 </head>
 
- <header>
-        <img src="/Imagenes/logo.png" alt="Sportlink">
-        <nav>
-          <ul>
-            <li><a href='@Url.Action("irPruebas", "Home")'>Pruebas</a></li>
-            <li><a href='@Url.Action("irVideos", "Home")'>Videos</a></li>
-            <li><a href='@Url.Action("irMensajes", "Home")'>Mensajes</a></li>
-          @if (ViewBag.Usuario != null && ViewBag.Usuario.FotoPerfil != null)
-  {
-    <img class = "fotoUsuario" src="@ViewBag.Usuario.FotoPerfil" alt="Foto de perfil">
-  }
-      else  
-{
-    <a href='@Url.Action("irUser", "Session")'><img src="/Imagenes/inicio.png"></a>
 
-}
-          </ul>
-        </nav>
-        
-      </header>
 
 <body>
 
@@ -72,9 +53,9 @@
     <form action='@Url.Action("inscribirsePrueba","Home")' method="post">
        <input type="hidden" name="idPrueba" value="@prueba.idPrueba" />
        <input type="hidden" name="idJugador" value="@ViewBag.Usuario.idJugador" />
-       @if(ViewBag.Pruebas[i].inscripcion)
+       @if(ViewBag.Pruebas[i].inscripto)
        {
-        <h1>Inscripto</h1>
+        <h3 class= "errorInscripcion">Ya estas inscripto en esta prueba</h3>
        }else{
         <button type="submit">Inscribirse</button>
        }

@@ -1,30 +1,10 @@
-<header>
-        <img src="/Imagenes/logo.png" alt="Sportlink">
-        <nav>
-          <ul>
-            <li><a href='@Url.Action("irPruebas", "Home")'>Pruebas</a></li>
-            <li><a href='@Url.Action("irVideos", "Home")'>Videos</a></li>
-            <li><a href='@Url.Action("irMensajes", "Home")'>Mensajes</a></li>
-          @if (ViewBag.Usuario != null && ViewBag.Usuario.FotoPerfil != null)
-  {
-    <img class = "fotoUsuario" src="@ViewBag.Usuario.FotoPerfil" alt="Foto de perfil">
-  }
-      else  
-{
-    <a href='@Url.Action("irUser", "Session")'><img src="/Imagenes/inicio.png"></a>
 
-
-}
-          </ul>
-        </nav>
-       
-      </header>
 
 <body class="fondo">
     <div class="contenedor">
         <div class="video-box">
             <video class="video" loop muted autoplay playsinline> 
-                <source src="~/videos/video1.mp4" type="video/mp4" />
+                <source src="~/videos/video1.mp4" type="video/mp4" id = "video" />
             </video>
 
             <div class="info-video">
@@ -68,7 +48,13 @@
     <div class="nav-abajo">
         @if (ViewBag.TipoUsuario == "jugador")
         {
+          foreach(Videos item in ViewBag.VideosJugador)
+          {
+          <button onclick = "mostrarVideo(@item.Video)">@item.Titulo</button>
+            
+          }
             <a href='@Url.Action("irSubirVideo", "Home")' class="boton-subir">SUBIR VIDEO</a>
+
         }
         
         <div class="flechas">

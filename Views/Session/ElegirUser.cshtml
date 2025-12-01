@@ -1,23 +1,4 @@
- <header>
-        <img src="/Imagenes/logo.png" alt="Sportlink">
-        <nav>
-          <ul>
-            <li><a href='@Url.Action("irPruebas", "Home")'>Pruebas</a></li>
-            <li><a href='@Url.Action("irVideos", "Home")'>Videos</a></li>
-            <li><a href='@Url.Action("irMensajes", "Home")'>Mensajes</a></li>
-          @if (ViewBag.Usuario != null && ViewBag.Usuario.FotoPerfil != null)
-  {
-    <img class = "fotoUsuario" src="/@ViewBag.Usuario.FotoPerfil" alt="Foto de perfil">
-  }
-      else  
-{
-    <a href='@Url.Action("irUser", "Session")'><img src="/Imagenes/inicio.png"></a>
 
-}
-          </ul>
-        </nav>
-        
-      </header>
 <section class = "opcionUser">
  @if(ViewBag.Error != null)
     { 

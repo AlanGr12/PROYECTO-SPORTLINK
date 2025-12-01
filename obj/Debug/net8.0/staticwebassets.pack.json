@@ -1,295 +1,299 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK-1\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK-1\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK-1\\wwwroot\\font\\Monbloc-Inst-Heavy.ttf",
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\font\\Monbloc-Inst-Heavy.ttf",
       "PackagePath": "staticwebassets\\font\\Monbloc-Inst-Heavy.ttf"
     },
     {
-      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK-1\\wwwroot\\imagenes\\Afiche.jpg",
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\Afiche.jpg",
       "PackagePath": "staticwebassets\\imagenes\\Afiche.jpg"
     },
     {
-      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK-1\\wwwroot\\imagenes\\Beisbol.png",
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\Beisbol.png",
       "PackagePath": "staticwebassets\\imagenes\\Beisbol.png"
     },
     {
-      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK-1\\wwwroot\\imagenes\\Boca.png",
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\Boca.png",
       "PackagePath": "staticwebassets\\imagenes\\Boca.png"
     },
     {
-      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK-1\\wwwroot\\imagenes\\Chicago.png",
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\Chicago.png",
       "PackagePath": "staticwebassets\\imagenes\\Chicago.png"
     },
     {
-      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK-1\\wwwroot\\imagenes\\Comunicaciones.png",
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\Comunicaciones.png",
       "PackagePath": "staticwebassets\\imagenes\\Comunicaciones.png"
     },
     {
-      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK-1\\wwwroot\\imagenes\\Cricket.png",
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\Cricket.png",
       "PackagePath": "staticwebassets\\imagenes\\Cricket.png"
     },
     {
-      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK-1\\wwwroot\\imagenes\\Diapositiva2.JPG",
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\Diapositiva2.JPG",
       "PackagePath": "staticwebassets\\imagenes\\Diapositiva2.JPG"
     },
     {
-      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK-1\\wwwroot\\imagenes\\Ferro.png",
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\Ferro.png",
       "PackagePath": "staticwebassets\\imagenes\\Ferro.png"
     },
     {
-      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK-1\\wwwroot\\imagenes\\Hacoaj.png",
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\Hacoaj.png",
       "PackagePath": "staticwebassets\\imagenes\\Hacoaj.png"
     },
     {
-      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK-1\\wwwroot\\imagenes\\Kabbadi.png",
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\Kabbadi.png",
       "PackagePath": "staticwebassets\\imagenes\\Kabbadi.png"
     },
     {
-      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK-1\\wwwroot\\imagenes\\MMA.png",
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\MMA.png",
       "PackagePath": "staticwebassets\\imagenes\\MMA.png"
     },
     {
-      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK-1\\wwwroot\\imagenes\\VideoCard.png",
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\VideoCard.png",
       "PackagePath": "staticwebassets\\imagenes\\VideoCard.png"
     },
     {
-      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK-1\\wwwroot\\imagenes\\amazon foto.png",
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\amazon foto.png",
       "PackagePath": "staticwebassets\\imagenes\\amazon foto.png"
     },
     {
-      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK-1\\wwwroot\\imagenes\\atl.png",
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\atl.png",
       "PackagePath": "staticwebassets\\imagenes\\atl.png"
     },
     {
-      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK-1\\wwwroot\\imagenes\\banner.jpg",
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\banner.jpg",
       "PackagePath": "staticwebassets\\imagenes\\banner.jpg"
     },
     {
-      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK-1\\wwwroot\\imagenes\\basket.png",
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\basket.png",
       "PackagePath": "staticwebassets\\imagenes\\basket.png"
     },
     {
-      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK-1\\wwwroot\\imagenes\\camara.png",
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\camara.png",
       "PackagePath": "staticwebassets\\imagenes\\camara.png"
     },
     {
-      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK-1\\wwwroot\\imagenes\\camara2.png",
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\camara2.png",
       "PackagePath": "staticwebassets\\imagenes\\camara2.png"
     },
     {
-      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK-1\\wwwroot\\imagenes\\camarav.png",
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\camarav.png",
       "PackagePath": "staticwebassets\\imagenes\\camarav.png"
     },
     {
-      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK-1\\wwwroot\\imagenes\\circulo.png",
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\circulo.png",
       "PackagePath": "staticwebassets\\imagenes\\circulo.png"
     },
     {
-      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK-1\\wwwroot\\imagenes\\comentar.png",
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\comentar.png",
       "PackagePath": "staticwebassets\\imagenes\\comentar.png"
     },
     {
-      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK-1\\wwwroot\\imagenes\\comentario.png",
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\comentario.png",
       "PackagePath": "staticwebassets\\imagenes\\comentario.png"
     },
     {
-      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK-1\\wwwroot\\imagenes\\compartir.png",
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\compartir.png",
       "PackagePath": "staticwebassets\\imagenes\\compartir.png"
     },
     {
-      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK-1\\wwwroot\\imagenes\\ej.png",
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\ej.png",
       "PackagePath": "staticwebassets\\imagenes\\ej.png"
     },
     {
-      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK-1\\wwwroot\\imagenes\\estrella.png",
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\estrella.png",
       "PackagePath": "staticwebassets\\imagenes\\estrella.png"
     },
     {
-      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK-1\\wwwroot\\imagenes\\estrellas3.png",
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\estrellas3.png",
       "PackagePath": "staticwebassets\\imagenes\\estrellas3.png"
     },
     {
-      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK-1\\wwwroot\\imagenes\\fondo2.png",
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\fondo2.png",
       "PackagePath": "staticwebassets\\imagenes\\fondo2.png"
     },
     {
-      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK-1\\wwwroot\\imagenes\\fot imggggnenneneneneneneneennennnnnnnnn.png",
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\fot imggggnenneneneneneneneennennnnnnnnn.png",
       "PackagePath": "staticwebassets\\imagenes\\fot imggggnenneneneneneneneennennnnnnnnn.png"
     },
     {
-      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK-1\\wwwroot\\imagenes\\futbol.png",
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\futbol.png",
       "PackagePath": "staticwebassets\\imagenes\\futbol.png"
     },
     {
-      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK-1\\wwwroot\\imagenes\\ig.png",
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\ig.png",
       "PackagePath": "staticwebassets\\imagenes\\ig.png"
     },
     {
-      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK-1\\wwwroot\\imagenes\\imgPrueba.png",
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\imgPrueba.png",
       "PackagePath": "staticwebassets\\imagenes\\imgPrueba.png"
     },
     {
-      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK-1\\wwwroot\\imagenes\\inicio.png",
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\inicio.png",
       "PackagePath": "staticwebassets\\imagenes\\inicio.png"
     },
     {
-      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK-1\\wwwroot\\imagenes\\inicioSesion.png",
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\inicioSesion.png",
       "PackagePath": "staticwebassets\\imagenes\\inicioSesion.png"
     },
     {
-      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK-1\\wwwroot\\imagenes\\insta-removebg-preview 2.png",
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\insta-removebg-preview 2.png",
       "PackagePath": "staticwebassets\\imagenes\\insta-removebg-preview 2.png"
     },
     {
-      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK-1\\wwwroot\\imagenes\\like.png",
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\like.png",
       "PackagePath": "staticwebassets\\imagenes\\like.png"
     },
     {
-      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK-1\\wwwroot\\imagenes\\logo (3).png",
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\logo (3).png",
       "PackagePath": "staticwebassets\\imagenes\\logo (3).png"
     },
     {
-      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK-1\\wwwroot\\imagenes\\logo.png",
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\logo.png",
       "PackagePath": "staticwebassets\\imagenes\\logo.png"
     },
     {
-      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK-1\\wwwroot\\imagenes\\logonegro.png",
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\logonegro.png",
       "PackagePath": "staticwebassets\\imagenes\\logonegro.png"
     },
     {
-      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK-1\\wwwroot\\imagenes\\mensaje.png",
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\mensaje.png",
       "PackagePath": "staticwebassets\\imagenes\\mensaje.png"
     },
     {
-      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK-1\\wwwroot\\imagenes\\mensajes.png",
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\mensajes.png",
       "PackagePath": "staticwebassets\\imagenes\\mensajes.png"
     },
     {
-      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK-1\\wwwroot\\imagenes\\mensajes2.png",
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\mensajes2.png",
       "PackagePath": "staticwebassets\\imagenes\\mensajes2.png"
     },
     {
-      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK-1\\wwwroot\\imagenes\\mensajes3.png",
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\mensajes3.png",
       "PackagePath": "staticwebassets\\imagenes\\mensajes3.png"
     },
     {
-      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK-1\\wwwroot\\imagenes\\objetivo.png",
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\objetivo.png",
       "PackagePath": "staticwebassets\\imagenes\\objetivo.png"
     },
     {
-      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK-1\\wwwroot\\imagenes\\objetivo2.png",
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\objetivo2.png",
       "PackagePath": "staticwebassets\\imagenes\\objetivo2.png"
     },
     {
-      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK-1\\wwwroot\\imagenes\\personas.png",
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\personas.png",
       "PackagePath": "staticwebassets\\imagenes\\personas.png"
     },
     {
-      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK-1\\wwwroot\\imagenes\\personas3.png",
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\personas3.png",
       "PackagePath": "staticwebassets\\imagenes\\personas3.png"
     },
     {
-      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK-1\\wwwroot\\imagenes\\sanDiego.png",
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\sanDiego.png",
       "PackagePath": "staticwebassets\\imagenes\\sanDiego.png"
     },
     {
-      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK-1\\wwwroot\\imagenes\\scout.png",
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\scout.png",
       "PackagePath": "staticwebassets\\imagenes\\scout.png"
     },
     {
-      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK-1\\wwwroot\\imagenes\\tarjeta personal sportlink.png",
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\tarjeta personal sportlink.png",
       "PackagePath": "staticwebassets\\imagenes\\tarjeta personal sportlink.png"
     },
     {
-      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK-1\\wwwroot\\imagenes\\tenis.png",
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\tenis.png",
       "PackagePath": "staticwebassets\\imagenes\\tenis.png"
     },
     {
-      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK-1\\wwwroot\\imagenes\\tenisb.png",
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\tenisb.png",
       "PackagePath": "staticwebassets\\imagenes\\tenisb.png"
     },
     {
-      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK-1\\wwwroot\\imagenes\\tito.png",
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\tito.png",
       "PackagePath": "staticwebassets\\imagenes\\tito.png"
     },
     {
-      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK-1\\wwwroot\\imagenes\\tp bd 2 .png",
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\tp bd 2 .png",
       "PackagePath": "staticwebassets\\imagenes\\tp bd 2 .png"
     },
     {
-      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK-1\\wwwroot\\imagenes\\tw.png",
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\tw.png",
       "PackagePath": "staticwebassets\\imagenes\\tw.png"
     },
     {
-      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK-1\\wwwroot\\imagenes\\user.png",
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\user.png",
       "PackagePath": "staticwebassets\\imagenes\\user.png"
     },
     {
-      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK-1\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK-1\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\js\\videos.js",
+      "PackagePath": "staticwebassets\\js\\videos.js"
+    },
+    {
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK-1\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK-1\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK-1\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK-1\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK-1\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK-1\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK-1\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK-1\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK-1\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK-1\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK-1\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK-1\\wwwroot\\videos\\2932301-uhd_4096_2160_24fps.mp4",
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\videos\\2932301-uhd_4096_2160_24fps.mp4",
       "PackagePath": "staticwebassets\\videos\\2932301-uhd_4096_2160_24fps.mp4"
     },
     {
-      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK-1\\wwwroot\\videos\\Video1.mp4",
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\videos\\Video1.mp4",
       "PackagePath": "staticwebassets\\videos\\Video1.mp4"
     },
     {

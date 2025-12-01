@@ -75,12 +75,12 @@ return(num);
 
 }
 
-    public static List<int> GetInscrpcion(int idUsuario)
+    public static List<int> GetInscrpcion(int idJugador)
 {
     using (SqlConnection db = new SqlConnection(_connectionString))
     {
-        string sql = "SELECT idPrueba FROM JugadoresXPruebas WHERE idUsuario = @pidUsuario;";
-        return db.Query<int>(sql).ToList();
+        string sql = "SELECT idPrueba FROM JugadoresXPruebas WHERE idjugador = @pidJugador;";
+        return db.Query<int>(sql, new{ pidJugador = idJugador}).ToList();
     }
 
 }
@@ -181,6 +181,18 @@ using (SqlConnection db = new SqlConnection(_connectionString))
             
             });
 
+        }
+
+
+
+    }
+    public static List<Videos> getVideosXId(int idJugador)
+    {
+
+string query = @"Select * FROM Videos WHERE idJugador = @pidJugador";
+        using (SqlConnection db = new SqlConnection(_connectionString))
+        {   
+             return db.Query<Videos>(query, new{ pidJugador = idJugador}).ToList();
         }
 
 

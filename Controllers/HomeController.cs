@@ -55,38 +55,39 @@ public class HomeController : Controller
       
         int id = int.Parse(HttpContext.Session.GetString("id"));
 
-    
+        List<Pruebas> pruebas = BD.GetPruebas();
         if (tipo == "jugador")
         {
             Jugador j = BD.GetJugadorPorId(id);
             ViewBag.Usuario = j;
-        }
-        else if (tipo == "scout")
-        {
-            Scouter s = BD.GetScoutPorId(id);
-            ViewBag.Usuario = s;
-        }
-             List<Pruebas> pruebas = BD.GetPruebas();
-           List<int> inscripciones = BD.GetInscrpcion(id);
-           foreach(Pruebas item in pruebas){
-            for(int i = 0; i < inscripciones.Count; i++){
+             List<int> inscripciones = BD.GetInscrpcion(id);
+           foreach(Pruebas item in pruebas)
+           {
+            for(int i = 0; i < inscripciones.Count; i++)
+            {
                 if(item.idPrueba == inscripciones[i])
                 {
                     item.inscripto = true;
                 }
            }
-           ViewBag.Pruebas = pruebas;
+                      ViewBag.Pruebas = pruebas;
+           }
+        }else if (tipo == "scout")
+        {
+            Scouter s = BD.GetScoutPorId(id);
+            ViewBag.Usuario = s;
+        }
+
+            
+          
             
            ViewBag.TipoUsuario = HttpContext.Session.GetString("tipoUsuario");
            
         }
           
+    return View("Pruebas");
+    }  
     
-    }
-
-        return View("Pruebas");
-        
-    }
 
 
     public IActionResult irVideos(){
@@ -104,6 +105,7 @@ public class HomeController : Controller
         if (tipo == "jugador")
         {
             Jugador j = BD.GetJugadorPorId(id);
+            ViewBag.VideosJugador = BD.getVideosXId(id);
             ViewBag.Usuario = j;
         }
         else if (tipo == "scout")
