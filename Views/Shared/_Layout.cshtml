@@ -16,7 +16,7 @@
             <li><a href='@Url.Action("irMensajes", "Home")'>Mensajes</a></li>
         @if (ViewBag.Usuario != null && ViewBag.Usuario.FotoPerfil != null)
             {
-                <img class = "fotoUsuario" src="@ViewBag.Usuario.FotoPerfil" alt="Foto de perfil">
+                <img class = "fotoUsuario" src="/@ViewBag.Usuario.FotoPerfil" alt="Foto de perfil">
                 <li><a href='@Url.Action("CerrarSesion", "Session")'>Cerrar sesión</a></li>
             }
                 else  

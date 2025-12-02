@@ -6,6 +6,7 @@ public int idJugador{get;private set;}
 public int idDeporte{get;private set;}
 public string Comentario{get;private set;}
 public int meGusta{get;private set;}
+public string NombreJugador{get;private set;}
 
 
 public Videos ()

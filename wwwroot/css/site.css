@@ -1620,6 +1620,7 @@ margin-bottom: 4%;
   font-family: 'Monbloc-Inst-Heavy';
   text-align: center;
   color: #000;
+   margin-left: 34%;
 
   
   }
@@ -1628,11 +1629,23 @@ margin-bottom: 4%;
     font-family: 'Monbloc-Inst-Heavy';
    background-color: #00E3CC;
    margin-left: 34%;
+  
   }
   .Pruebastitulo a{
     background-color: #00E3CC;
     color: #000;
     
+  }
+
+  .pruebaJugadorT{
+    font-family: 'Monbloc-Inst-Heavy';
+  text-align: center;
+  color: #000;
+  }
+
+  .videoVer{
+    max-height: 100px;
+    max-width: 50px;
   }
   .Ins h1{
   padding: 3%;
@@ -2579,6 +2592,39 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.vide
+{
+  position: relative;
+  width: 400px;
+  height: 400px;
+  background-color: #000;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.verVideosScout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  margin: 15px auto;
+  background: #111;
+  border-radius: 16px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  width: 100%;
+  max-width: 150px;
+  max-height: 140px;   /* <<< ACHICADO */
+}
+
+/* Video más chico */
+.verVideosScout video {
+  width: 100%;
+  height: auto;
+  max-height: 70vh;        /* No ocupa toda la pantalla */
+  object-fit: contain;
+  border-radius: 14px;
+  background: black;
 }
 
 .mVideo{

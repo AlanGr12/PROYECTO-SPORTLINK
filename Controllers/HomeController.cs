@@ -44,49 +44,50 @@ public class HomeController : Controller
 }
 
 
-    public IActionResult irPruebas(){
-         if (HttpContext.Session.GetString("id") !=null)
-        {
-            // traigo de session el tipo y busco con el id en la tabla segun el tipo
-            
-  
+    public IActionResult irPruebas()
+{
+     List<Pruebas> pruebas = BD.GetPruebas();
+    if (HttpContext.Session.GetString("id") != null)
+    {
         string tipo = HttpContext.Session.GetString("tipoUsuario");
-
-      
         int id = int.Parse(HttpContext.Session.GetString("id"));
 
-        List<Pruebas> pruebas = BD.GetPruebas();
+       
+
         if (tipo == "jugador")
         {
             Jugador j = BD.GetJugadorPorId(id);
             ViewBag.Usuario = j;
-             List<int> inscripciones = BD.GetInscrpcion(id);
-           foreach(Pruebas item in pruebas)
-           {
-            for(int i = 0; i < inscripciones.Count; i++)
+
+            List<int> inscripciones = BD.GetInscrpcion(id);
+
+            // Marco cuáles están inscriptas
+            foreach (Pruebas item in pruebas)
             {
-                if(item.idPrueba == inscripciones[i])
+                if (inscripciones.Contains(item.idPrueba))
                 {
                     item.inscripto = true;
                 }
-           }
-                      ViewBag.Pruebas = pruebas;
-           }
-        }else if (tipo == "scout")
+            }
+        }
+        else if (tipo == "scout")
         {
             Scouter s = BD.GetScoutPorId(id);
+
             ViewBag.Usuario = s;
         }
 
-            
-          
-            
-           ViewBag.TipoUsuario = HttpContext.Session.GetString("tipoUsuario");
-           
-        }
-          
+        // 🔥 SIEMPRE asignar esto
+        ViewBag.Pruebas = pruebas;  
+        ViewBag.TipoUsuario = tipo;
+    } else
+    {
+        ViewBag.Pruebas = pruebas;  
+    }
+
     return View("Pruebas");
-    }  
+}
+
     
 
 
@@ -110,7 +111,9 @@ public class HomeController : Controller
         }
         else if (tipo == "scout")
         {
+            
             Scouter s = BD.GetScoutPorId(id);
+            ViewBag.Videos = BD.GetVideos();
             ViewBag.Usuario = s;
         }
 

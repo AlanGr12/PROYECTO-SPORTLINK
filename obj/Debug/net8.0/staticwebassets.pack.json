@@ -57,12 +57,20 @@
       "PackagePath": "staticwebassets\\imagenes\\MMA.png"
     },
     {
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\Post 2.jpg",
+      "PackagePath": "staticwebassets\\imagenes\\Post 2.jpg"
+    },
+    {
       "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\VideoCard.png",
       "PackagePath": "staticwebassets\\imagenes\\VideoCard.png"
     },
     {
       "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\amazon foto.png",
       "PackagePath": "staticwebassets\\imagenes\\amazon foto.png"
+    },
+    {
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\artista.png",
+      "PackagePath": "staticwebassets\\imagenes\\artista.png"
     },
     {
       "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\atl.png",
@@ -75,6 +83,10 @@
     {
       "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\basket.png",
       "PackagePath": "staticwebassets\\imagenes\\basket.png"
+    },
+    {
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\bebida7.png",
+      "PackagePath": "staticwebassets\\imagenes\\bebida7.png"
     },
     {
       "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\imagenes\\camara.png",
@@ -291,6 +303,14 @@
     {
       "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\videos\\Fulbo.mp3",
       "PackagePath": "staticwebassets\\videos\\Fulbo.mp3"
+    },
+    {
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\videos\\Gol.mp4",
+      "PackagePath": "staticwebassets\\videos\\Gol.mp4"
+    },
+    {
+      "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\videos\\Jugada.mp4",
+      "PackagePath": "staticwebassets\\videos\\Jugada.mp4"
     },
     {
       "Id": "C:\\Users\\48860730\\Documents\\PROYECTO-SPORTLINK\\wwwroot\\videos\\Messi cobró venganza por la humillada a su compañero #futbol #messi #shorts.mp3",

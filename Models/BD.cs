@@ -198,5 +198,15 @@ string query = @"Select * FROM Videos WHERE idJugador = @pidJugador";
 
 
     }
+        public static List<Videos> GetVideos()
+{
+    using (SqlConnection db = new SqlConnection(_connectionString))
+    {
+        string sql = "SELECT Videos.*, Jugadores.Nombre as NombreJugador FROM Videos INNER JOIN Jugadores on Videos.idJugador=Jugadores.idJugador";
+        return db.Query<Videos>(sql).ToList();
+    }
+
+}
+
 }
 
