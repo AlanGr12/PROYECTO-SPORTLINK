@@ -14,6 +14,7 @@
 
   <main>
   <section class="Pruebastitulo">
+  <h4>-</h4>
      <h1>Pruebas Subidas</h1>
             @if (ViewBag.TipoUsuario == "scout")
 {
@@ -64,41 +65,44 @@
 </main>
 
 
-         <footer>
-    <div>
-      <img src="/Imagenes/logo.png" alt="Sportlink">
-      <p>
-        Conectando el talento joven con su futuro profesional.<br>
-        Damos visibilidad a tu talento y les abrimos las puertas<br>
-        a nuevas oportunidades
-      </p>
+       <footer>
+  <div>
+    <img src="/Imagenes/logo (3).png" alt="Sportlink">
+    <p>
+      Conectando el talento joven con su futuro profesional.<br>
+      Damos visibilidad a tu talento y les abrimos las puertas<br>
+      a nuevas oportunidades
+    </p>
+  </div>
+
+
+  <div>
+    <h3>Explorá</h3>
+    <ul>
+      <li><a href="Index.cshtml">Inicio</a></li>
+      <li><a href="Videos.cshtml">Videos</a></li>
+      <li><a href="Pruebas.cshtml">Pruebas</a></li>
+    </ul>
+  </div>
+
+
+  <div>
+    <h3>Seguinos</h3>
+    <div class="redes">
+      <img src="/Imagenes/insta-removebg-preview 2.png" alt="Instagram">
+      <img src="/Imagenes/tw.png" alt="X">
     </div>
-  
-    <div>
-      <h3>Explorá</h3>
-      <ul>
-        <li><a href='@Url.Action("Index", "Home")'>Inicio</a></li>
-        <li><a href='@Url.Action("irVideos", "Home")'>Videos</a></li>
-        <li><a href='@Url.Action("irPruebas", "Home")'>Pruebas</a></li>
-      </ul>
-    </div>
-  
-    <div>
-      <h3>Seguinos</h3>
-      <div class="redes">
-        <img src="img/ig.png" alt="Instagram">
-        <img src="img/tw.png" alt="X">
-      </div>
-      <h3>Contacto</h3>
-      <p>
-        email: sportlink@gmail.com<br>
-        teléfono: +54 0000 0000
-      </p>
-    </div>
-  </footer>
+    <h3>Contacto</h3>
+    <p>
+      email: sportlink@gmail.com<br>
+      teléfono: +54 0000 0000
+    </p>
+  </div>
+</footer>
+
 
 </body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
 
 
 
